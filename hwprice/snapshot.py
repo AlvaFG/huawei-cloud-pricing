@@ -1,51 +1,58 @@
-"""Price snapshots: the whole catalog quoted in several regions on one date."""
+"""Price snapshots: a list of reference products quoted in several regions on one date."""
 
 from __future__ import annotations
 
 import json
 from datetime import date
 from pathlib import Path
-from typing import Dict, Iterable, List, Optional
+from typing import Callable, Dict, Iterable, List, Optional
 
-from .catalog import DATA_DIR, resolve, sample_id
-from .client import (
-    HOURS_PER_MONTH,
-    MONTHLY,
-    ON_DEMAND,
-    ProductNotFound,
-    Transport,
-    quote,
-)
+from .client import HOURS_PER_MONTH, Item, ProductNotFound, Transport, quote
+from .specs import DATA_DIR
 
 SNAPSHOT_DIR = DATA_DIR / "snapshots"
-BILLING_MODES = (MONTHLY, ON_DEMAND)
+SAMPLES_PATH = DATA_DIR / "samples.json"
+
+# Turns a sample and a billing mode into the request line to price.
+Resolver = Callable[[dict, str], Item]
+
+
+def load_samples(path: Path = SAMPLES_PATH) -> List[dict]:
+    with open(path, encoding="utf-8") as handle:
+        return json.load(handle)["samples"]
 
 
 def take_snapshot(
-    catalog: dict,
+    samples: Iterable[dict],
     regions: Iterable[str],
+    resolve: Resolver,
     transport: Optional[Transport] = None,
     today: Optional[date] = None,
 ) -> dict:
     """Quote every sample in every region. A product that is not offered becomes null."""
-    result: Dict[str, Dict[str, Dict[str, Optional[float]]]] = {}
+    samples = list(samples)
+    prices: Dict[str, Dict[str, Dict[str, Optional[float]]]] = {}
     for region in regions:
         region_prices: Dict[str, Dict[str, Optional[float]]] = {}
-        for sample in catalog.get("samples", []):
-            item = resolve(catalog, sample["product"], sample["spec"], sample.get("size_gb"))
-            prices: Dict[str, Optional[float]] = {}
-            for billing in BILLING_MODES:
+        for sample in samples:
+            by_billing: Dict[str, Optional[float]] = {}
+            for billing in sample["billing"]:
+                item = resolve(sample, billing)
                 try:
-                    prices[billing] = quote([item], region, billing, transport=transport).total
+                    by_billing[billing] = quote([item], region, billing, transport=transport).total
                 except ProductNotFound:
-                    prices[billing] = None
-            region_prices[sample_id(sample)] = prices
-        result[region] = region_prices
+                    by_billing[billing] = None
+            region_prices[sample["id"]] = by_billing
+        prices[region] = region_prices
     return {
         "date": (today or date.today()).isoformat(),
         "currency": "USD",
-        "ondemand_hours": HOURS_PER_MONTH,
-        "regions": result,
+        "ondemand_note": (
+            f"A pay-per-use price is for the usage in 'samples': {HOURS_PER_MONTH} hours when the "
+            "unit is hours, otherwise the 'usage' of the sample (1 unit if it has none)."
+        ),
+        "samples": {s["id"]: {k: v for k, v in s.items() if k != "id"} for s in samples},
+        "regions": prices,
     }
 
 

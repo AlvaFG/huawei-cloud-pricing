@@ -11,6 +11,7 @@ import json
 import re
 import time
 import urllib.error
+import urllib.parse
 import urllib.request
 from dataclasses import dataclass
 from typing import Callable, Dict, List, Optional, Sequence
@@ -23,17 +24,22 @@ CALCULATOR_API = (
     "https://portal-intl.huaweicloud.com/api/calculator/rest/cbc/"
     "portalcalculatornodeservice/v4/api"
 )
-USER_AGENT = "huawei-cloud-pricing/0.1 (+https://github.com/AlvaFG/huawei-cloud-pricing)"
+USER_AGENT = "huawei-cloud-pricing/0.2 (+https://github.com/AlvaFG/huawei-cloud-pricing)"
 
 # Be a polite client: never send more than four requests per second.
 MIN_INTERVAL_SECONDS = 0.25
 
 SITE_CODE = "HWC"
 MONTHLY = "monthly"
+YEARLY = "yearly"
 ON_DEMAND = "ondemand"
+BILLING_MODES = (MONTHLY, YEARLY, ON_DEMAND)
 HOURS_PER_MONTH = 730
 GB_MEASURE_ID = 17
 HOUR_MEASURE_ID = 4
+
+# billing mode -> (chargingMode, periodType). periodType: 2 month, 3 year, 4 hour.
+_BILLING_FIELDS = {MONTHLY: (0, 2), YEARLY: (0, 3), ON_DEMAND: (1, 4)}
 
 # A transport takes the request body and returns the decoded JSON response.
 Transport = Callable[[dict], dict]
@@ -49,13 +55,23 @@ class ProductNotFound(PricingError):
 
 @dataclass(frozen=True)
 class Item:
-    """One product line of a price request."""
+    """One product line of a price request.
+
+    size: for products priced by size (disks, bandwidth), the amount and its unit
+    (size_measure_id 17 is GB).
+    usage_*: for pay-per-use, what is consumed (factor "Duration" with measure 4 is hours,
+    factor "traffic" with measure 10 is GB, and so on).
+    """
 
     cloud_service_type: str
     resource_type: str
     spec: str
     quantity: int = 1
-    size_gb: Optional[int] = None
+    size: Optional[float] = None
+    size_measure_id: int = GB_MEASURE_ID
+    usage_factor: Optional[str] = None
+    usage_measure_id: Optional[int] = None
+    usage_value: Optional[float] = None
 
 
 @dataclass(frozen=True)
@@ -77,11 +93,12 @@ def build_payload(
 ) -> dict:
     """Build the request body the calculator sends.
 
-    monthly: a one-month subscription (chargingMode 0, periodType 2).
-    ondemand: pay-per-use for ``hours`` hours (chargingMode 1, periodType 4).
+    monthly and yearly: a subscription of one month or one year.
+    ondemand: pay-per-use. An item without usage fields is priced as ``hours`` hours of
+    duration; an item with usage fields is priced as it says.
     """
-    if billing not in (MONTHLY, ON_DEMAND):
-        raise ValueError(f"billing must be '{MONTHLY}' or '{ON_DEMAND}', got {billing!r}")
+    if billing not in _BILLING_FIELDS:
+        raise ValueError(f"billing must be one of {', '.join(BILLING_MODES)}, got {billing!r}")
     if not items:
         raise ValueError("at least one item is required")
 
@@ -94,21 +111,26 @@ def build_payload(
             "resourceSpecCode": item.spec,
             "resourceType": item.resource_type,
         }
-        if item.size_gb is not None:
-            info["resourceSize"] = item.size_gb
+        if item.size is not None:
+            info["resourceSize"] = item.size
             # The API really spells this key without the second "r".
-            info["resouceSizeMeasureId"] = GB_MEASURE_ID
+            info["resouceSizeMeasureId"] = item.size_measure_id
         if billing == ON_DEMAND:
-            info["usageFactor"] = "Duration"
-            info["usageMeasureId"] = HOUR_MEASURE_ID
-            info["usageValue"] = hours
+            if item.usage_factor is None:
+                info["usageFactor"] = "Duration"
+                info["usageMeasureId"] = HOUR_MEASURE_ID
+                info["usageValue"] = hours
+            else:
+                info["usageFactor"] = item.usage_factor
+                info["usageMeasureId"] = item.usage_measure_id
+                info["usageValue"] = item.usage_value if item.usage_value is not None else 1
         product_infos.append(info)
 
-    is_monthly = billing == MONTHLY
+    charging_mode, period_type = _BILLING_FIELDS[billing]
     return {
-        "chargingMode": 0 if is_monthly else 1,
+        "chargingMode": charging_mode,
         "periodNum": 1,
-        "periodType": 2 if is_monthly else 4,
+        "periodType": period_type,
         "regionId": region,
         "siteCode": SITE_CODE,
         "subscriptionNum": 1,
@@ -156,14 +178,16 @@ def http_transport(payload: dict) -> dict:
         raise PricingError(f"cannot reach the price endpoint: {error.reason}") from error
 
 
-def fetch_json(url: str) -> dict:
+def fetch_json(url: str, params: Optional[Dict[str, str]] = None) -> dict:
     """GET a calculator catalog endpoint (same throttle, same user agent)."""
     _throttle()
+    if params:
+        url = f"{url}?{urllib.parse.urlencode(params)}"
     request = urllib.request.Request(
         url, headers={"Accept": "application/json", "User-Agent": USER_AGENT}
     )
     try:
-        with urllib.request.urlopen(request, timeout=60) as response:
+        with urllib.request.urlopen(request, timeout=180) as response:
             return json.load(response)
     except (urllib.error.URLError, json.JSONDecodeError) as error:
         raise PricingError(f"cannot read {url}: {error}") from error
