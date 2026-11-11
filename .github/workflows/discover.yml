@@ -1,0 +1,57 @@
+name: discover-services
+
+# Rebuilds the service list, every spec list and the verification. It sends several hundred
+# requests at four per second, so it runs once a month, or by hand.
+on:
+  schedule:
+    - cron: "0 5 1 * *" # the first day of each month, 05:00 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  discover:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 240
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Discover and verify
+        run: python -u -m hwprice discover | tee discover.log
+
+      - name: Rebuild the coverage page
+        run: python -m hwprice docs
+
+      - name: Tests on the new data
+        run: python -m unittest discover -s tests
+
+      - name: Open a pull request if something changed
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if [ -z "$(git status --porcelain data docs)" ]; then
+            echo "Nothing changed."
+            exit 0
+          fi
+          DAY="$(date -u +%Y-%m-%d)"
+          BRANCH="data/discover-${DAY}"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git checkout -b "$BRANCH"
+          git add data docs
+          git commit -m "data: rediscover services and specs ${DAY}"
+          git push origin "$BRANCH"
+          {
+            echo "Monthly rediscovery of services, specs and verification."
+            echo
+            echo "See the diff of docs/services.md for what changed in the coverage."
+            echo '```'
+            tail -40 discover.log
+            echo '```'
+          } > body.md
+          gh pr create --title "data: rediscover services and specs ${DAY}" --body-file body.md --base main --head "$BRANCH"

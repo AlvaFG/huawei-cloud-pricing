@@ -15,18 +15,37 @@ The host for the international site is `portal-intl.huaweicloud.com`. The China 
 | Method and URL | `POST https://portal-intl.huaweicloud.com/api/cbc/global/rest/BSS/billing/ratingservice/v2/inquiry/resource` |
 | Needs a login | No |
 | Body | JSON, see [payloads.md](payloads.md) |
-| Used by | `hwprice quote`, `hwprice refresh` |
+| Used by | `hwprice quote`, `hwprice refresh`, `hwprice discover`, `hwprice audit` |
 
-One endpoint prices both monthly subscriptions and pay-per-use. The difference is in the body.
-The region is a field of the body, not part of the URL.
+One endpoint prices monthly and yearly subscriptions and pay-per-use, for every service.
+The difference is in the body. The region is a field of the body, not part of the URL.
 
 ## Catalog
 
-| URL (under `/api/calculator/rest/cbc/portalcalculatornodeservice/v4/api/`) | What it returns |
+All under `https://portal-intl.huaweicloud.com/api/calculator/rest/cbc/portalcalculatornodeservice/v4/api/`.
+
+| Path | What it returns |
 |---|---|
-| `menuInfo` | Every service the calculator shows, with its `cloudServiceType` and `resourceType` codes. About 170 KB. Rebuilt into `data/services.json` by `hwprice services` |
-| `productInfo` | The specs of a few products: ECS flavors, volume types and elastic IP. About 5 MB. Most services are not here, so their spec codes have to be captured from the browser ([discovering-codes.md](discovering-codes.md)) |
-| `config` | JavaScript with the calculator's own settings (period lists and similar). Not price data |
+| `menuInfo` | Every service of the calculator menu: category, name, `urlPath`, whether it has a calculator page, and its `cloudServiceType` and `resourceType` codes. Becomes `data/services.json` |
+| `productInfo?urlPath=<service>` | **The complete list of specs of one service**: every `resourceSpecCode`, its description, the billing modes it has (monthly, yearly, pay-per-use, reserved) and, for pay-per-use, the usage factor and unit. It also carries a list price. Becomes `data/specs/<urlPath>.json` |
+| `config?urlPath=<service>` | JavaScript with the form of that service's calculator page: which fields it asks for and the patterns of its spec codes. Useful to understand a service, not needed to price it |
+
+Without `urlPath`, `productInfo` answers for ECS.
+
+### The list price in `productInfo`
+
+Each plan in `productInfo` has an `amount`. It is the price in one default region (it equals the price of
+`ap-southeast-1`, Hong Kong, in every check that was made), not in all regions. For another region only the
+price endpoint knows the number. `hwprice` uses the list price as a cross-check, not as an answer: see
+`matchesList` in [updating.md](updating.md).
+
+### Services without a calculator page
+
+`menuInfo` marks some services with `hasCalculator: false` (for example SWR, SMN or the backup services).
+`productInfo` still lists their specs and the price endpoint prices some of them. They are in the data like
+any other service. [services.md](services.md) says how far each one was verified.
+
+### Other paths
 
 Other paths appear in the calculator's JavaScript (`export/productlist`, `quoting_item`, `share/*`,
 `formExport`, `language`). They look like features of the page itself, and this project does not use
@@ -43,4 +62,4 @@ with billing permission and uses `snake_case` fields (`product_infos`, `cloud_se
 - `ListServiceTypes`, `ListResourceTypes`, `ListResourceSpecs`: the codes.
 
 The calculator's request has the same meaning with `camelCase` names. If you have credentials,
-the official API is the stable way to find the codes this project is missing.
+the official API is the stable way to price; this project exists for the case where you do not.

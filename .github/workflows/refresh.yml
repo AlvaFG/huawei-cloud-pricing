@@ -12,25 +12,29 @@ permissions:
 jobs:
   refresh:
     runs-on: ubuntu-24.04
+    timeout-minutes: 60
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
 
-      - name: Verify the endpoints and the catalog
+      - name: Verify the endpoints and the data
         run: python -m hwprice verify
 
-      - name: Refresh the snapshot and the service list
+      - name: Run again what was verified
+        run: python -m hwprice audit | tee audit.log || true
+
+      - name: Refresh the reference snapshot and the coverage page
         run: |
           python -m hwprice refresh | tee refresh.log
-          python -m hwprice services
+          python -m hwprice docs
 
       - name: Open a pull request if something changed
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
-          if [ -z "$(git status --porcelain data)" ]; then
+          if [ -z "$(git status --porcelain data docs)" ]; then
             echo "No data changed."
             exit 0
           fi
@@ -39,14 +43,19 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git checkout -b "$BRANCH"
-          git add data
+          git add data docs
           git commit -m "data: refresh price snapshot ${DAY}"
           git push origin "$BRANCH"
           {
-            echo "Weekly refresh of the price snapshot."
+            echo "Weekly refresh of the reference snapshot."
             echo
+            echo "### Price changes"
             echo '```'
             cat refresh.log
+            echo '```'
+            echo "### Verified requests, run again"
+            echo '```'
+            tail -20 audit.log
             echo '```'
           } > body.md
           gh pr create --title "data: refresh price snapshot ${DAY}" --body-file body.md --base main --head "$BRANCH"
