@@ -1,0 +1,7 @@
+{
+  "urlPath": "image",
+  "specs": [
+    {"cloudServiceType": "hws.service.type.irs", "resourceType": "hws.resource.type.irs.api", "spec": "image_tagging", "description": "type:image_tagging", "billing": ["ondemand", "yearly"], "usage": [{"factor": "times", "unit": null, "measure": 14}], "list": {"yearly": 10.5}},
+    {"cloudServiceType": "hws.service.type.irs", "resourceType": "hws.resource.type.irs.api", "spec": "image_recapture_detect", "description": "type:image_recapture_detect", "billing": ["ondemand", "yearly"], "usage": [{"factor": "times", "unit": 14, "measure": 14}], "list": {"yearly": 7826}}
+  ]
+}

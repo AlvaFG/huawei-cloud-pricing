@@ -1,0 +1,6 @@
+{
+  "urlPath": "cpts",
+  "specs": [
+    {"cloudServiceType": "hws.service.type.cpts", "resourceType": "hws.resource.type.cpts", "spec": "cpts.package", "description": "", "billing": ["ondemand"], "usage": [{"factor": "vum", "unit": 14, "measure": 14}]}
+  ]
+}

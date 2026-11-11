@@ -1,0 +1,15 @@
+{
+  "urlPath": "ssa",
+  "specs": [
+    {"cloudServiceType": "hws.service.type.sa", "resourceType": "hws.resource.type.csb.insight", "spec": "csb.insight.v2", "description": "version:Standard;Data Per Day Float:0.0Pcs/Day", "billing": ["ondemand", "monthly", "yearly"], "usage": [{"factor": "flow", "unit": 10, "measure": 10}], "list": {"monthly": 160, "yearly": 1600}},
+    {"cloudServiceType": "hws.service.type.sa", "resourceType": "hws.resource.type.secmaster.soar", "spec": "soar.action", "description": "Operation Per Day:1Pcs/Day", "billing": ["monthly", "yearly", "ondemand"], "list": {"monthly": 5.71, "yearly": 57.14}, "usage": [{"factor": "count", "unit": 14, "measure": 14}]},
+    {"cloudServiceType": "hws.service.type.sa", "resourceType": "hws.resource.type.secmaster.cspm", "spec": "cspm.largescreen", "description": "Version:large screen", "billing": ["ondemand", "monthly", "yearly"], "usage": [{"factor": "duration", "unit": 4, "measure": 6}], "list": {"monthly": 710, "yearly": 7100}},
+    {"cloudServiceType": "hws.service.type.sa", "resourceType": "hws.resource.type.secmaster.typical", "spec": "secmaster.basic", "description": "Version:basic", "billing": ["ondemand", "monthly", "yearly"], "usage": [{"factor": "duration", "unit": 4, "measure": 6}], "list": {"monthly": 0, "yearly": 0}},
+    {"cloudServiceType": "hws.service.type.sa", "resourceType": "hws.resource.type.secmaster.typical", "spec": "secmaster.professional", "description": "Version:professional", "billing": ["ondemand", "monthly", "yearly"], "usage": [{"factor": "duration", "unit": 4, "measure": 6}], "list": {"monthly": 22, "yearly": 220}},
+    {"cloudServiceType": "hws.service.type.sa", "resourceType": "hws.resource.type.secmaster.typical", "spec": "secmaster.standard", "description": "Version:standard", "billing": ["monthly", "yearly"], "list": {"monthly": 2.2, "yearly": 22}},
+    {"cloudServiceType": "hws.service.type.sa", "resourceType": "hws.resource.type.secmaster.siem", "spec": "siem.retention.package", "description": "", "billing": ["yearly", "monthly"], "list": {"yearly": 32.86, "monthly": 3.29}},
+    {"cloudServiceType": "hws.service.type.sa", "resourceType": "hws.resource.type.secmaster.siem", "spec": "siem.collection.package", "description": "", "billing": ["yearly", "monthly"], "list": {"yearly": 327.14, "monthly": 32.71}},
+    {"cloudServiceType": "hws.service.type.sa", "resourceType": "hws.resource.type.secmaster.siem", "spec": "siem.collection", "description": "Specification:siem.collection", "billing": ["ondemand"], "usage": [{"factor": "flow", "unit": 10, "measure": 10}]},
+    {"cloudServiceType": "hws.service.type.sa", "resourceType": "hws.resource.type.secmaster.siem", "spec": "siem.retention", "description": "Specification:siem.retention", "billing": ["ondemand"], "usage": [{"factor": "retention", "unit": 17, "measure": 17}]}
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "urlPath": "dsc",
+  "specs": [
+    {"cloudServiceType": "hws.service.type.sdg", "resourceType": "hws.resource.type.dsc.db", "spec": "DB_standard", "description": "edition:Standard", "billing": ["monthly", "yearly"], "list": {"monthly": 200, "yearly": 2000}},
+    {"cloudServiceType": "hws.service.type.sdg", "resourceType": "hws.resource.type.dsc.db", "spec": "DB_professional", "description": "edition:Professional", "billing": ["monthly", "yearly"], "list": {"monthly": 400, "yearly": 4000}},
+    {"cloudServiceType": "hws.service.type.sdg", "resourceType": "hws.resource.type.dsc.obs", "spec": "OBS_professional", "description": "edition:Professional", "billing": ["monthly", "yearly"], "list": {"monthly": 200, "yearly": 1680}},
+    {"cloudServiceType": "hws.service.type.sdg", "resourceType": "hws.resource.type.dsc.obs", "spec": "OBS_standard", "description": "edition:Standard", "billing": ["monthly", "yearly"], "list": {"monthly": 100, "yearly": 1000}},
+    {"cloudServiceType": "hws.service.type.sdg", "resourceType": "hws.resource.type.dsc.base", "spec": "base_standard", "description": "edition:Standard", "billing": ["monthly", "yearly"], "list": {"monthly": 1000, "yearly": 10000}},
+    {"cloudServiceType": "hws.service.type.sdg", "resourceType": "hws.resource.type.dsc.base", "spec": "base_professional", "description": "edition:Professional", "billing": ["monthly", "yearly"], "list": {"monthly": 2000, "yearly": 20000}},
+    {"cloudServiceType": "hws.service.type.sdg", "resourceType": "hws.resource.type.dsc.api", "spec": "API_Watermark", "description": "APIReqCount:WatermarkReqCount", "billing": ["ondemand"], "usage": [{"factor": "reqcount", "unit": null, "measure": 30}]},
+    {"cloudServiceType": "hws.service.type.sdg", "resourceType": "hws.resource.type.dsc.api", "spec": "API_Datamask", "description": "APIReqCount:DatamaskReqCount", "billing": ["ondemand"], "usage": [{"factor": "reqcount", "unit": null, "measure": 30}]}
+  ]
+}

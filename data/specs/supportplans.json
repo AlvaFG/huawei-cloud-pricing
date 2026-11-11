@@ -1,0 +1,9 @@
+{
+  "urlPath": "supportplans",
+  "specs": [
+    {"cloudServiceType": "hws.service.type.supportplan", "resourceType": "hws.resource.type.supportplan", "spec": "supportplan.enterprise.On-Ramp", "description": "support plan:Enterprise On-Ramp", "billing": ["monthly", "yearly"], "list": {"monthly": 5000, "yearly": 60000}},
+    {"cloudServiceType": "hws.service.type.supportplan", "resourceType": "hws.resource.type.supportplan", "spec": "supportplan.enterprise", "description": "support plan:enterprise", "billing": ["yearly", "monthly"], "list": {"yearly": 162000, "monthly": 13500}},
+    {"cloudServiceType": "hws.service.type.supportplan", "resourceType": "hws.resource.type.supportplan", "spec": "supportplan.business", "description": "support plan:business", "billing": ["yearly", "monthly"], "list": {"yearly": 1080, "monthly": 90}},
+    {"cloudServiceType": "hws.service.type.supportplan", "resourceType": "hws.resource.type.supportplan", "spec": "supportplan.developer", "description": "类型:developer", "billing": ["yearly", "monthly"], "list": {"yearly": 312, "monthly": 26}}
+  ]
+}

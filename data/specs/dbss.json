@@ -1,0 +1,9 @@
+{
+  "urlPath": "dbss",
+  "specs": [
+    {"cloudServiceType": "hws.service.type.dbss", "resourceType": "hws.resource.type.dbss", "spec": "dbss.bypassaudit.entry", "description": "number:Entry;type:Database Audit", "billing": ["monthly", "yearly"], "list": {"monthly": 250, "yearly": 2500}},
+    {"cloudServiceType": "hws.service.type.dbss", "resourceType": "hws.resource.type.dbss", "spec": "dbss.bypassaudit.low", "description": "number:Basic;type:Database Audit", "billing": ["yearly", "monthly"], "list": {"yearly": 7500, "monthly": 750}},
+    {"cloudServiceType": "hws.service.type.dbss", "resourceType": "hws.resource.type.dbss", "spec": "dbss.bypassaudit.high", "description": "number:Advanced;type:Database Audit", "billing": ["monthly", "yearly"], "list": {"monthly": 5000, "yearly": 50000}},
+    {"cloudServiceType": "hws.service.type.dbss", "resourceType": "hws.resource.type.dbss", "spec": "dbss.bypassaudit.medium", "description": "number:Professional;type:Database Audit", "billing": ["monthly", "yearly"], "list": {"monthly": 1500, "yearly": 15000}}
+  ]
+}

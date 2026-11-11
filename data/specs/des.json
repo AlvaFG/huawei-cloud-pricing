@@ -1,0 +1,7 @@
+{
+  "urlPath": "des",
+  "specs": [
+    {"cloudServiceType": "hws.service.type.des", "resourceType": "hws.resource.type.des", "spec": "des.disk", "description": "deviceType:Disk", "billing": ["ondemand"], "usage": [{"factor": "traffic_export", "unit": 10, "measure": 13}, {"factor": "traffic_import", "unit": 10, "measure": 13}, {"factor": "devicecount", "unit": 30, "measure": 30}, {"factor": "duration", "unit": null, "measure": 0}]},
+    {"cloudServiceType": "hws.service.type.des", "resourceType": "hws.resource.type.des", "spec": "des.teleport.60TB", "description": "deviceType:Teleport-60TB", "billing": ["ondemand"], "usage": [{"factor": "traffic_export", "unit": 10, "measure": 13}, {"factor": "traffic_import", "unit": 10, "measure": 13}, {"factor": "devicecount", "unit": 30, "measure": 30}, {"factor": "duration", "unit": null, "measure": 0}]}
+  ]
+}

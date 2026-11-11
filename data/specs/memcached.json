@@ -1,0 +1,7 @@
+{
+  "urlPath": "memcached",
+  "specs": [
+    {"cloudServiceType": "hws.service.type.dcs", "resourceType": "hws.resource.type.dcs.memcached", "spec": "dcs.memcached.master_standby", "description": "cacheType:master_standby", "billing": ["ondemand"], "usage": [{"factor": "duration", "unit": null, "measure": 6}]},
+    {"cloudServiceType": "hws.service.type.dcs", "resourceType": "hws.resource.type.dcs.memcached", "spec": "dcs.memcached.single_node", "description": "cacheType:single_node", "billing": ["ondemand"], "usage": [{"factor": "duration", "unit": null, "measure": 6}]}
+  ]
+}

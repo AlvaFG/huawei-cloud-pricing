@@ -5,2087 +5,2033 @@
       "category": "AI",
       "service": "Content Moderation",
       "urlPath": "moderation",
-      "cloudServiceType": "hws.service.type.moderation",
-      "resourceType": "hws.resource.type.moderation.api"
+      "hasCalculator": true,
+      "resourceTypes": [
+        {
+          "cloudServiceType": "hws.service.type.moderation",
+          "resourceType": "hws.resource.type.moderation.api"
+        }
+      ]
     },
     {
       "category": "AI",
       "service": "Conversational Bot Service",
       "urlPath": "cbs",
-      "cloudServiceType": "hws.service.type.cbs",
-      "resourceType": "hws.resource.type.cbs.bot"
-    },
-    {
-      "category": "AI",
-      "service": "Conversational Bot Service",
-      "urlPath": "cbs",
-      "cloudServiceType": "hws.service.type.cbs",
-      "resourceType": "hws.resource.type.cbs.qac"
+      "hasCalculator": true,
+      "resourceTypes": [
+        {
+          "cloudServiceType": "hws.service.type.cbs",
+          "resourceType": "hws.resource.type.cbs.bot"
+        },
+        {
+          "cloudServiceType": "hws.service.type.cbs",
+          "resourceType": "hws.resource.type.cbs.qac"
+        }
+      ]
     },
     {
       "category": "AI",
       "service": "Graph Engine Service",
       "urlPath": "ges",
-      "cloudServiceType": "hws.service.type.ges",
-      "resourceType": "hws.resource.type.ges"
+      "hasCalculator": true,
+      "resourceTypes": [
+        {
+          "cloudServiceType": "hws.service.type.ges",
+          "resourceType": "hws.resource.type.ges"
+        }
+      ]
     },
     {
       "category": "AI",
       "service": "Images Recognition",
       "urlPath": "image",
-      "cloudServiceType": "hws.service.type.irs",
-      "resourceType": "hws.resource.type.irs.api"
+      "hasCalculator": true,
+      "resourceTypes": [
+        {
+          "cloudServiceType": "hws.service.type.irs",
+          "resourceType": "hws.resource.type.irs.api"
+        }
+      ]
     },
     {
       "category": "AI",
       "service": "MaaS",
       "urlPath": "maas",
-      "cloudServiceType": "hws.service.type.modelarts",
-      "resourceType": "hws.resource.type.modelarts.tokens"
+      "hasCalculator": true,
+      "resourceTypes": [
+        {
+          "cloudServiceType": "hws.service.type.modelarts",
+          "resourceType": "hws.resource.type.modelarts.tokens"
+        }
+      ]
     },
     {
       "category": "AI",
       "service": "ModelArts",
       "urlPath": "modelarts",
-      "cloudServiceType": "hws.service.type.modelarts",
-      "resourceType": "hws.resource.type.modelarts"
-    },
-    {
-      "category": "AI",
-      "service": "ModelArts",
-      "urlPath": "modelarts",
-      "cloudServiceType": "hws.service.type.modelarts",
-      "resourceType": "hws.resource.type.modelarts.volume"
+      "hasCalculator": true,
+      "resourceTypes": [
+        {
+          "cloudServiceType": "hws.service.type.modelarts",
+          "resourceType": "hws.resource.type.modelarts"
+        },
+        {
+          "cloudServiceType": "hws.service.type.modelarts",
+          "resourceType": "hws.resource.type.modelarts.volume"
+        }
+      ]
     },
     {
       "category": "AI",
       "service": "Optical Character Recognition",
       "urlPath": "ocr",
-      "cloudServiceType": "hws.service.type.ocr",
-      "resourceType": "hws.resource.type.ocr.api"
+      "hasCalculator": true,
+      "resourceTypes": [
+        {
+          "cloudServiceType": "hws.service.type.ocr",
+          "resourceType": "hws.resource.type.ocr.api"
+        }
+      ]
     },
     {
       "category": "AI",
       "service": "Speech Interaction Service",
       "urlPath": "sis",
-      "cloudServiceType": "hws.service.type.sis",
-      "resourceType": "hws.resource.type.sis.asrcount_v2"
-    },
-    {
-      "category": "AI",
-      "service": "Speech Interaction Service",
-      "urlPath": "sis",
-      "cloudServiceType": "hws.service.type.sis",
-      "resourceType": "hws.resource.type.sis.lasrflashhour"
-    },
-    {
-      "category": "AI",
-      "service": "Speech Interaction Service",
-      "urlPath": "sis",
-      "cloudServiceType": "hws.service.type.sis",
-      "resourceType": "hws.resource.type.sis.lasrhour"
-    },
-    {
-      "category": "AI",
-      "service": "Speech Interaction Service",
-      "urlPath": "sis",
-      "cloudServiceType": "hws.service.type.sis",
-      "resourceType": "hws.resource.type.sis.mmpa"
-    },
-    {
-      "category": "AI",
-      "service": "Speech Interaction Service",
-      "urlPath": "sis",
-      "cloudServiceType": "hws.service.type.sis",
-      "resourceType": "hws.resource.type.sis.pa"
-    },
-    {
-      "category": "AI",
-      "service": "Speech Interaction Service",
-      "urlPath": "sis",
-      "cloudServiceType": "hws.service.type.sis",
-      "resourceType": "hws.resource.type.sis.rasrhour"
-    },
-    {
-      "category": "AI",
-      "service": "Speech Interaction Service",
-      "urlPath": "sis",
-      "cloudServiceType": "hws.service.type.sis",
-      "resourceType": "hws.resource.type.sis.ttscount_v2"
-    },
-    {
-      "category": "AI",
-      "service": "Speech Interaction Service",
-      "urlPath": "sis",
-      "cloudServiceType": "hws.service.type.sis",
-      "resourceType": "hws.resource.type.sis.xf.tts"
+      "hasCalculator": true,
+      "resourceTypes": [
+        {
+          "cloudServiceType": "hws.service.type.sis",
+          "resourceType": "hws.resource.type.sis.lasrhour"
+        },
+        {
+          "cloudServiceType": "hws.service.type.sis",
+          "resourceType": "hws.resource.type.sis.lasrflashhour"
+        },
+        {
+          "cloudServiceType": "hws.service.type.sis",
+          "resourceType": "hws.resource.type.sis.asrcount_v2"
+        },
+        {
+          "cloudServiceType": "hws.service.type.sis",
+          "resourceType": "hws.resource.type.sis.ttscount_v2"
+        },
+        {
+          "cloudServiceType": "hws.service.type.sis",
+          "resourceType": "hws.resource.type.sis.rasrhour"
+        },
+        {
+          "cloudServiceType": "hws.service.type.sis",
+          "resourceType": "hws.resource.type.sis.pa"
+        },
+        {
+          "cloudServiceType": "hws.service.type.sis",
+          "resourceType": "hws.resource.type.sis.mmpa"
+        },
+        {
+          "cloudServiceType": "hws.service.type.sis",
+          "resourceType": "hws.resource.type.sis.xf.tts"
+        }
+      ]
     },
     {
       "category": "AI",
       "service": "Video Intelligent Analysis Service",
       "urlPath": "vias",
-      "cloudServiceType": "hws.service.type.campusgo",
-      "resourceType": "hws.resource.type.campusgo.cloudcitymanagement"
-    },
-    {
-      "category": "AI",
-      "service": "Video Intelligent Analysis Service",
-      "urlPath": "vias",
-      "cloudServiceType": "hws.service.type.campusgo",
-      "resourceType": "hws.resource.type.campusgo.cloudcommon"
-    },
-    {
-      "category": "AI",
-      "service": "Video Intelligent Analysis Service",
-      "urlPath": "vias",
-      "cloudServiceType": "hws.service.type.campusgo",
-      "resourceType": "hws.resource.type.campusgo.edgecitymanagement"
-    },
-    {
-      "category": "AI",
-      "service": "Video Intelligent Analysis Service",
-      "urlPath": "vias",
-      "cloudServiceType": "hws.service.type.campusgo",
-      "resourceType": "hws.resource.type.campusgo.edgecommon"
+      "hasCalculator": true,
+      "resourceTypes": [
+        {
+          "cloudServiceType": "hws.service.type.campusgo",
+          "resourceType": "hws.resource.type.campusgo.cloudcitymanagement"
+        },
+        {
+          "cloudServiceType": "hws.service.type.campusgo",
+          "resourceType": "hws.resource.type.campusgo.cloudcommon"
+        },
+        {
+          "cloudServiceType": "hws.service.type.campusgo",
+          "resourceType": "hws.resource.type.campusgo.edgecitymanagement"
+        },
+        {
+          "cloudServiceType": "hws.service.type.campusgo",
+          "resourceType": "hws.resource.type.campusgo.edgecommon"
+        }
+      ]
     },
     {
       "category": "Analytics",
       "service": "Cloud Search Service",
       "urlPath": "search",
-      "cloudServiceType": "hws.service.type.ess",
-      "resourceType": "hws.resource.type.ess.bandwidth"
-    },
-    {
-      "category": "Analytics",
-      "service": "Cloud Search Service",
-      "urlPath": "search",
-      "cloudServiceType": "hws.service.type.ess",
-      "resourceType": "hws.resource.type.ess.obs"
-    },
-    {
-      "category": "Analytics",
-      "service": "Cloud Search Service",
-      "urlPath": "search",
-      "cloudServiceType": "hws.service.type.ess",
-      "resourceType": "hws.resource.type.ess.vm"
-    },
-    {
-      "category": "Analytics",
-      "service": "Cloud Search Service",
-      "urlPath": "search",
-      "cloudServiceType": "hws.service.type.ess",
-      "resourceType": "hws.resource.type.ess.volume"
+      "hasCalculator": true,
+      "resourceTypes": [
+        {
+          "cloudServiceType": "hws.service.type.ess",
+          "resourceType": "hws.resource.type.ess.vm"
+        },
+        {
+          "cloudServiceType": "hws.service.type.ess",
+          "resourceType": "hws.resource.type.ess.volume"
+        },
+        {
+          "cloudServiceType": "hws.service.type.ess",
+          "resourceType": "hws.resource.type.ess.bandwidth"
+        },
+        {
+          "cloudServiceType": "hws.service.type.ess",
+          "resourceType": "hws.resource.type.ess.obs"
+        }
+      ]
     },
     {
       "category": "Analytics",
       "service": "Data Ingestion Service",
       "urlPath": "dis",
-      "cloudServiceType": "hws.service.type.dis",
-      "resourceType": "hws.resource.type.dis"
+      "hasCalculator": true,
+      "resourceTypes": [
+        {
+          "cloudServiceType": "hws.service.type.dis",
+          "resourceType": "hws.resource.type.dis"
+        }
+      ]
     },
     {
       "category": "Analytics",
       "service": "Data Lake Insight",
       "urlPath": "dli",
-      "cloudServiceType": "hws.service.type.uquery",
-      "resourceType": "hws.resource.type.dli.elasticresourcepool"
-    },
-    {
-      "category": "Analytics",
-      "service": "Data Lake Insight",
-      "urlPath": "dli",
-      "cloudServiceType": "hws.service.type.uquery",
-      "resourceType": "hws.resource.type.uquery.cuh"
-    },
-    {
-      "category": "Analytics",
-      "service": "Data Lake Insight",
-      "urlPath": "dli",
-      "cloudServiceType": "hws.service.type.uquery",
-      "resourceType": "hws.resource.type.uquery.internaltable"
-    },
-    {
-      "category": "Analytics",
-      "service": "Data Lake Insight",
-      "urlPath": "dli",
-      "cloudServiceType": "hws.service.type.uquery",
-      "resourceType": "hws.resource.type.uquery.scan"
+      "hasCalculator": true,
+      "resourceTypes": [
+        {
+          "cloudServiceType": "hws.service.type.uquery",
+          "resourceType": "hws.resource.type.uquery.cuh"
+        },
+        {
+          "cloudServiceType": "hws.service.type.uquery",
+          "resourceType": "hws.resource.type.uquery.internaltable"
+        },
+        {
+          "cloudServiceType": "hws.service.type.uquery",
+          "resourceType": "hws.resource.type.uquery.scan"
+        },
+        {
+          "cloudServiceType": "hws.service.type.uquery",
+          "resourceType": "hws.resource.type.dli.elasticresourcepool"
+        }
+      ]
     },
     {
       "category": "Analytics",
       "service": "Data Warehouse Service",
       "urlPath": "dws",
-      "cloudServiceType": "hws.service.type.vpc",
-      "resourceType": "hws.resource.type.bandwidth"
-    },
-    {
-      "category": "Analytics",
-      "service": "Data Warehouse Service",
-      "urlPath": "dws",
-      "cloudServiceType": "hws.service.type.dws",
-      "resourceType": "hws.resource.type.dws.obs"
-    },
-    {
-      "category": "Analytics",
-      "service": "Data Warehouse Service",
-      "urlPath": "dws",
-      "cloudServiceType": "hws.service.type.dws",
-      "resourceType": "hws.resource.type.dws.vm"
-    },
-    {
-      "category": "Analytics",
-      "service": "Data Warehouse Service",
-      "urlPath": "dws",
-      "cloudServiceType": "hws.service.type.dws",
-      "resourceType": "hws.resource.type.dws.volume"
-    },
-    {
-      "category": "Analytics",
-      "service": "Data Warehouse Service",
-      "urlPath": "dws",
-      "cloudServiceType": "hws.service.type.vpc",
-      "resourceType": "hws.resource.type.ip"
+      "hasCalculator": true,
+      "resourceTypes": [
+        {
+          "cloudServiceType": "hws.service.type.dws",
+          "resourceType": "hws.resource.type.dws.vm"
+        },
+        {
+          "cloudServiceType": "hws.service.type.dws",
+          "resourceType": "hws.resource.type.dws.obs"
+        },
+        {
+          "cloudServiceType": "hws.service.type.vpc",
+          "resourceType": "hws.resource.type.ip"
+        },
+        {
+          "cloudServiceType": "hws.service.type.vpc",
+          "resourceType": "hws.resource.type.bandwidth"
+        },
+        {
+          "cloudServiceType": "hws.service.type.dws",
+          "resourceType": "hws.resource.type.dws.volume"
+        }
+      ]
     },
     {
       "category": "Analytics",
       "service": "DataArts DataService Incremental Package",
       "urlPath": "dlm",
-      "cloudServiceType": "hws.service.type.dlg",
-      "resourceType": "hws.resource.type.dayu.dlm"
+      "hasCalculator": true,
+      "resourceTypes": [
+        {
+          "cloudServiceType": "hws.service.type.dlg",
+          "resourceType": "hws.resource.type.dayu.dlm"
+        }
+      ]
     },
     {
       "category": "Analytics",
       "service": "DataArts Lake Formation",
       "urlPath": "lakeformation",
-      "cloudServiceType": "hws.service.type.lakeformation",
-      "resourceType": "hws.resource.type.lakeformation.invoketime"
-    },
-    {
-      "category": "Analytics",
-      "service": "DataArts Lake Formation",
-      "urlPath": "lakeformation",
-      "cloudServiceType": "hws.service.type.lakeformation",
-      "resourceType": "hws.resource.type.lakeformation.metadata"
+      "hasCalculator": true,
+      "resourceTypes": [
+        {
+          "cloudServiceType": "hws.service.type.lakeformation",
+          "resourceType": "hws.resource.type.lakeformation.metadata"
+        },
+        {
+          "cloudServiceType": "hws.service.type.lakeformation",
+          "resourceType": "hws.resource.type.lakeformation.invoketime"
+        }
+      ]
     },
     {
       "category": "Analytics",
       "service": "DataArts Migration Incremental Package",
       "urlPath": "dgcCdm",
-      "cloudServiceType": "hws.service.type.dlg",
-      "resourceType": "hws.resource.type.dayu.cdm"
+      "hasCalculator": true,
+      "resourceTypes": [
+        {
+          "cloudServiceType": "hws.service.type.dlg",
+          "resourceType": "hws.resource.type.dayu.cdm"
+        }
+      ]
     },
     {
       "category": "Analytics",
       "service": "DataArts Studio",
       "urlPath": "dlg",
-      "cloudServiceType": "hws.service.type.dlg",
-      "resourceType": "hws.resource.type.dayu"
-    },
-    {
-      "category": "Analytics",
-      "service": "DataArts Studio",
-      "urlPath": "dlg",
-      "cloudServiceType": "hws.service.type.dlg",
-      "resourceType": "hws.resource.type.dgc.dlf.scheduler"
-    },
-    {
-      "category": "Analytics",
-      "service": "DataArts Studio",
-      "urlPath": "dlg",
-      "cloudServiceType": "hws.service.type.dlg",
-      "resourceType": "hws.resource.type.dgc.dlg.catalog"
-    },
-    {
-      "category": "Analytics",
-      "service": "DataArts Studio",
-      "urlPath": "dlg",
-      "cloudServiceType": "hws.service.type.dlg",
-      "resourceType": "hws.resource.type.dgc.dlg.ds"
+      "hasCalculator": true,
+      "resourceTypes": [
+        {
+          "cloudServiceType": "hws.service.type.dlg",
+          "resourceType": "hws.resource.type.dayu"
+        },
+        {
+          "cloudServiceType": "hws.service.type.dlg",
+          "resourceType": "hws.resource.type.dgc.dlf.scheduler"
+        },
+        {
+          "cloudServiceType": "hws.service.type.dlg",
+          "resourceType": "hws.resource.type.dgc.dlg.catalog"
+        },
+        {
+          "cloudServiceType": "hws.service.type.dlg",
+          "resourceType": "hws.resource.type.dgc.dlg.ds"
+        }
+      ]
     },
     {
       "category": "Analytics",
       "service": "MapReduce Service",
       "urlPath": "mrs",
-      "cloudServiceType": "hws.service.type.bigdata",
-      "resourceType": "hws.resource.type.bigdata"
-    },
-    {
-      "category": "Analytics",
-      "service": "MapReduce Service",
-      "urlPath": "mrs",
-      "cloudServiceType": "hws.service.type.bigdata",
-      "resourceType": "hws.resource.type.mrs.basic.sc"
-    },
-    {
-      "category": "Analytics",
-      "service": "MapReduce Service",
-      "urlPath": "mrs",
-      "cloudServiceType": "hws.service.type.bigdata",
-      "resourceType": "hws.resource.type.mrs.lts.sc"
-    },
-    {
-      "category": "Analytics",
-      "service": "MapReduce Service",
-      "urlPath": "mrs",
-      "cloudServiceType": "hws.service.type.baremetal",
-      "resourceType": "hws.resource.type.pm"
-    },
-    {
-      "category": "Analytics",
-      "service": "MapReduce Service",
-      "urlPath": "mrs",
-      "cloudServiceType": "hws.service.type.ec2",
-      "resourceType": "hws.resource.type.vm"
-    },
-    {
-      "category": "Analytics",
-      "service": "MapReduce Service",
-      "urlPath": "mrs",
-      "cloudServiceType": "hws.service.type.ebs",
-      "resourceType": "hws.resource.type.volume"
+      "hasCalculator": true,
+      "resourceTypes": [
+        {
+          "cloudServiceType": "hws.service.type.bigdata",
+          "resourceType": "hws.resource.type.bigdata"
+        },
+        {
+          "cloudServiceType": "hws.service.type.bigdata",
+          "resourceType": "hws.resource.type.mrs.basic.sc"
+        },
+        {
+          "cloudServiceType": "hws.service.type.bigdata",
+          "resourceType": "hws.resource.type.mrs.lts.sc"
+        },
+        {
+          "cloudServiceType": "hws.service.type.ebs",
+          "resourceType": "hws.resource.type.volume"
+        },
+        {
+          "cloudServiceType": "hws.service.type.ec2",
+          "resourceType": "hws.resource.type.vm"
+        },
+        {
+          "cloudServiceType": "hws.service.type.baremetal",
+          "resourceType": "hws.resource.type.pm"
+        }
+      ]
     },
     {
       "category": "Blockchain",
       "service": "Blockchain Service",
       "urlPath": "bcs",
-      "cloudServiceType": "hws.service.type.bcs",
-      "resourceType": "hws.resource.type.bcs"
-    },
-    {
-      "category": "Blockchain",
-      "service": "Blockchain Service",
-      "urlPath": "bcs",
-      "cloudServiceType": "hws.service.type.bcs",
-      "resourceType": "hws.resource.type.pne"
-    },
-    {
-      "category": "Business Applications",
-      "service": "HUAWEI CLOUD Meeting",
-      "urlPath": "vc",
-      "cloudServiceType": "hws.service.type.cloudvc",
-      "resourceType": "hws.resource.type.vc.1080hardaccount30"
+      "hasCalculator": true,
+      "resourceTypes": [
+        {
+          "cloudServiceType": "hws.service.type.bcs",
+          "resourceType": "hws.resource.type.bcs"
+        },
+        {
+          "cloudServiceType": "hws.service.type.bcs",
+          "resourceType": "hws.resource.type.pne"
+        }
+      ]
     },
     {
       "category": "Business Applications",
       "service": "HUAWEI CLOUD Meeting",
       "urlPath": "vc",
-      "cloudServiceType": "hws.service.type.cloudvc",
-      "resourceType": "hws.resource.type.vc.ideahubaccount"
-    },
-    {
-      "category": "Business Applications",
-      "service": "HUAWEI CLOUD Meeting",
-      "urlPath": "vc",
-      "cloudServiceType": "hws.service.type.cloudvc",
-      "resourceType": "hws.resource.type.vc.record"
-    },
-    {
-      "category": "Business Applications",
-      "service": "HUAWEI CLOUD Meeting",
-      "urlPath": "vc",
-      "cloudServiceType": "hws.service.type.cloudvc",
-      "resourceType": "hws.resource.type.vc.thirdhardaccount"
-    },
-    {
-      "category": "Business Applications",
-      "service": "HUAWEI CLOUD Meeting",
-      "urlPath": "vc",
-      "cloudServiceType": "hws.service.type.cloudvc",
-      "resourceType": "hws.resource.type.vc.vmr"
+      "hasCalculator": true,
+      "resourceTypes": [
+        {
+          "cloudServiceType": "hws.service.type.cloudvc",
+          "resourceType": "hws.resource.type.vc.vmr"
+        },
+        {
+          "cloudServiceType": "hws.service.type.cloudvc",
+          "resourceType": "hws.resource.type.vc.record"
+        },
+        {
+          "cloudServiceType": "hws.service.type.cloudvc",
+          "resourceType": "hws.resource.type.vc.ideahubaccount"
+        },
+        {
+          "cloudServiceType": "hws.service.type.cloudvc",
+          "resourceType": "hws.resource.type.vc.1080hardaccount30"
+        },
+        {
+          "cloudServiceType": "hws.service.type.cloudvc",
+          "resourceType": "hws.resource.type.vc.thirdhardaccount"
+        }
+      ]
     },
     {
       "category": "Business Applications",
       "service": "ROMA Connect",
       "urlPath": "romaconnect",
-      "cloudServiceType": "hws.service.type.roma",
-      "resourceType": "hws.resource.type.roma.platform"
-    },
-    {
-      "category": "Business Applications",
-      "service": "ROMA Connect",
-      "urlPath": "romaconnect",
-      "cloudServiceType": "hws.service.type.roma",
-      "resourceType": "hws.resource.type.roma.site.instance"
-    },
-    {
-      "category": "Business Applications",
-      "service": "Workspace",
-      "urlPath": "workspace",
-      "cloudServiceType": "hws.service.type.vdi",
-      "resourceType": "hws.resource.type.workspace.desktop"
+      "hasCalculator": true,
+      "resourceTypes": [
+        {
+          "cloudServiceType": "hws.service.type.roma",
+          "resourceType": "hws.resource.type.roma.platform"
+        },
+        {
+          "cloudServiceType": "hws.service.type.roma",
+          "resourceType": "hws.resource.type.roma.site.instance"
+        }
+      ]
     },
     {
       "category": "Business Applications",
       "service": "Workspace",
       "urlPath": "workspace",
-      "cloudServiceType": "hws.service.type.vdi",
-      "resourceType": "hws.resource.type.workspace.volume"
+      "hasCalculator": true,
+      "resourceTypes": [
+        {
+          "cloudServiceType": "hws.service.type.vdi",
+          "resourceType": "hws.resource.type.workspace.desktop"
+        },
+        {
+          "cloudServiceType": "hws.service.type.vdi",
+          "resourceType": "hws.resource.type.workspace.volume"
+        }
+      ]
     },
     {
       "category": "Compute",
       "service": "Bare Metal Server",
       "urlPath": "bms",
-      "cloudServiceType": "hws.service.type.baremetal",
-      "resourceType": "hws.resource.type.pm"
+      "hasCalculator": false,
+      "resourceTypes": [
+        {
+          "cloudServiceType": "hws.service.type.baremetal",
+          "resourceType": "hws.resource.type.pm"
+        }
+      ]
     },
     {
       "category": "Compute",
       "service": "Cloud Phone Host",
       "urlPath": "cph",
-      "cloudServiceType": "hws.service.type.vpc",
-      "resourceType": "hws.resource.type.bandwidth"
-    },
-    {
-      "category": "Compute",
-      "service": "Cloud Phone Host",
-      "urlPath": "cph",
-      "cloudServiceType": "hws.service.type.cph",
-      "resourceType": "hws.resource.type.phone"
-    },
-    {
-      "category": "Compute",
-      "service": "Cloud Phone Host",
-      "urlPath": "cph",
-      "cloudServiceType": "hws.service.type.cph",
-      "resourceType": "hws.resource.type.phonevolume"
+      "hasCalculator": false,
+      "resourceTypes": [
+        {
+          "cloudServiceType": "hws.service.type.cph",
+          "resourceType": "hws.resource.type.phone"
+        },
+        {
+          "cloudServiceType": "hws.service.type.cph",
+          "resourceType": "hws.resource.type.phonevolume"
+        },
+        {
+          "cloudServiceType": "hws.service.type.vpc",
+          "resourceType": "hws.resource.type.bandwidth"
+        }
+      ]
     },
     {
       "category": "Compute",
       "service": "Dedicated Computing Cluster",
       "urlPath": "dcc",
-      "cloudServiceType": "hws.service.type.dec",
-      "resourceType": "hws.resource.type.dec"
+      "hasCalculator": true,
+      "resourceTypes": [
+        {
+          "cloudServiceType": "hws.service.type.dec",
+          "resourceType": "hws.resource.type.dec"
+        }
+      ]
     },
     {
       "category": "Compute",
       "service": "Dedicated Host",
       "urlPath": "deh",
-      "cloudServiceType": "hws.service.type.deh",
-      "resourceType": "hws.resource.type.deh"
+      "hasCalculator": true,
+      "resourceTypes": [
+        {
+          "cloudServiceType": "hws.service.type.deh",
+          "resourceType": "hws.resource.type.deh"
+        }
+      ]
     },
     {
       "category": "Compute",
       "service": "Elastic Cloud Server",
       "urlPath": "ecs",
-      "cloudServiceType": "hws.service.type.vpc",
-      "resourceType": "hws.resource.type.bandwidth"
-    },
-    {
-      "category": "Compute",
-      "service": "Elastic Cloud Server",
-      "urlPath": "ecs",
-      "cloudServiceType": "hws.service.type.vpc",
-      "resourceType": "hws.resource.type.ip"
-    },
-    {
-      "category": "Compute",
-      "service": "Elastic Cloud Server",
-      "urlPath": "ecs",
-      "cloudServiceType": "hws.service.type.ec2",
-      "resourceType": "hws.resource.type.vm"
-    },
-    {
-      "category": "Compute",
-      "service": "Elastic Cloud Server",
-      "urlPath": "ecs",
-      "cloudServiceType": "hws.service.type.ec2",
-      "resourceType": "hws.resource.type.vm.image"
-    },
-    {
-      "category": "Compute",
-      "service": "Elastic Cloud Server",
-      "urlPath": "ecs",
-      "cloudServiceType": "hws.service.type.ec2",
-      "resourceType": "hws.resource.type.vm.image.special"
-    },
-    {
-      "category": "Compute",
-      "service": "Elastic Cloud Server",
-      "urlPath": "ecs",
-      "cloudServiceType": "hws.service.type.ebs",
-      "resourceType": "hws.resource.type.volume"
+      "hasCalculator": true,
+      "resourceTypes": [
+        {
+          "cloudServiceType": "hws.service.type.ec2",
+          "resourceType": "hws.resource.type.vm"
+        },
+        {
+          "cloudServiceType": "hws.service.type.ec2",
+          "resourceType": "hws.resource.type.vm.image"
+        },
+        {
+          "cloudServiceType": "hws.service.type.ec2",
+          "resourceType": "hws.resource.type.vm.image.special"
+        },
+        {
+          "cloudServiceType": "hws.service.type.ebs",
+          "resourceType": "hws.resource.type.volume"
+        },
+        {
+          "cloudServiceType": "hws.service.type.vpc",
+          "resourceType": "hws.resource.type.ip"
+        },
+        {
+          "cloudServiceType": "hws.service.type.vpc",
+          "resourceType": "hws.resource.type.bandwidth"
+        }
+      ]
     },
     {
       "category": "Compute",
       "service": "Flexus L Instance",
       "urlPath": "hcss",
-      "cloudServiceType": "hws.service.type.hcss",
-      "resourceType": "hws.resource.type.hecsfusion"
+      "hasCalculator": true,
+      "resourceTypes": [
+        {
+          "cloudServiceType": "hws.service.type.hcss",
+          "resourceType": "hws.resource.type.hecsfusion"
+        }
+      ]
     },
     {
       "category": "Compute",
       "service": "Flexus X Instance",
       "urlPath": "hecs",
-      "cloudServiceType": "hws.service.type.vpc",
-      "resourceType": "hws.resource.type.bandwidth"
-    },
-    {
-      "category": "Compute",
-      "service": "Flexus X Instance",
-      "urlPath": "hecs",
-      "cloudServiceType": "hws.service.type.vpc",
-      "resourceType": "hws.resource.type.ip"
-    },
-    {
-      "category": "Compute",
-      "service": "Flexus X Instance",
-      "urlPath": "hecs",
-      "cloudServiceType": "hws.service.type.ec2",
-      "resourceType": "hws.resource.type.vm"
-    },
-    {
-      "category": "Compute",
-      "service": "Flexus X Instance",
-      "urlPath": "hecs",
-      "cloudServiceType": "hws.service.type.ec2",
-      "resourceType": "hws.resource.type.vm.image"
-    },
-    {
-      "category": "Compute",
-      "service": "Flexus X Instance",
-      "urlPath": "hecs",
-      "cloudServiceType": "hws.service.type.ec2",
-      "resourceType": "hws.resource.type.vm.image.special"
-    },
-    {
-      "category": "Compute",
-      "service": "Flexus X Instance",
-      "urlPath": "hecs",
-      "cloudServiceType": "hws.service.type.ebs",
-      "resourceType": "hws.resource.type.volume"
+      "hasCalculator": true,
+      "resourceTypes": [
+        {
+          "cloudServiceType": "hws.service.type.ec2",
+          "resourceType": "hws.resource.type.vm"
+        },
+        {
+          "cloudServiceType": "hws.service.type.ec2",
+          "resourceType": "hws.resource.type.vm.image"
+        },
+        {
+          "cloudServiceType": "hws.service.type.ec2",
+          "resourceType": "hws.resource.type.vm.image.special"
+        },
+        {
+          "cloudServiceType": "hws.service.type.ebs",
+          "resourceType": "hws.resource.type.volume"
+        },
+        {
+          "cloudServiceType": "hws.service.type.vpc",
+          "resourceType": "hws.resource.type.ip"
+        },
+        {
+          "cloudServiceType": "hws.service.type.vpc",
+          "resourceType": "hws.resource.type.bandwidth"
+        }
+      ]
     },
     {
       "category": "Compute",
       "service": "FunctionGraph",
       "urlPath": "function",
-      "cloudServiceType": "hws.service.type.functionstage",
-      "resourceType": "hws.resource.type.fgs"
-    },
-    {
-      "category": "Compute",
-      "service": "FunctionGraph",
-      "urlPath": "function",
-      "cloudServiceType": "hws.service.type.functionstage",
-      "resourceType": "hws.resource.type.functionstage"
-    },
-    {
-      "category": "Containers",
-      "service": "Cloud Container Engine",
-      "urlPath": "cce",
-      "cloudServiceType": "hws.service.type.cce",
-      "resourceType": "hws.resource.type.cce.autopilot"
+      "hasCalculator": true,
+      "resourceTypes": [
+        {
+          "cloudServiceType": "hws.service.type.functionstage",
+          "resourceType": "hws.resource.type.functionstage"
+        },
+        {
+          "cloudServiceType": "hws.service.type.functionstage",
+          "resourceType": "hws.resource.type.fgs"
+        }
+      ]
     },
     {
       "category": "Containers",
       "service": "Cloud Container Engine",
       "urlPath": "cce",
-      "cloudServiceType": "hws.service.type.cce",
-      "resourceType": "hws.resource.type.cce.cluster"
-    },
-    {
-      "category": "Containers",
-      "service": "Cloud Container Engine",
-      "urlPath": "cce",
-      "cloudServiceType": "hws.service.type.cci",
-      "resourceType": "hws.resource.type.cci.autopilot"
+      "hasCalculator": true,
+      "resourceTypes": [
+        {
+          "cloudServiceType": "hws.service.type.cce",
+          "resourceType": "hws.resource.type.cce.cluster"
+        },
+        {
+          "cloudServiceType": "hws.service.type.cce",
+          "resourceType": "hws.resource.type.cce.autopilot"
+        },
+        {
+          "cloudServiceType": "hws.service.type.cci",
+          "resourceType": "hws.resource.type.cci.autopilot"
+        }
+      ]
     },
     {
       "category": "Containers",
       "service": "Cloud Container Instance",
       "urlPath": "cci",
-      "cloudServiceType": "hws.service.type.cci",
-      "resourceType": "hws.resource.type.container.instance"
+      "hasCalculator": true,
+      "resourceTypes": [
+        {
+          "cloudServiceType": "hws.service.type.cci",
+          "resourceType": "hws.resource.type.container.instance"
+        }
+      ]
     },
     {
       "category": "Containers",
       "service": "SoftWare Repository for Container",
       "urlPath": "swr",
-      "cloudServiceType": "hws.service.type.swr",
-      "resourceType": "hws.resource.type.swr.containerops"
-    },
-    {
-      "category": "Containers",
-      "service": "SoftWare Repository for Container",
-      "urlPath": "swr",
-      "cloudServiceType": "hws.service.type.swr",
-      "resourceType": "hws.resource.type.swr.downflow"
-    },
-    {
-      "category": "Containers",
-      "service": "SoftWare Repository for Container",
-      "urlPath": "swr",
-      "cloudServiceType": "hws.service.type.swr",
-      "resourceType": "hws.resource.type.swr.store"
-    },
-    {
-      "category": "Containers",
-      "service": "Ubiquitous Cloud Native Service",
-      "urlPath": "ucs",
-      "cloudServiceType": "hws.service.type.ucs",
-      "resourceType": "hws.resource.type.ucs.attachedclusters"
+      "hasCalculator": false,
+      "resourceTypes": [
+        {
+          "cloudServiceType": "hws.service.type.swr",
+          "resourceType": "hws.resource.type.swr.store"
+        },
+        {
+          "cloudServiceType": "hws.service.type.swr",
+          "resourceType": "hws.resource.type.swr.downflow"
+        },
+        {
+          "cloudServiceType": "hws.service.type.swr",
+          "resourceType": "hws.resource.type.swr.containerops"
+        }
+      ]
     },
     {
       "category": "Containers",
       "service": "Ubiquitous Cloud Native Service",
       "urlPath": "ucs",
-      "cloudServiceType": "hws.service.type.ucs",
-      "resourceType": "hws.resource.type.ucs.huaweicloud"
-    },
-    {
-      "category": "Containers",
-      "service": "Ubiquitous Cloud Native Service",
-      "urlPath": "ucs",
-      "cloudServiceType": "hws.service.type.ucs",
-      "resourceType": "hws.resource.type.ucs.multicloud"
-    },
-    {
-      "category": "Containers",
-      "service": "Ubiquitous Cloud Native Service",
-      "urlPath": "ucs",
-      "cloudServiceType": "hws.service.type.ucs",
-      "resourceType": "hws.resource.type.ucs.onpremises"
+      "hasCalculator": true,
+      "resourceTypes": [
+        {
+          "cloudServiceType": "hws.service.type.ucs",
+          "resourceType": "hws.resource.type.ucs.huaweicloud"
+        },
+        {
+          "cloudServiceType": "hws.service.type.ucs",
+          "resourceType": "hws.resource.type.ucs.attachedclusters"
+        },
+        {
+          "cloudServiceType": "hws.service.type.ucs",
+          "resourceType": "hws.resource.type.ucs.onpremises"
+        },
+        {
+          "cloudServiceType": "hws.service.type.ucs",
+          "resourceType": "hws.resource.type.ucs.multicloud"
+        }
+      ]
     },
     {
       "category": "Content Delivery & Edge Computing",
       "service": "Content Delivery Network",
       "urlPath": "cdn",
-      "cloudServiceType": "hws.service.type.cdn",
-      "resourceType": "hws.resource.type.cdn"
+      "hasCalculator": true,
+      "resourceTypes": [
+        {
+          "cloudServiceType": "hws.service.type.cdn",
+          "resourceType": "hws.resource.type.cdn"
+        }
+      ]
     },
     {
       "category": "Content Delivery & Edge Computing",
       "service": "Whole Site Acceleration",
       "urlPath": "wsa",
-      "cloudServiceType": "hws.service.type.wsa",
-      "resourceType": "hws.resource.type.wsaservice"
+      "hasCalculator": true,
+      "resourceTypes": [
+        {
+          "cloudServiceType": "hws.service.type.wsa",
+          "resourceType": "hws.resource.type.wsaservice"
+        }
+      ]
     },
     {
       "category": "Databases",
       "service": "DCS (for Memcached)",
       "urlPath": "memcached",
-      "cloudServiceType": "hws.service.type.dcs",
-      "resourceType": "hws.resource.type.dcs.memcached"
+      "hasCalculator": true,
+      "resourceTypes": [
+        {
+          "cloudServiceType": "hws.service.type.dcs",
+          "resourceType": "hws.resource.type.dcs.memcached"
+        }
+      ]
     },
     {
       "category": "Databases",
       "service": "DCS (for Redis)",
       "urlPath": "redis",
-      "cloudServiceType": "hws.service.type.dcs",
-      "resourceType": "hws.resource.type.dcs.bandwidth"
-    },
-    {
-      "category": "Databases",
-      "service": "DCS (for Redis)",
-      "urlPath": "redis",
-      "cloudServiceType": "hws.service.type.dcs",
-      "resourceType": "hws.resource.type.dcs3"
+      "hasCalculator": true,
+      "resourceTypes": [
+        {
+          "cloudServiceType": "hws.service.type.dcs",
+          "resourceType": "hws.resource.type.dcs3"
+        },
+        {
+          "cloudServiceType": "hws.service.type.dcs",
+          "resourceType": "hws.resource.type.dcs.bandwidth"
+        }
+      ]
     },
     {
       "category": "Databases",
       "service": "Data Replication Service",
       "urlPath": "drs",
-      "cloudServiceType": "hws.service.type.drs",
-      "resourceType": "hws.resource.type.drs.vm"
+      "hasCalculator": true,
+      "resourceTypes": [
+        {
+          "cloudServiceType": "hws.service.type.drs",
+          "resourceType": "hws.resource.type.drs.vm"
+        }
+      ]
     },
     {
       "category": "Databases",
       "service": "Database and Application Migration UGO",
       "urlPath": "ugo",
-      "cloudServiceType": "hws.service.type.ugo",
-      "resourceType": "hws.resource.type.ugo.task"
+      "hasCalculator": false,
+      "resourceTypes": [
+        {
+          "cloudServiceType": "hws.service.type.ugo",
+          "resourceType": "hws.resource.type.ugo.task"
+        }
+      ]
     },
     {
       "category": "Databases",
       "service": "Distributed Database Middleware",
       "urlPath": "ddm",
-      "cloudServiceType": "hws.service.type.ddm",
-      "resourceType": "hws.resource.type.ddm"
+      "hasCalculator": true,
+      "resourceTypes": [
+        {
+          "cloudServiceType": "hws.service.type.ddm",
+          "resourceType": "hws.resource.type.ddm"
+        }
+      ]
     },
     {
       "category": "Databases",
       "service": "Document Database Service",
       "urlPath": "dds",
-      "cloudServiceType": "hws.service.type.dds",
-      "resourceType": "hws.resource.type.dds.decmem"
-    },
-    {
-      "category": "Databases",
-      "service": "Document Database Service",
-      "urlPath": "dds",
-      "cloudServiceType": "hws.service.type.dds",
-      "resourceType": "hws.resource.type.dds.obs"
-    },
-    {
-      "category": "Databases",
-      "service": "Document Database Service",
-      "urlPath": "dds",
-      "cloudServiceType": "hws.service.type.dds",
-      "resourceType": "hws.resource.type.dds.vm"
-    },
-    {
-      "category": "Databases",
-      "service": "Document Database Service",
-      "urlPath": "dds",
-      "cloudServiceType": "hws.service.type.dds",
-      "resourceType": "hws.resource.type.dds.volume"
+      "hasCalculator": true,
+      "resourceTypes": [
+        {
+          "cloudServiceType": "hws.service.type.dds",
+          "resourceType": "hws.resource.type.dds.vm"
+        },
+        {
+          "cloudServiceType": "hws.service.type.dds",
+          "resourceType": "hws.resource.type.dds.volume"
+        },
+        {
+          "cloudServiceType": "hws.service.type.dds",
+          "resourceType": "hws.resource.type.dds.obs"
+        },
+        {
+          "cloudServiceType": "hws.service.type.dds",
+          "resourceType": "hws.resource.type.dds.decmem"
+        }
+      ]
     },
     {
       "category": "Databases",
       "service": "Flexus RDS",
       "urlPath": "hrds",
-      "cloudServiceType": "hws.service.type.rds",
-      "resourceType": "hws.resource.type.rds.obs"
-    },
-    {
-      "category": "Databases",
-      "service": "Flexus RDS",
-      "urlPath": "hrds",
-      "cloudServiceType": "hws.service.type.rds",
-      "resourceType": "hws.resource.type.rds.vm"
-    },
-    {
-      "category": "Databases",
-      "service": "Flexus RDS",
-      "urlPath": "hrds",
-      "cloudServiceType": "hws.service.type.rds",
-      "resourceType": "hws.resource.type.rds.volume"
-    },
-    {
-      "category": "Databases",
-      "service": "GaussDB",
-      "urlPath": "gaussdb",
-      "cloudServiceType": "hws.service.type.gaussdb",
-      "resourceType": "hws.resource.type.gaussdb.obs"
+      "hasCalculator": true,
+      "resourceTypes": [
+        {
+          "cloudServiceType": "hws.service.type.rds",
+          "resourceType": "hws.resource.type.rds.vm"
+        },
+        {
+          "cloudServiceType": "hws.service.type.rds",
+          "resourceType": "hws.resource.type.rds.volume"
+        },
+        {
+          "cloudServiceType": "hws.service.type.rds",
+          "resourceType": "hws.resource.type.rds.obs"
+        }
+      ]
     },
     {
       "category": "Databases",
       "service": "GaussDB",
       "urlPath": "gaussdb",
-      "cloudServiceType": "hws.service.type.gaussdb",
-      "resourceType": "hws.resource.type.gaussdb.vm"
-    },
-    {
-      "category": "Databases",
-      "service": "GaussDB",
-      "urlPath": "gaussdb",
-      "cloudServiceType": "hws.service.type.gaussdb",
-      "resourceType": "hws.resource.type.gaussdb.volume"
-    },
-    {
-      "category": "Databases",
-      "service": "GeminiDB",
-      "urlPath": "nosql",
-      "cloudServiceType": "hws.service.type.nosql",
-      "resourceType": "hws.resource.type.nosql.obs"
-    },
-    {
-      "category": "Databases",
-      "service": "GeminiDB",
-      "urlPath": "nosql",
-      "cloudServiceType": "hws.service.type.nosql",
-      "resourceType": "hws.resource.type.nosql.vm"
+      "hasCalculator": true,
+      "resourceTypes": [
+        {
+          "cloudServiceType": "hws.service.type.gaussdb",
+          "resourceType": "hws.resource.type.gaussdb.vm"
+        },
+        {
+          "cloudServiceType": "hws.service.type.gaussdb",
+          "resourceType": "hws.resource.type.gaussdb.volume"
+        },
+        {
+          "cloudServiceType": "hws.service.type.gaussdb",
+          "resourceType": "hws.resource.type.gaussdb.obs"
+        }
+      ]
     },
     {
       "category": "Databases",
       "service": "GeminiDB",
       "urlPath": "nosql",
-      "cloudServiceType": "hws.service.type.nosql",
-      "resourceType": "hws.resource.type.nosql.volume"
+      "hasCalculator": true,
+      "resourceTypes": [
+        {
+          "cloudServiceType": "hws.service.type.nosql",
+          "resourceType": "hws.resource.type.nosql.vm"
+        },
+        {
+          "cloudServiceType": "hws.service.type.nosql",
+          "resourceType": "hws.resource.type.nosql.volume"
+        },
+        {
+          "cloudServiceType": "hws.service.type.nosql",
+          "resourceType": "hws.resource.type.nosql.obs"
+        }
+      ]
     },
     {
       "category": "Databases",
       "service": "RDS for MariaDB",
       "urlPath": "rdsformariadb",
-      "cloudServiceType": "hws.service.type.rdsformariadb",
-      "resourceType": "hws.resource.type.rdsformariadb.obs"
-    },
-    {
-      "category": "Databases",
-      "service": "RDS for MariaDB",
-      "urlPath": "rdsformariadb",
-      "cloudServiceType": "hws.service.type.rdsformariadb",
-      "resourceType": "hws.resource.type.rdsformariadb.vm"
-    },
-    {
-      "category": "Databases",
-      "service": "RDS for MariaDB",
-      "urlPath": "rdsformariadb",
-      "cloudServiceType": "hws.service.type.rdsformariadb",
-      "resourceType": "hws.resource.type.rdsformariadb.volume"
-    },
-    {
-      "category": "Databases",
-      "service": "Relational Database Service",
-      "urlPath": "rds",
-      "cloudServiceType": "hws.service.type.rds",
-      "resourceType": "hws.resource.type.rds.deccpu"
+      "hasCalculator": true,
+      "resourceTypes": [
+        {
+          "cloudServiceType": "hws.service.type.rdsformariadb",
+          "resourceType": "hws.resource.type.rdsformariadb.vm"
+        },
+        {
+          "cloudServiceType": "hws.service.type.rdsformariadb",
+          "resourceType": "hws.resource.type.rdsformariadb.volume"
+        },
+        {
+          "cloudServiceType": "hws.service.type.rdsformariadb",
+          "resourceType": "hws.resource.type.rdsformariadb.obs"
+        }
+      ]
     },
     {
       "category": "Databases",
       "service": "Relational Database Service",
       "urlPath": "rds",
-      "cloudServiceType": "hws.service.type.rds",
-      "resourceType": "hws.resource.type.rds.decmem"
-    },
-    {
-      "category": "Databases",
-      "service": "Relational Database Service",
-      "urlPath": "rds",
-      "cloudServiceType": "hws.service.type.rds",
-      "resourceType": "hws.resource.type.rds.obs"
-    },
-    {
-      "category": "Databases",
-      "service": "Relational Database Service",
-      "urlPath": "rds",
-      "cloudServiceType": "hws.service.type.rds",
-      "resourceType": "hws.resource.type.rds.proxy"
-    },
-    {
-      "category": "Databases",
-      "service": "Relational Database Service",
-      "urlPath": "rds",
-      "cloudServiceType": "hws.service.type.rds",
-      "resourceType": "hws.resource.type.rds.vm"
-    },
-    {
-      "category": "Databases",
-      "service": "Relational Database Service",
-      "urlPath": "rds",
-      "cloudServiceType": "hws.service.type.rds",
-      "resourceType": "hws.resource.type.rds.volume"
+      "hasCalculator": true,
+      "resourceTypes": [
+        {
+          "cloudServiceType": "hws.service.type.rds",
+          "resourceType": "hws.resource.type.rds.vm"
+        },
+        {
+          "cloudServiceType": "hws.service.type.rds",
+          "resourceType": "hws.resource.type.rds.volume"
+        },
+        {
+          "cloudServiceType": "hws.service.type.rds",
+          "resourceType": "hws.resource.type.rds.deccpu"
+        },
+        {
+          "cloudServiceType": "hws.service.type.rds",
+          "resourceType": "hws.resource.type.rds.decmem"
+        },
+        {
+          "cloudServiceType": "hws.service.type.rds",
+          "resourceType": "hws.resource.type.rds.obs"
+        },
+        {
+          "cloudServiceType": "hws.service.type.rds",
+          "resourceType": "hws.resource.type.rds.proxy"
+        }
+      ]
     },
     {
       "category": "Databases",
       "service": "TaurusDB",
       "urlPath": "taurusdb",
-      "cloudServiceType": "hws.service.type.taurus",
-      "resourceType": "hws.resource.type.taurus.obs"
-    },
-    {
-      "category": "Databases",
-      "service": "TaurusDB",
-      "urlPath": "taurusdb",
-      "cloudServiceType": "hws.service.type.taurus",
-      "resourceType": "hws.resource.type.taurus.serverless"
-    },
-    {
-      "category": "Databases",
-      "service": "TaurusDB",
-      "urlPath": "taurusdb",
-      "cloudServiceType": "hws.service.type.taurus",
-      "resourceType": "hws.resource.type.taurus.vm"
-    },
-    {
-      "category": "Databases",
-      "service": "TaurusDB",
-      "urlPath": "taurusdb",
-      "cloudServiceType": "hws.service.type.taurus",
-      "resourceType": "hws.resource.type.taurus.volume"
+      "hasCalculator": true,
+      "resourceTypes": [
+        {
+          "cloudServiceType": "hws.service.type.taurus",
+          "resourceType": "hws.resource.type.taurus.vm"
+        },
+        {
+          "cloudServiceType": "hws.service.type.taurus",
+          "resourceType": "hws.resource.type.taurus.volume"
+        },
+        {
+          "cloudServiceType": "hws.service.type.taurus",
+          "resourceType": "hws.resource.type.taurus.obs"
+        },
+        {
+          "cloudServiceType": "hws.service.type.taurus",
+          "resourceType": "hws.resource.type.taurus.serverless"
+        }
+      ]
     },
     {
       "category": "Developer Services",
       "service": "CodeArts",
       "urlPath": "devcloud",
-      "cloudServiceType": "hws.service.type.devcloud",
-      "resourceType": "hws.resource.type.codearts.combo"
-    },
-    {
-      "category": "Developer Services",
-      "service": "CodeArts",
-      "urlPath": "devcloud",
-      "cloudServiceType": "hws.service.type.devcloud",
-      "resourceType": "hws.resource.type.codearts.extension.concurrency"
-    },
-    {
-      "category": "Developer Services",
-      "service": "CodeArts",
-      "urlPath": "devcloud",
-      "cloudServiceType": "hws.service.type.devcloud",
-      "resourceType": "hws.resource.type.codearts.extension.duration"
-    },
-    {
-      "category": "Developer Services",
-      "service": "CodeArts",
-      "urlPath": "devcloud",
-      "cloudServiceType": "hws.service.type.devcloud",
-      "resourceType": "hws.resource.type.codearts.extension.flow"
-    },
-    {
-      "category": "Developer Services",
-      "service": "CodeArts",
-      "urlPath": "devcloud",
-      "cloudServiceType": "hws.service.type.devcloud",
-      "resourceType": "hws.resource.type.codearts.extension.storage"
-    },
-    {
-      "category": "Developer Services",
-      "service": "CodeArts",
-      "urlPath": "devcloud",
-      "cloudServiceType": "hws.service.type.devcloud",
-      "resourceType": "hws.resource.type.codecheck.security"
-    },
-    {
-      "category": "Developer Services",
-      "service": "CodeArts",
-      "urlPath": "devcloud",
-      "cloudServiceType": "hws.service.type.devcloud",
-      "resourceType": "hws.resource.type.dev.codeci"
+      "hasCalculator": true,
+      "resourceTypes": [
+        {
+          "cloudServiceType": "hws.service.type.devcloud",
+          "resourceType": "hws.resource.type.codearts.combo"
+        },
+        {
+          "cloudServiceType": "hws.service.type.devcloud",
+          "resourceType": "hws.resource.type.dev.codeci"
+        },
+        {
+          "cloudServiceType": "hws.service.type.devcloud",
+          "resourceType": "hws.resource.type.codearts.extension.concurrency"
+        },
+        {
+          "cloudServiceType": "hws.service.type.devcloud",
+          "resourceType": "hws.resource.type.codecheck.security"
+        },
+        {
+          "cloudServiceType": "hws.service.type.devcloud",
+          "resourceType": "hws.resource.type.codearts.extension.storage"
+        },
+        {
+          "cloudServiceType": "hws.service.type.devcloud",
+          "resourceType": "hws.resource.type.codearts.extension.flow"
+        },
+        {
+          "cloudServiceType": "hws.service.type.devcloud",
+          "resourceType": "hws.resource.type.codearts.extension.duration"
+        }
+      ]
     },
     {
       "category": "Developer Services",
       "service": "CodeArts Agent",
       "urlPath": "codeartsagent",
-      "cloudServiceType": "hws.service.type.devcloud",
-      "resourceType": "hws.resource.type.codearts.snap"
+      "hasCalculator": true,
+      "resourceTypes": [
+        {
+          "cloudServiceType": "hws.service.type.devcloud",
+          "resourceType": "hws.resource.type.codearts.snap"
+        }
+      ]
     },
     {
       "category": "Developer Services",
       "service": "CodeArts PerfTest",
       "urlPath": "cpts",
-      "cloudServiceType": "hws.service.type.cpts",
-      "resourceType": "hws.resource.type.cpts"
+      "hasCalculator": false,
+      "resourceTypes": [
+        {
+          "cloudServiceType": "hws.service.type.cpts",
+          "resourceType": "hws.resource.type.cpts"
+        }
+      ]
     },
     {
       "category": "Developer Services",
       "service": "Huawei Cloud Astro Zero",
       "urlPath": "astrozero",
-      "cloudServiceType": "hws.service.type.appcube",
-      "resourceType": "hws.resource.type.appcube.developer"
-    },
-    {
-      "category": "Developer Services",
-      "service": "Huawei Cloud Astro Zero",
-      "urlPath": "astrozero",
-      "cloudServiceType": "hws.service.type.appcube",
-      "resourceType": "hws.resource.type.appcube.dmax"
+      "hasCalculator": true,
+      "resourceTypes": [
+        {
+          "cloudServiceType": "hws.service.type.appcube",
+          "resourceType": "hws.resource.type.appcube.developer"
+        },
+        {
+          "cloudServiceType": "hws.service.type.appcube",
+          "resourceType": "hws.resource.type.appcube.dmax"
+        }
+      ]
     },
     {
       "category": "Developer Services",
       "service": "ServiceStage",
       "urlPath": "servicestage",
-      "cloudServiceType": "hws.service.type.servicestage",
-      "resourceType": "hws.resource.type.servicestage"
+      "hasCalculator": true,
+      "resourceTypes": [
+        {
+          "cloudServiceType": "hws.service.type.servicestage",
+          "resourceType": "hws.resource.type.servicestage"
+        }
+      ]
     },
     {
       "category": "IoT",
       "service": "Global SIM Link",
       "urlPath": "gsl",
-      "cloudServiceType": "hws.service.type.gsl",
-      "resourceType": "hws.resource.type.gsl.traffic"
+      "hasCalculator": true,
+      "resourceTypes": [
+        {
+          "cloudServiceType": "hws.service.type.gsl",
+          "resourceType": "hws.resource.type.gsl.traffic"
+        }
+      ]
     },
     {
       "category": "IoT",
       "service": "IoT Device Access",
       "urlPath": "iotda",
-      "cloudServiceType": "hws.service.type.iotda",
-      "resourceType": "hws.resource.type.iotda.instance"
-    },
-    {
-      "category": "IoT",
-      "service": "IoT Device Access",
-      "urlPath": "iotda",
-      "cloudServiceType": "hws.service.type.iotda",
-      "resourceType": "hws.resource.type.standardinstance"
-    },
-    {
-      "category": "MacroVerse aPaaS",
-      "service": "KooMessage",
-      "urlPath": "koomessage",
-      "cloudServiceType": "hws.service.type.koomessage",
-      "resourceType": "hws.resource.type.instant.message"
+      "hasCalculator": true,
+      "resourceTypes": [
+        {
+          "cloudServiceType": "hws.service.type.iotda",
+          "resourceType": "hws.resource.type.standardinstance"
+        },
+        {
+          "cloudServiceType": "hws.service.type.iotda",
+          "resourceType": "hws.resource.type.iotda.instance"
+        }
+      ]
     },
     {
       "category": "MacroVerse aPaaS",
       "service": "KooMessage",
       "urlPath": "koomessage",
-      "cloudServiceType": "hws.service.type.koomessage",
-      "resourceType": "hws.resource.type.integrated.intelligent.market"
+      "hasCalculator": true,
+      "resourceTypes": [
+        {
+          "cloudServiceType": "hws.service.type.koomessage",
+          "resourceType": "hws.resource.type.integrated.intelligent.market"
+        },
+        {
+          "cloudServiceType": "hws.service.type.koomessage",
+          "resourceType": "hws.resource.type.instant.message"
+        }
+      ]
     },
     {
       "category": "Management & Governance",
       "service": "Application Operations Management",
       "urlPath": "aom",
-      "cloudServiceType": "hws.service.type.aom",
-      "resourceType": "hws.resource.type.aom.alarmruleai"
-    },
-    {
-      "category": "Management & Governance",
-      "service": "Application Operations Management",
-      "urlPath": "aom",
-      "cloudServiceType": "hws.service.type.aom",
-      "resourceType": "hws.resource.type.aom.custommetriccount"
-    },
-    {
-      "category": "Management & Governance",
-      "service": "Application Operations Management",
-      "urlPath": "aom",
-      "cloudServiceType": "hws.service.type.aom",
-      "resourceType": "hws.resource.type.aom.event"
-    },
-    {
-      "category": "Management & Governance",
-      "service": "Application Operations Management",
-      "urlPath": "aom",
-      "cloudServiceType": "hws.service.type.aom",
-      "resourceType": "hws.resource.type.aom.metirccustom"
-    },
-    {
-      "category": "Management & Governance",
-      "service": "Application Operations Management",
-      "urlPath": "aom",
-      "cloudServiceType": "hws.service.type.aom",
-      "resourceType": "hws.resource.type.aom.metriccci"
-    },
-    {
-      "category": "Management & Governance",
-      "service": "Application Operations Management",
-      "urlPath": "aom",
-      "cloudServiceType": "hws.service.type.aom",
-      "resourceType": "hws.resource.type.aom.metricdumpsize"
-    },
-    {
-      "category": "Management & Governance",
-      "service": "Application Operations Management",
-      "urlPath": "aom",
-      "cloudServiceType": "hws.service.type.aom",
-      "resourceType": "hws.resource.type.aom.metrichost"
-    },
-    {
-      "category": "Management & Governance",
-      "service": "Application Operations Management",
-      "urlPath": "aom",
-      "cloudServiceType": "hws.service.type.aom",
-      "resourceType": "hws.resource.type.aom.metricquery"
-    },
-    {
-      "category": "Management & Governance",
-      "service": "Application Operations Management",
-      "urlPath": "aom",
-      "cloudServiceType": "hws.service.type.aom",
-      "resourceType": "hws.resource.type.aom.metricrealtime"
-    },
-    {
-      "category": "Management & Governance",
-      "service": "Application Operations Management",
-      "urlPath": "aom",
-      "cloudServiceType": "hws.service.type.aom",
-      "resourceType": "hws.resource.type.aom.metricstoragetime"
-    },
-    {
-      "category": "Management & Governance",
-      "service": "Application Operations Management",
-      "urlPath": "aom",
-      "cloudServiceType": "hws.service.type.aom",
-      "resourceType": "hws.resource.type.aom.package"
-    },
-    {
-      "category": "Management & Governance",
-      "service": "Application Operations Management",
-      "urlPath": "aom",
-      "cloudServiceType": "hws.service.type.lts",
-      "resourceType": "hws.resource.type.lts.logflow"
-    },
-    {
-      "category": "Management & Governance",
-      "service": "Application Operations Management",
-      "urlPath": "aom",
-      "cloudServiceType": "hws.service.type.lts",
-      "resourceType": "hws.resource.type.lts.logindex"
-    },
-    {
-      "category": "Management & Governance",
-      "service": "Application Operations Management",
-      "urlPath": "aom",
-      "cloudServiceType": "hws.service.type.lts",
-      "resourceType": "hws.resource.type.lts.logstorage"
+      "hasCalculator": true,
+      "resourceTypes": [
+        {
+          "cloudServiceType": "hws.service.type.aom",
+          "resourceType": "hws.resource.type.aom.package"
+        },
+        {
+          "cloudServiceType": "hws.service.type.aom",
+          "resourceType": "hws.resource.type.aom.metrichost"
+        },
+        {
+          "cloudServiceType": "hws.service.type.aom",
+          "resourceType": "hws.resource.type.aom.metriccci"
+        },
+        {
+          "cloudServiceType": "hws.service.type.aom",
+          "resourceType": "hws.resource.type.aom.metricrealtime"
+        },
+        {
+          "cloudServiceType": "hws.service.type.aom",
+          "resourceType": "hws.resource.type.aom.metirccustom"
+        },
+        {
+          "cloudServiceType": "hws.service.type.aom",
+          "resourceType": "hws.resource.type.aom.metricquery"
+        },
+        {
+          "cloudServiceType": "hws.service.type.aom",
+          "resourceType": "hws.resource.type.aom.event"
+        },
+        {
+          "cloudServiceType": "hws.service.type.aom",
+          "resourceType": "hws.resource.type.aom.alarmruleai"
+        },
+        {
+          "cloudServiceType": "hws.service.type.lts",
+          "resourceType": "hws.resource.type.lts.logstorage"
+        },
+        {
+          "cloudServiceType": "hws.service.type.lts",
+          "resourceType": "hws.resource.type.lts.logindex"
+        },
+        {
+          "cloudServiceType": "hws.service.type.lts",
+          "resourceType": "hws.resource.type.lts.logflow"
+        },
+        {
+          "cloudServiceType": "hws.service.type.aom",
+          "resourceType": "hws.resource.type.aom.metricstoragetime"
+        },
+        {
+          "cloudServiceType": "hws.service.type.aom",
+          "resourceType": "hws.resource.type.aom.metricdumpsize"
+        },
+        {
+          "cloudServiceType": "hws.service.type.aom",
+          "resourceType": "hws.resource.type.aom.custommetriccount"
+        }
+      ]
     },
     {
       "category": "Management & Governance",
       "service": "Application Performance Management",
       "urlPath": "apm",
-      "cloudServiceType": "hws.service.type.apm",
-      "resourceType": "hws.resource.type.apm2.instance"
+      "hasCalculator": true,
+      "resourceTypes": [
+        {
+          "cloudServiceType": "hws.service.type.apm",
+          "resourceType": "hws.resource.type.apm2.instance"
+        }
+      ]
     },
     {
       "category": "Management & Governance",
       "service": "Log Tank Service",
       "urlPath": "lts",
-      "cloudServiceType": "hws.service.type.lts",
-      "resourceType": "hws.resource.type.lts.logflow"
-    },
-    {
-      "category": "Management & Governance",
-      "service": "Log Tank Service",
-      "urlPath": "lts",
-      "cloudServiceType": "hws.service.type.lts",
-      "resourceType": "hws.resource.type.lts.logindex"
-    },
-    {
-      "category": "Management & Governance",
-      "service": "Log Tank Service",
-      "urlPath": "lts",
-      "cloudServiceType": "hws.service.type.lts",
-      "resourceType": "hws.resource.type.lts.logstorage"
-    },
-    {
-      "category": "Management & Governance",
-      "service": "Log Tank Service",
-      "urlPath": "lts",
-      "cloudServiceType": "hws.service.type.lts",
-      "resourceType": "hws.resource.type.lts.logtransfer"
+      "hasCalculator": true,
+      "resourceTypes": [
+        {
+          "cloudServiceType": "hws.service.type.lts",
+          "resourceType": "hws.resource.type.lts.logstorage"
+        },
+        {
+          "cloudServiceType": "hws.service.type.lts",
+          "resourceType": "hws.resource.type.lts.logindex"
+        },
+        {
+          "cloudServiceType": "hws.service.type.lts",
+          "resourceType": "hws.resource.type.lts.logflow"
+        },
+        {
+          "cloudServiceType": "hws.service.type.lts",
+          "resourceType": "hws.resource.type.lts.logtransfer"
+        }
+      ]
     },
     {
       "category": "Management & Governance",
       "service": "Simple Message Notification",
       "urlPath": "smn",
-      "cloudServiceType": "hws.service.type.smn",
-      "resourceType": "hws.resource.type.smn"
-    },
-    {
-      "category": "Management & Governance",
-      "service": "Simple Message Notification",
-      "urlPath": "smn",
-      "cloudServiceType": "hws.service.type.smn",
-      "resourceType": "hws.resource.type.smn.global"
+      "hasCalculator": false,
+      "resourceTypes": [
+        {
+          "cloudServiceType": "hws.service.type.smn",
+          "resourceType": "hws.resource.type.smn"
+        },
+        {
+          "cloudServiceType": "hws.service.type.smn",
+          "resourceType": "hws.resource.type.smn.global"
+        }
+      ]
     },
     {
       "category": "Media Services",
       "service": "Huawei Cloud Real-Time Communication",
       "urlPath": "cloudrtc",
-      "cloudServiceType": "hws.service.type.cloudrtc",
-      "resourceType": "hws.resource.type.cloudrtc.lll"
+      "hasCalculator": true,
+      "resourceTypes": [
+        {
+          "cloudServiceType": "hws.service.type.cloudrtc",
+          "resourceType": "hws.resource.type.cloudrtc.lll"
+        }
+      ]
     },
     {
       "category": "Media Services",
       "service": "Live",
       "urlPath": "live",
-      "cloudServiceType": "hws.service.type.live",
-      "resourceType": "hws.resource.type.live.cdn"
-    },
-    {
-      "category": "Media Services",
-      "service": "Live",
-      "urlPath": "live",
-      "cloudServiceType": "hws.service.type.live",
-      "resourceType": "hws.resource.type.live.snapshot"
-    },
-    {
-      "category": "Media Services",
-      "service": "Live",
-      "urlPath": "live",
-      "cloudServiceType": "hws.service.type.mpc",
-      "resourceType": "hws.resource.type.mpc.duration"
-    },
-    {
-      "category": "Media Services",
-      "service": "Live",
-      "urlPath": "live",
-      "cloudServiceType": "hws.service.type.mpc",
-      "resourceType": "hws.resource.type.mpc.package"
-    },
-    {
-      "category": "Media Services",
-      "service": "Live",
-      "urlPath": "live",
-      "cloudServiceType": "hws.service.type.vod",
-      "resourceType": "hws.resource.type.vod.record"
+      "hasCalculator": true,
+      "resourceTypes": [
+        {
+          "cloudServiceType": "hws.service.type.live",
+          "resourceType": "hws.resource.type.live.cdn"
+        },
+        {
+          "cloudServiceType": "hws.service.type.live",
+          "resourceType": "hws.resource.type.live.snapshot"
+        },
+        {
+          "cloudServiceType": "hws.service.type.mpc",
+          "resourceType": "hws.resource.type.mpc.duration"
+        },
+        {
+          "cloudServiceType": "hws.service.type.vod",
+          "resourceType": "hws.resource.type.vod.record"
+        },
+        {
+          "cloudServiceType": "hws.service.type.mpc",
+          "resourceType": "hws.resource.type.mpc.package"
+        }
+      ]
     },
     {
       "category": "Media Services",
       "service": "Media Processing Center",
       "urlPath": "mpc",
-      "cloudServiceType": "hws.service.type.mpc",
-      "resourceType": "hws.resource.type.mpc.duration"
+      "hasCalculator": true,
+      "resourceTypes": [
+        {
+          "cloudServiceType": "hws.service.type.mpc",
+          "resourceType": "hws.resource.type.mpc.duration"
+        }
+      ]
     },
     {
       "category": "Media Services",
       "service": "Video on Demand",
       "urlPath": "vod",
-      "cloudServiceType": "hws.service.type.vod",
-      "resourceType": "hws.resource.type.vod.cdn.bandwidth"
-    },
-    {
-      "category": "Media Services",
-      "service": "Video on Demand",
-      "urlPath": "vod",
-      "cloudServiceType": "hws.service.type.vod",
-      "resourceType": "hws.resource.type.vod.cdn.flow"
-    },
-    {
-      "category": "Media Services",
-      "service": "Video on Demand",
-      "urlPath": "vod",
-      "cloudServiceType": "hws.service.type.vod",
-      "resourceType": "hws.resource.type.vod.duration"
-    },
-    {
-      "category": "Media Services",
-      "service": "Video on Demand",
-      "urlPath": "vod",
-      "cloudServiceType": "hws.service.type.vod",
-      "resourceType": "hws.resource.type.vod.record"
-    },
-    {
-      "category": "Media Services",
-      "service": "Video on Demand",
-      "urlPath": "vod",
-      "cloudServiceType": "hws.service.type.vod",
-      "resourceType": "hws.resource.type.vod.volume"
+      "hasCalculator": true,
+      "resourceTypes": [
+        {
+          "cloudServiceType": "hws.service.type.vod",
+          "resourceType": "hws.resource.type.vod.record"
+        },
+        {
+          "cloudServiceType": "hws.service.type.vod",
+          "resourceType": "hws.resource.type.vod.volume"
+        },
+        {
+          "cloudServiceType": "hws.service.type.vod",
+          "resourceType": "hws.resource.type.vod.cdn.flow"
+        },
+        {
+          "cloudServiceType": "hws.service.type.vod",
+          "resourceType": "hws.resource.type.vod.duration"
+        },
+        {
+          "cloudServiceType": "hws.service.type.vod",
+          "resourceType": "hws.resource.type.vod.cdn.bandwidth"
+        }
+      ]
     },
     {
       "category": "Middleware",
       "service": "API Gateway",
       "urlPath": "apig",
-      "cloudServiceType": "hws.service.type.apig",
-      "resourceType": "hws.resource.type.apig"
-    },
-    {
-      "category": "Middleware",
-      "service": "API Gateway",
-      "urlPath": "apig",
-      "cloudServiceType": "hws.service.type.apig",
-      "resourceType": "hws.resource.type.apig.instance"
-    },
-    {
-      "category": "Middleware",
-      "service": "API Gateway",
-      "urlPath": "apig",
-      "cloudServiceType": "hws.service.type.apig",
-      "resourceType": "hws.resource.type.apig.publicip"
-    },
-    {
-      "category": "Middleware",
-      "service": "Cloud Service Engine",
-      "urlPath": "cse",
-      "cloudServiceType": "hws.service.type.cse",
-      "resourceType": "hws.resource.type.cse.engine"
+      "hasCalculator": true,
+      "resourceTypes": [
+        {
+          "cloudServiceType": "hws.service.type.apig",
+          "resourceType": "hws.resource.type.apig.instance"
+        },
+        {
+          "cloudServiceType": "hws.service.type.apig",
+          "resourceType": "hws.resource.type.apig.publicip"
+        },
+        {
+          "cloudServiceType": "hws.service.type.apig",
+          "resourceType": "hws.resource.type.apig"
+        }
+      ]
     },
     {
       "category": "Middleware",
       "service": "Cloud Service Engine",
       "urlPath": "cse",
-      "cloudServiceType": "hws.service.type.cse",
-      "resourceType": "hws.resource.type.cse.servicecenter"
-    },
-    {
-      "category": "Middleware",
-      "service": "Cloud Service Engine",
-      "urlPath": "cse",
-      "cloudServiceType": "hws.service.type.servicestage",
-      "resourceType": "hws.resource.type.servicestage.cse"
-    },
-    {
-      "category": "Middleware",
-      "service": "DMS (for Kafka)",
-      "urlPath": "kafka",
-      "cloudServiceType": "hws.service.type.dms",
-      "resourceType": "hws.resource.type.dms.instance"
-    },
-    {
-      "category": "Middleware",
-      "service": "DMS (for Kafka)",
-      "urlPath": "kafka",
-      "cloudServiceType": "hws.service.type.dms",
-      "resourceType": "hws.resource.type.dms.platinum"
+      "hasCalculator": true,
+      "resourceTypes": [
+        {
+          "cloudServiceType": "hws.service.type.servicestage",
+          "resourceType": "hws.resource.type.servicestage.cse"
+        },
+        {
+          "cloudServiceType": "hws.service.type.cse",
+          "resourceType": "hws.resource.type.cse.engine"
+        },
+        {
+          "cloudServiceType": "hws.service.type.cse",
+          "resourceType": "hws.resource.type.cse.servicecenter"
+        }
+      ]
     },
     {
       "category": "Middleware",
       "service": "DMS (for Kafka)",
       "urlPath": "kafka",
-      "cloudServiceType": "hws.service.type.dms",
-      "resourceType": "hws.resource.type.dms.storage"
+      "hasCalculator": true,
+      "resourceTypes": [
+        {
+          "cloudServiceType": "hws.service.type.dms",
+          "resourceType": "hws.resource.type.dms.platinum"
+        },
+        {
+          "cloudServiceType": "hws.service.type.dms",
+          "resourceType": "hws.resource.type.dms.instance"
+        },
+        {
+          "cloudServiceType": "hws.service.type.dms",
+          "resourceType": "hws.resource.type.dms.storage"
+        }
+      ]
     },
     {
       "category": "Middleware",
       "service": "DMS (for RabbitMQ)",
       "urlPath": "rabbitMQ",
-      "cloudServiceType": "hws.service.type.dms",
-      "resourceType": "hws.resource.type.dms.instance"
-    },
-    {
-      "category": "Middleware",
-      "service": "DMS (for RabbitMQ)",
-      "urlPath": "rabbitMQ",
-      "cloudServiceType": "hws.service.type.dms",
-      "resourceType": "hws.resource.type.dms.platinum"
-    },
-    {
-      "category": "Middleware",
-      "service": "DMS (for RabbitMQ)",
-      "urlPath": "rabbitMQ",
-      "cloudServiceType": "hws.service.type.dms",
-      "resourceType": "hws.resource.type.dms.storage"
+      "hasCalculator": true,
+      "resourceTypes": [
+        {
+          "cloudServiceType": "hws.service.type.dms",
+          "resourceType": "hws.resource.type.dms.platinum"
+        },
+        {
+          "cloudServiceType": "hws.service.type.dms",
+          "resourceType": "hws.resource.type.dms.instance"
+        },
+        {
+          "cloudServiceType": "hws.service.type.dms",
+          "resourceType": "hws.resource.type.dms.storage"
+        }
+      ]
     },
     {
       "category": "Middleware",
       "service": "DMS (for RocketMQ)",
       "urlPath": "reliability",
-      "cloudServiceType": "hws.service.type.dms",
-      "resourceType": "hws.resource.type.dms.platinum"
-    },
-    {
-      "category": "Middleware",
-      "service": "DMS (for RocketMQ)",
-      "urlPath": "reliability",
-      "cloudServiceType": "hws.service.type.dms",
-      "resourceType": "hws.resource.type.dms.storage"
+      "hasCalculator": true,
+      "resourceTypes": [
+        {
+          "cloudServiceType": "hws.service.type.dms",
+          "resourceType": "hws.resource.type.dms.platinum"
+        },
+        {
+          "cloudServiceType": "hws.service.type.dms",
+          "resourceType": "hws.resource.type.dms.storage"
+        }
+      ]
     },
     {
       "category": "Middleware",
       "service": "EventGrid",
       "urlPath": "eg",
-      "cloudServiceType": "hws.service.type.eg",
-      "resourceType": "hws.resource.type.eventgrid"
+      "hasCalculator": true,
+      "resourceTypes": [
+        {
+          "cloudServiceType": "hws.service.type.eg",
+          "resourceType": "hws.resource.type.eventgrid"
+        }
+      ]
     },
     {
       "category": "Middleware",
       "service": "Multi-Site High Availability Service",
       "urlPath": "mas",
-      "cloudServiceType": "hws.service.type.mas",
-      "resourceType": "hws.resource.type.mas.az"
-    },
-    {
-      "category": "Middleware",
-      "service": "Multi-Site High Availability Service",
-      "urlPath": "mas",
-      "cloudServiceType": "hws.service.type.mas",
-      "resourceType": "hws.resource.type.mas.dcg"
-    },
-    {
-      "category": "Middleware",
-      "service": "Multi-Site High Availability Service",
-      "urlPath": "mas",
-      "cloudServiceType": "hws.service.type.mas",
-      "resourceType": "hws.resource.type.mas.region"
+      "hasCalculator": true,
+      "resourceTypes": [
+        {
+          "cloudServiceType": "hws.service.type.mas",
+          "resourceType": "hws.resource.type.mas.dcg"
+        },
+        {
+          "cloudServiceType": "hws.service.type.mas",
+          "resourceType": "hws.resource.type.mas.region"
+        },
+        {
+          "cloudServiceType": "hws.service.type.mas",
+          "resourceType": "hws.resource.type.mas.az"
+        }
+      ]
     },
     {
       "category": "Migration",
       "service": "Cloud Data Migration",
       "urlPath": "cdm",
-      "cloudServiceType": "hws.service.type.cdm",
-      "resourceType": "hws.resource.type.cdm.vm"
+      "hasCalculator": true,
+      "resourceTypes": [
+        {
+          "cloudServiceType": "hws.service.type.cdm",
+          "resourceType": "hws.resource.type.cdm.vm"
+        }
+      ]
     },
     {
       "category": "Networking",
       "service": "Cloud Connect",
       "urlPath": "cc",
-      "cloudServiceType": "hws.service.type.cen",
-      "resourceType": "hws.resource.type.bwp"
-    },
-    {
-      "category": "Networking",
-      "service": "Cloud Connect",
-      "urlPath": "cc",
-      "cloudServiceType": "hws.service.type.cen",
-      "resourceType": "hws.resource.type.gcbw"
-    },
-    {
-      "category": "Networking",
-      "service": "Direct Connect As A Service",
-      "urlPath": "dline",
-      "cloudServiceType": "hws.service.type.vpc",
-      "resourceType": "hws.resource.type.dc.setup"
+      "hasCalculator": true,
+      "resourceTypes": [
+        {
+          "cloudServiceType": "hws.service.type.cen",
+          "resourceType": "hws.resource.type.bwp"
+        },
+        {
+          "cloudServiceType": "hws.service.type.cen",
+          "resourceType": "hws.resource.type.gcbw"
+        }
+      ]
     },
     {
       "category": "Networking",
       "service": "Direct Connect As A Service",
       "urlPath": "dline",
-      "cloudServiceType": "hws.service.type.dcaas",
-      "resourceType": "hws.resource.type.dcaas.port"
+      "hasCalculator": true,
+      "resourceTypes": [
+        {
+          "cloudServiceType": "hws.service.type.dcaas",
+          "resourceType": "hws.resource.type.dcaas.port"
+        },
+        {
+          "cloudServiceType": "hws.service.type.vpc",
+          "resourceType": "hws.resource.type.dc.setup"
+        }
+      ]
     },
     {
       "category": "Networking",
       "service": "Elastic IP",
       "urlPath": "eip",
-      "cloudServiceType": "hws.service.type.vpc",
-      "resourceType": "hws.resource.type.bandwidth"
-    },
-    {
-      "category": "Networking",
-      "service": "Elastic IP",
-      "urlPath": "eip",
-      "cloudServiceType": "hws.service.type.vpc",
-      "resourceType": "hws.resource.type.ip"
-    },
-    {
-      "category": "Networking",
-      "service": "Elastic IP",
-      "urlPath": "eip",
-      "cloudServiceType": "hws.service.type.eip",
-      "resourceType": "hws.resource.type.publicippool"
-    },
-    {
-      "category": "Networking",
-      "service": "Elastic Load Balance",
-      "urlPath": "elb",
-      "cloudServiceType": "hws.service.type.vpc",
-      "resourceType": "hws.resource.type.bandwidth"
+      "hasCalculator": true,
+      "resourceTypes": [
+        {
+          "cloudServiceType": "hws.service.type.vpc",
+          "resourceType": "hws.resource.type.ip"
+        },
+        {
+          "cloudServiceType": "hws.service.type.vpc",
+          "resourceType": "hws.resource.type.bandwidth"
+        },
+        {
+          "cloudServiceType": "hws.service.type.eip",
+          "resourceType": "hws.resource.type.publicippool"
+        }
+      ]
     },
     {
       "category": "Networking",
       "service": "Elastic Load Balance",
       "urlPath": "elb",
-      "cloudServiceType": "hws.service.type.elb",
-      "resourceType": "hws.resource.type.elbv2"
-    },
-    {
-      "category": "Networking",
-      "service": "Elastic Load Balance",
-      "urlPath": "elb",
-      "cloudServiceType": "hws.service.type.elb",
-      "resourceType": "hws.resource.type.elbv3"
-    },
-    {
-      "category": "Networking",
-      "service": "Elastic Load Balance",
-      "urlPath": "elb",
-      "cloudServiceType": "hws.service.type.vpc",
-      "resourceType": "hws.resource.type.ip"
+      "hasCalculator": true,
+      "resourceTypes": [
+        {
+          "cloudServiceType": "hws.service.type.vpc",
+          "resourceType": "hws.resource.type.ip"
+        },
+        {
+          "cloudServiceType": "hws.service.type.elb",
+          "resourceType": "hws.resource.type.elbv2"
+        },
+        {
+          "cloudServiceType": "hws.service.type.elb",
+          "resourceType": "hws.resource.type.elbv3"
+        },
+        {
+          "cloudServiceType": "hws.service.type.vpc",
+          "resourceType": "hws.resource.type.bandwidth"
+        }
+      ]
     },
     {
       "category": "Networking",
       "service": "Enterprise Router",
       "urlPath": "er",
-      "cloudServiceType": "hws.service.type.er",
-      "resourceType": "hws.resource.type.er.attachment"
-    },
-    {
-      "category": "Networking",
-      "service": "Enterprise Router",
-      "urlPath": "er",
-      "cloudServiceType": "hws.service.type.er",
-      "resourceType": "hws.resource.type.er.traffic"
+      "hasCalculator": true,
+      "resourceTypes": [
+        {
+          "cloudServiceType": "hws.service.type.er",
+          "resourceType": "hws.resource.type.er.attachment"
+        },
+        {
+          "cloudServiceType": "hws.service.type.er",
+          "resourceType": "hws.resource.type.er.traffic"
+        }
+      ]
     },
     {
       "category": "Networking",
       "service": "Enterprise Switch",
       "urlPath": "esw",
-      "cloudServiceType": "hws.service.type.esw",
-      "resourceType": "hws.resource.type.esw.instance"
+      "hasCalculator": true,
+      "resourceTypes": [
+        {
+          "cloudServiceType": "hws.service.type.esw",
+          "resourceType": "hws.resource.type.esw.instance"
+        }
+      ]
     },
     {
       "category": "Networking",
       "service": "Global Accelerator",
       "urlPath": "ga",
-      "cloudServiceType": "hws.service.type.ga",
-      "resourceType": "hws.resource.type.accelerator"
-    },
-    {
-      "category": "Networking",
-      "service": "Global Accelerator",
-      "urlPath": "ga",
-      "cloudServiceType": "hws.service.type.ga",
-      "resourceType": "hws.resource.type.traffic"
-    },
-    {
-      "category": "Networking",
-      "service": "NAT Gateway",
-      "urlPath": "nat",
-      "cloudServiceType": "hws.service.type.natgateway",
-      "resourceType": "hws.resource.type.natgateway"
+      "hasCalculator": true,
+      "resourceTypes": [
+        {
+          "cloudServiceType": "hws.service.type.ga",
+          "resourceType": "hws.resource.type.accelerator"
+        },
+        {
+          "cloudServiceType": "hws.service.type.ga",
+          "resourceType": "hws.resource.type.traffic"
+        }
+      ]
     },
     {
       "category": "Networking",
       "service": "NAT Gateway",
       "urlPath": "nat",
-      "cloudServiceType": "hws.service.type.natgateway",
-      "resourceType": "hws.resource.type.privatenat"
+      "hasCalculator": true,
+      "resourceTypes": [
+        {
+          "cloudServiceType": "hws.service.type.natgateway",
+          "resourceType": "hws.resource.type.natgateway"
+        },
+        {
+          "cloudServiceType": "hws.service.type.natgateway",
+          "resourceType": "hws.resource.type.privatenat"
+        }
+      ]
     },
     {
       "category": "Networking",
       "service": "VPC Endpoint",
       "urlPath": "vpcep",
-      "cloudServiceType": "hws.service.type.vpcep",
-      "resourceType": "hws.resource.type.ep"
-    },
-    {
-      "category": "Networking",
-      "service": "VPC Endpoint",
-      "urlPath": "vpcep",
-      "cloudServiceType": "hws.service.type.vpc",
-      "resourceType": "hws.resource.type.vpcep"
-    },
-    {
-      "category": "Networking",
-      "service": "Virtual Private Network",
-      "urlPath": "vpn",
-      "cloudServiceType": "hws.service.type.vpc",
-      "resourceType": "hws.resource.type.bandwidth"
+      "hasCalculator": true,
+      "resourceTypes": [
+        {
+          "cloudServiceType": "hws.service.type.vpc",
+          "resourceType": "hws.resource.type.vpcep"
+        },
+        {
+          "cloudServiceType": "hws.service.type.vpcep",
+          "resourceType": "hws.resource.type.ep"
+        }
+      ]
     },
     {
       "category": "Networking",
       "service": "Virtual Private Network",
       "urlPath": "vpn",
-      "cloudServiceType": "hws.service.type.vpn",
-      "resourceType": "hws.resource.type.vpn.ipsecvpn"
-    },
-    {
-      "category": "Networking",
-      "service": "Virtual Private Network",
-      "urlPath": "vpn",
-      "cloudServiceType": "hws.service.type.vpn",
-      "resourceType": "hws.resource.type.vpnconnection"
-    },
-    {
-      "category": "Networking",
-      "service": "Virtual Private Network",
-      "urlPath": "vpn",
-      "cloudServiceType": "hws.service.type.vpc",
-      "resourceType": "hws.resource.type.vpnconnection"
-    },
-    {
-      "category": "Professional Services",
-      "service": "HUAWEI CLOUD O&M Service",
-      "urlPath": "hcoms",
-      "cloudServiceType": "hws.service.type.hcoms",
-      "resourceType": "hws.resource.type.hcoms.auxiliaryoperationsandmaintenance"
+      "hasCalculator": true,
+      "resourceTypes": [
+        {
+          "cloudServiceType": "hws.service.type.vpn",
+          "resourceType": "hws.resource.type.vpnconnection"
+        },
+        {
+          "cloudServiceType": "hws.service.type.vpc",
+          "resourceType": "hws.resource.type.vpnconnection"
+        },
+        {
+          "cloudServiceType": "hws.service.type.vpc",
+          "resourceType": "hws.resource.type.bandwidth"
+        },
+        {
+          "cloudServiceType": "hws.service.type.vpn",
+          "resourceType": "hws.resource.type.vpn.ipsecvpn"
+        }
+      ]
     },
     {
       "category": "Professional Services",
       "service": "HUAWEI CLOUD O&M Service",
       "urlPath": "hcoms",
-      "cloudServiceType": "hws.service.type.hcoms",
-      "resourceType": "hws.resource.type.hcoms.cloudassuranceescort"
-    },
-    {
-      "category": "Professional Services",
-      "service": "HUAWEI CLOUD O&M Service",
-      "urlPath": "hcoms",
-      "cloudServiceType": "hws.service.type.hcoms",
-      "resourceType": "hws.resource.type.hcoms.healthcheck"
-    },
-    {
-      "category": "Professional Services",
-      "service": "HUAWEI CLOUD O&M Service",
-      "urlPath": "hcoms",
-      "cloudServiceType": "hws.service.type.hcoms",
-      "resourceType": "hws.resource.type.hcoms.improvement"
-    },
-    {
-      "category": "Security & Compliance",
-      "service": "Anti-DDoS Service ",
-      "urlPath": "aad",
-      "cloudServiceType": "hws.service.type.cad",
-      "resourceType": "hws.resource.type.aad.basic"
+      "hasCalculator": true,
+      "resourceTypes": [
+        {
+          "cloudServiceType": "hws.service.type.hcoms",
+          "resourceType": "hws.resource.type.hcoms.healthcheck"
+        },
+        {
+          "cloudServiceType": "hws.service.type.hcoms",
+          "resourceType": "hws.resource.type.hcoms.auxiliaryoperationsandmaintenance"
+        },
+        {
+          "cloudServiceType": "hws.service.type.hcoms",
+          "resourceType": "hws.resource.type.hcoms.improvement"
+        },
+        {
+          "cloudServiceType": "hws.service.type.hcoms",
+          "resourceType": "hws.resource.type.hcoms.cloudassuranceescort"
+        }
+      ]
     },
     {
       "category": "Security & Compliance",
       "service": "Anti-DDoS Service ",
       "urlPath": "aad",
-      "cloudServiceType": "hws.service.type.cad",
-      "resourceType": "hws.resource.type.aad.protecteddomain"
-    },
-    {
-      "category": "Security & Compliance",
-      "service": "Anti-DDoS Service ",
-      "urlPath": "aad",
-      "cloudServiceType": "hws.service.type.cad",
-      "resourceType": "hws.resource.type.aad.protectedport"
-    },
-    {
-      "category": "Security & Compliance",
-      "service": "Anti-DDoS Service ",
-      "urlPath": "aad",
-      "cloudServiceType": "hws.service.type.cad",
-      "resourceType": "hws.resource.type.aad.servicebandwidth"
-    },
-    {
-      "category": "Security & Compliance",
-      "service": "Anti-DDoS Service ",
-      "urlPath": "aad",
-      "cloudServiceType": "hws.service.type.cad",
-      "resourceType": "hws.resource.type.aad.version"
-    },
-    {
-      "category": "Security & Compliance",
-      "service": "Anti-DDoS Service ",
-      "urlPath": "aad",
-      "cloudServiceType": "hws.service.type.cad",
-      "resourceType": "hws.resource.type.cadcnad.enterprise.basic"
-    },
-    {
-      "category": "Security & Compliance",
-      "service": "Anti-DDoS Service ",
-      "urlPath": "aad",
-      "cloudServiceType": "hws.service.type.cad",
-      "resourceType": "hws.resource.type.cadcnad.enterprise.ipnum"
-    },
-    {
-      "category": "Security & Compliance",
-      "service": "Anti-DDoS Service ",
-      "urlPath": "aad",
-      "cloudServiceType": "hws.service.type.cad",
-      "resourceType": "hws.resource.type.cadcnad.enterprise.servicebandwidth"
-    },
-    {
-      "category": "Security & Compliance",
-      "service": "Anti-DDoS Service ",
-      "urlPath": "aad",
-      "cloudServiceType": "hws.service.type.cad",
-      "resourceType": "hws.resource.type.cnad.ipqty"
-    },
-    {
-      "category": "Security & Compliance",
-      "service": "Anti-DDoS Service ",
-      "urlPath": "aad",
-      "cloudServiceType": "hws.service.type.cad",
-      "resourceType": "hws.resource.type.cnadpackage"
-    },
-    {
-      "category": "Security & Compliance",
-      "service": "Anti-DDoS Service ",
-      "urlPath": "aad",
-      "cloudServiceType": "hws.service.type.cad",
-      "resourceType": "hws.resource.type.cnadpackage.bandwidth"
-    },
-    {
-      "category": "Security & Compliance",
-      "service": "Anti-DDoS Service ",
-      "urlPath": "aad",
-      "cloudServiceType": "hws.service.type.cad",
-      "resourceType": "hws.resource.type.cnadpackage.ip"
-    },
-    {
-      "category": "Security & Compliance",
-      "service": "Anti-DDoS Service ",
-      "urlPath": "aad",
-      "cloudServiceType": "hws.service.type.cad",
-      "resourceType": "hws.resource.type.qps"
+      "hasCalculator": true,
+      "resourceTypes": [
+        {
+          "cloudServiceType": "hws.service.type.cad",
+          "resourceType": "hws.resource.type.aad.basic"
+        },
+        {
+          "cloudServiceType": "hws.service.type.cad",
+          "resourceType": "hws.resource.type.aad.servicebandwidth"
+        },
+        {
+          "cloudServiceType": "hws.service.type.cad",
+          "resourceType": "hws.resource.type.aad.protectedport"
+        },
+        {
+          "cloudServiceType": "hws.service.type.cad",
+          "resourceType": "hws.resource.type.aad.protecteddomain"
+        },
+        {
+          "cloudServiceType": "hws.service.type.cad",
+          "resourceType": "hws.resource.type.cnadpackage.bandwidth"
+        },
+        {
+          "cloudServiceType": "hws.service.type.cad",
+          "resourceType": "hws.resource.type.cnadpackage.ip"
+        },
+        {
+          "cloudServiceType": "hws.service.type.cad",
+          "resourceType": "hws.resource.type.cnadpackage"
+        },
+        {
+          "cloudServiceType": "hws.service.type.cad",
+          "resourceType": "hws.resource.type.aad.version"
+        },
+        {
+          "cloudServiceType": "hws.service.type.cad",
+          "resourceType": "hws.resource.type.cadcnad.enterprise.basic"
+        },
+        {
+          "cloudServiceType": "hws.service.type.cad",
+          "resourceType": "hws.resource.type.cnad.ipqty"
+        },
+        {
+          "cloudServiceType": "hws.service.type.cad",
+          "resourceType": "hws.resource.type.cadcnad.enterprise.servicebandwidth"
+        },
+        {
+          "cloudServiceType": "hws.service.type.cad",
+          "resourceType": "hws.resource.type.cadcnad.enterprise.ipnum"
+        },
+        {
+          "cloudServiceType": "hws.service.type.cad",
+          "resourceType": "hws.resource.type.qps"
+        }
+      ]
     },
     {
       "category": "Security & Compliance",
       "service": "Cloud Bastion Host",
       "urlPath": "cbh",
-      "cloudServiceType": "hws.service.type.cbh",
-      "resourceType": "hws.resource.type.cbh.ins"
+      "hasCalculator": true,
+      "resourceTypes": [
+        {
+          "cloudServiceType": "hws.service.type.cbh",
+          "resourceType": "hws.resource.type.cbh.ins"
+        }
+      ]
     },
     {
       "category": "Security & Compliance",
       "service": "Cloud Certificate & Manager",
       "urlPath": "ccm",
-      "cloudServiceType": "hws.service.type.ccm",
-      "resourceType": "hws.resource.type.pca.duration"
-    },
-    {
-      "category": "Security & Compliance",
-      "service": "Cloud Certificate & Manager",
-      "urlPath": "ccm",
-      "cloudServiceType": "hws.service.type.ccm",
-      "resourceType": "hws.resource.type.pca.quantity"
-    },
-    {
-      "category": "Security & Compliance",
-      "service": "Cloud Certificate & Manager",
-      "urlPath": "ccm",
-      "cloudServiceType": "hws.service.type.ccm",
-      "resourceType": "hws.resource.type.scm2.cert"
-    },
-    {
-      "category": "Security & Compliance",
-      "service": "Cloud Certificate & Manager",
-      "urlPath": "ccm",
-      "cloudServiceType": "hws.service.type.ccm",
-      "resourceType": "hws.resource.type.scm2.quota"
-    },
-    {
-      "category": "Security & Compliance",
-      "service": "Cloud Certificate & Manager",
-      "urlPath": "ccm",
-      "cloudServiceType": "hws.service.type.ccm",
-      "resourceType": "hws.resource.type.scm2.singledomain"
-    },
-    {
-      "category": "Security & Compliance",
-      "service": "Cloud Certificate & Manager",
-      "urlPath": "ccm",
-      "cloudServiceType": "hws.service.type.ccm",
-      "resourceType": "hws.resource.type.scm2.wildcarddomain"
+      "hasCalculator": true,
+      "resourceTypes": [
+        {
+          "cloudServiceType": "hws.service.type.ccm",
+          "resourceType": "hws.resource.type.scm2.cert"
+        },
+        {
+          "cloudServiceType": "hws.service.type.ccm",
+          "resourceType": "hws.resource.type.scm2.quota"
+        },
+        {
+          "cloudServiceType": "hws.service.type.ccm",
+          "resourceType": "hws.resource.type.scm2.singledomain"
+        },
+        {
+          "cloudServiceType": "hws.service.type.ccm",
+          "resourceType": "hws.resource.type.scm2.wildcarddomain"
+        },
+        {
+          "cloudServiceType": "hws.service.type.ccm",
+          "resourceType": "hws.resource.type.pca.quantity"
+        },
+        {
+          "cloudServiceType": "hws.service.type.ccm",
+          "resourceType": "hws.resource.type.pca.duration"
+        }
+      ]
     },
     {
       "category": "Security & Compliance",
       "service": "Cloud Firewall",
       "urlPath": "cfw",
-      "cloudServiceType": "hws.service.type.cfw",
-      "resourceType": "hws.resource.type.cfw"
-    },
-    {
-      "category": "Security & Compliance",
-      "service": "Cloud Firewall",
-      "urlPath": "cfw",
-      "cloudServiceType": "hws.service.type.cfw",
-      "resourceType": "hws.resource.type.cfw.exp.bandwidth"
-    },
-    {
-      "category": "Security & Compliance",
-      "service": "Cloud Firewall",
-      "urlPath": "cfw",
-      "cloudServiceType": "hws.service.type.cfw",
-      "resourceType": "hws.resource.type.cfw.exp.eip"
-    },
-    {
-      "category": "Security & Compliance",
-      "service": "Cloud Firewall",
-      "urlPath": "cfw",
-      "cloudServiceType": "hws.service.type.cfw",
-      "resourceType": "hws.resource.type.cfw.exp.trafficflow"
-    },
-    {
-      "category": "Security & Compliance",
-      "service": "Cloud Firewall",
-      "urlPath": "cfw",
-      "cloudServiceType": "hws.service.type.cfw",
-      "resourceType": "hws.resource.type.cfw.exp.vpc"
+      "hasCalculator": true,
+      "resourceTypes": [
+        {
+          "cloudServiceType": "hws.service.type.cfw",
+          "resourceType": "hws.resource.type.cfw"
+        },
+        {
+          "cloudServiceType": "hws.service.type.cfw",
+          "resourceType": "hws.resource.type.cfw.exp.eip"
+        },
+        {
+          "cloudServiceType": "hws.service.type.cfw",
+          "resourceType": "hws.resource.type.cfw.exp.bandwidth"
+        },
+        {
+          "cloudServiceType": "hws.service.type.cfw",
+          "resourceType": "hws.resource.type.cfw.exp.vpc"
+        },
+        {
+          "cloudServiceType": "hws.service.type.cfw",
+          "resourceType": "hws.resource.type.cfw.exp.trafficflow"
+        }
+      ]
     },
     {
       "category": "Security & Compliance",
       "service": "Data Encryption Workshop",
       "urlPath": "dew",
-      "cloudServiceType": "hws.service.type.kms",
-      "resourceType": "hws.resource.type.csms.api"
-    },
-    {
-      "category": "Security & Compliance",
-      "service": "Data Encryption Workshop",
-      "urlPath": "dew",
-      "cloudServiceType": "hws.service.type.kms",
-      "resourceType": "hws.resource.type.csms.storage"
-    },
-    {
-      "category": "Security & Compliance",
-      "service": "Data Encryption Workshop",
-      "urlPath": "dew",
-      "cloudServiceType": "hws.service.type.kms",
-      "resourceType": "hws.resource.type.hsm"
-    },
-    {
-      "category": "Security & Compliance",
-      "service": "Data Encryption Workshop",
-      "urlPath": "dew",
-      "cloudServiceType": "hws.service.type.kms",
-      "resourceType": "hws.resource.type.kms"
+      "hasCalculator": true,
+      "resourceTypes": [
+        {
+          "cloudServiceType": "hws.service.type.kms",
+          "resourceType": "hws.resource.type.kms"
+        },
+        {
+          "cloudServiceType": "hws.service.type.kms",
+          "resourceType": "hws.resource.type.csms.storage"
+        },
+        {
+          "cloudServiceType": "hws.service.type.kms",
+          "resourceType": "hws.resource.type.csms.api"
+        },
+        {
+          "cloudServiceType": "hws.service.type.kms",
+          "resourceType": "hws.resource.type.hsm"
+        }
+      ]
     },
     {
       "category": "Security & Compliance",
       "service": "Data Security Center",
       "urlPath": "dsc",
-      "cloudServiceType": "hws.service.type.sdg",
-      "resourceType": "hws.resource.type.dsc.api"
-    },
-    {
-      "category": "Security & Compliance",
-      "service": "Data Security Center",
-      "urlPath": "dsc",
-      "cloudServiceType": "hws.service.type.sdg",
-      "resourceType": "hws.resource.type.dsc.base"
-    },
-    {
-      "category": "Security & Compliance",
-      "service": "Data Security Center",
-      "urlPath": "dsc",
-      "cloudServiceType": "hws.service.type.sdg",
-      "resourceType": "hws.resource.type.dsc.db"
-    },
-    {
-      "category": "Security & Compliance",
-      "service": "Data Security Center",
-      "urlPath": "dsc",
-      "cloudServiceType": "hws.service.type.sdg",
-      "resourceType": "hws.resource.type.dsc.obs"
+      "hasCalculator": true,
+      "resourceTypes": [
+        {
+          "cloudServiceType": "hws.service.type.sdg",
+          "resourceType": "hws.resource.type.dsc.db"
+        },
+        {
+          "cloudServiceType": "hws.service.type.sdg",
+          "resourceType": "hws.resource.type.dsc.obs"
+        },
+        {
+          "cloudServiceType": "hws.service.type.sdg",
+          "resourceType": "hws.resource.type.dsc.base"
+        },
+        {
+          "cloudServiceType": "hws.service.type.sdg",
+          "resourceType": "hws.resource.type.dsc.api"
+        }
+      ]
     },
     {
       "category": "Security & Compliance",
       "service": "Database Security Service",
       "urlPath": "dbss",
-      "cloudServiceType": "hws.service.type.dbss",
-      "resourceType": "hws.resource.type.dbss"
+      "hasCalculator": true,
+      "resourceTypes": [
+        {
+          "cloudServiceType": "hws.service.type.dbss",
+          "resourceType": "hws.resource.type.dbss"
+        }
+      ]
     },
     {
       "category": "Security & Compliance",
       "service": "Edge Security",
       "urlPath": "edgesec",
-      "cloudServiceType": "hws.service.type.edgesec",
-      "resourceType": "hws.resource.type.edgesec.esa"
-    },
-    {
-      "category": "Security & Compliance",
-      "service": "Edge Security",
-      "urlPath": "edgesec",
-      "cloudServiceType": "hws.service.type.edgesec",
-      "resourceType": "hws.resource.type.esa.bandwidths"
-    },
-    {
-      "category": "Security & Compliance",
-      "service": "Edge Security",
-      "urlPath": "edgesec",
-      "cloudServiceType": "hws.service.type.edgesec",
-      "resourceType": "hws.resource.type.esa.domain.package"
-    },
-    {
-      "category": "Security & Compliance",
-      "service": "Edge Security",
-      "urlPath": "edgesec",
-      "cloudServiceType": "hws.service.type.edgesec",
-      "resourceType": "hws.resource.type.esa.dynamic.requests"
-    },
-    {
-      "category": "Security & Compliance",
-      "service": "Edge Security",
-      "urlPath": "edgesec",
-      "cloudServiceType": "hws.service.type.edgesec",
-      "resourceType": "hws.resource.type.esa.requests"
-    },
-    {
-      "category": "Security & Compliance",
-      "service": "Edge Security",
-      "urlPath": "edgesec",
-      "cloudServiceType": "hws.service.type.edgesec",
-      "resourceType": "hws.resource.type.esa.rule.package"
-    },
-    {
-      "category": "Security & Compliance",
-      "service": "Edge Security",
-      "urlPath": "edgesec",
-      "cloudServiceType": "hws.service.type.edgesec",
-      "resourceType": "hws.resource.type.esa.traffic"
+      "hasCalculator": true,
+      "resourceTypes": [
+        {
+          "cloudServiceType": "hws.service.type.edgesec",
+          "resourceType": "hws.resource.type.edgesec.esa"
+        },
+        {
+          "cloudServiceType": "hws.service.type.edgesec",
+          "resourceType": "hws.resource.type.esa.traffic"
+        },
+        {
+          "cloudServiceType": "hws.service.type.edgesec",
+          "resourceType": "hws.resource.type.esa.bandwidths"
+        },
+        {
+          "cloudServiceType": "hws.service.type.edgesec",
+          "resourceType": "hws.resource.type.esa.domain.package"
+        },
+        {
+          "cloudServiceType": "hws.service.type.edgesec",
+          "resourceType": "hws.resource.type.esa.rule.package"
+        },
+        {
+          "cloudServiceType": "hws.service.type.edgesec",
+          "resourceType": "hws.resource.type.esa.requests"
+        },
+        {
+          "cloudServiceType": "hws.service.type.edgesec",
+          "resourceType": "hws.resource.type.esa.dynamic.requests"
+        }
+      ]
     },
     {
       "category": "Security & Compliance",
       "service": "Host Security Service",
       "urlPath": "hss",
-      "cloudServiceType": "hws.service.type.hss",
-      "resourceType": "hws.resource.type.hss"
+      "hasCalculator": true,
+      "resourceTypes": [
+        {
+          "cloudServiceType": "hws.service.type.hss",
+          "resourceType": "hws.resource.type.hss"
+        }
+      ]
     },
     {
       "category": "Security & Compliance",
       "service": "SecMaster",
       "urlPath": "ssa",
-      "cloudServiceType": "hws.service.type.sa",
-      "resourceType": "hws.resource.type.csb.insight"
-    },
-    {
-      "category": "Security & Compliance",
-      "service": "SecMaster",
-      "urlPath": "ssa",
-      "cloudServiceType": "hws.service.type.sa",
-      "resourceType": "hws.resource.type.csb.largescreen"
-    },
-    {
-      "category": "Security & Compliance",
-      "service": "SecMaster",
-      "urlPath": "ssa",
-      "cloudServiceType": "hws.service.type.sa",
-      "resourceType": "hws.resource.type.csb.professional"
-    },
-    {
-      "category": "Security & Compliance",
-      "service": "SecMaster",
-      "urlPath": "ssa",
-      "cloudServiceType": "hws.service.type.sa",
-      "resourceType": "hws.resource.type.csb.soar"
-    },
-    {
-      "category": "Security & Compliance",
-      "service": "SecMaster",
-      "urlPath": "ssa",
-      "cloudServiceType": "hws.service.type.sa",
-      "resourceType": "hws.resource.type.secmaster.cspm"
-    },
-    {
-      "category": "Security & Compliance",
-      "service": "SecMaster",
-      "urlPath": "ssa",
-      "cloudServiceType": "hws.service.type.sa",
-      "resourceType": "hws.resource.type.secmaster.siem"
-    },
-    {
-      "category": "Security & Compliance",
-      "service": "SecMaster",
-      "urlPath": "ssa",
-      "cloudServiceType": "hws.service.type.sa",
-      "resourceType": "hws.resource.type.secmaster.soar"
-    },
-    {
-      "category": "Security & Compliance",
-      "service": "SecMaster",
-      "urlPath": "ssa",
-      "cloudServiceType": "hws.service.type.sa",
-      "resourceType": "hws.resource.type.secmaster.typical"
+      "hasCalculator": true,
+      "resourceTypes": [
+        {
+          "cloudServiceType": "hws.service.type.sa",
+          "resourceType": "hws.resource.type.csb.insight"
+        },
+        {
+          "cloudServiceType": "hws.service.type.sa",
+          "resourceType": "hws.resource.type.secmaster.soar"
+        },
+        {
+          "cloudServiceType": "hws.service.type.sa",
+          "resourceType": "hws.resource.type.secmaster.cspm"
+        },
+        {
+          "cloudServiceType": "hws.service.type.sa",
+          "resourceType": "hws.resource.type.secmaster.typical"
+        },
+        {
+          "cloudServiceType": "hws.service.type.sa",
+          "resourceType": "hws.resource.type.secmaster.siem"
+        },
+        {
+          "cloudServiceType": "hws.service.type.sa",
+          "resourceType": "hws.resource.type.csb.largescreen"
+        },
+        {
+          "cloudServiceType": "hws.service.type.sa",
+          "resourceType": "hws.resource.type.csb.professional"
+        },
+        {
+          "cloudServiceType": "hws.service.type.sa",
+          "resourceType": "hws.resource.type.csb.soar"
+        }
+      ]
     },
     {
       "category": "Security & Compliance",
       "service": "Web Application Firewall",
       "urlPath": "waf",
-      "cloudServiceType": "hws.service.type.waf",
-      "resourceType": "hws.resource.type.waf"
-    },
-    {
-      "category": "Security & Compliance",
-      "service": "Web Application Firewall",
-      "urlPath": "waf",
-      "cloudServiceType": "hws.service.type.waf",
-      "resourceType": "hws.resource.type.waf.bandwidth"
-    },
-    {
-      "category": "Security & Compliance",
-      "service": "Web Application Firewall",
-      "urlPath": "waf",
-      "cloudServiceType": "hws.service.type.waf",
-      "resourceType": "hws.resource.type.waf.domain"
-    },
-    {
-      "category": "Security & Compliance",
-      "service": "Web Application Firewall",
-      "urlPath": "waf",
-      "cloudServiceType": "hws.service.type.waf",
-      "resourceType": "hws.resource.type.waf.instance"
-    },
-    {
-      "category": "Security & Compliance",
-      "service": "Web Application Firewall",
-      "urlPath": "waf",
-      "cloudServiceType": "hws.service.type.waf",
-      "resourceType": "hws.resource.type.waf.payperusedomain"
-    },
-    {
-      "category": "Security & Compliance",
-      "service": "Web Application Firewall",
-      "urlPath": "waf",
-      "cloudServiceType": "hws.service.type.waf",
-      "resourceType": "hws.resource.type.waf.payperuserequest"
-    },
-    {
-      "category": "Security & Compliance",
-      "service": "Web Application Firewall",
-      "urlPath": "waf",
-      "cloudServiceType": "hws.service.type.waf",
-      "resourceType": "hws.resource.type.waf.payperuserule"
-    },
-    {
-      "category": "Security & Compliance",
-      "service": "Web Application Firewall",
-      "urlPath": "waf",
-      "cloudServiceType": "hws.service.type.waf",
-      "resourceType": "hws.resource.type.waf.request"
-    },
-    {
-      "category": "Security & Compliance",
-      "service": "Web Application Firewall",
-      "urlPath": "waf",
-      "cloudServiceType": "hws.service.type.waf",
-      "resourceType": "hws.resource.type.waf.rule"
+      "hasCalculator": true,
+      "resourceTypes": [
+        {
+          "cloudServiceType": "hws.service.type.waf",
+          "resourceType": "hws.resource.type.waf"
+        },
+        {
+          "cloudServiceType": "hws.service.type.waf",
+          "resourceType": "hws.resource.type.waf.domain"
+        },
+        {
+          "cloudServiceType": "hws.service.type.waf",
+          "resourceType": "hws.resource.type.waf.bandwidth"
+        },
+        {
+          "cloudServiceType": "hws.service.type.waf",
+          "resourceType": "hws.resource.type.waf.rule"
+        },
+        {
+          "cloudServiceType": "hws.service.type.waf",
+          "resourceType": "hws.resource.type.waf.payperusedomain"
+        },
+        {
+          "cloudServiceType": "hws.service.type.waf",
+          "resourceType": "hws.resource.type.waf.payperuserule"
+        },
+        {
+          "cloudServiceType": "hws.service.type.waf",
+          "resourceType": "hws.resource.type.waf.payperuserequest"
+        },
+        {
+          "cloudServiceType": "hws.service.type.waf",
+          "resourceType": "hws.resource.type.waf.instance"
+        },
+        {
+          "cloudServiceType": "hws.service.type.waf",
+          "resourceType": "hws.resource.type.waf.request"
+        }
+      ]
     },
     {
       "category": "Storage",
       "service": "Business Recovery Service",
       "urlPath": "sdrs",
-      "cloudServiceType": "hws.service.type.sdrs",
-      "resourceType": "hws.resource.type.hdrsinst"
-    },
-    {
-      "category": "Storage",
-      "service": "Business Recovery Service",
-      "urlPath": "sdrs",
-      "cloudServiceType": "hws.service.type.sdrs",
-      "resourceType": "hws.resource.type.sdrsinst"
-    },
-    {
-      "category": "Storage",
-      "service": "Cloud Backup and Recovery",
-      "urlPath": "cbr",
-      "cloudServiceType": "hws.service.type.cbr",
-      "resourceType": "hws.resource.type.cbr.traffic"
+      "hasCalculator": true,
+      "resourceTypes": [
+        {
+          "cloudServiceType": "hws.service.type.sdrs",
+          "resourceType": "hws.resource.type.sdrsinst"
+        },
+        {
+          "cloudServiceType": "hws.service.type.sdrs",
+          "resourceType": "hws.resource.type.hdrsinst"
+        }
+      ]
     },
     {
       "category": "Storage",
       "service": "Cloud Backup and Recovery",
       "urlPath": "cbr",
-      "cloudServiceType": "hws.service.type.cbr",
-      "resourceType": "hws.resource.type.cbr.vault"
+      "hasCalculator": true,
+      "resourceTypes": [
+        {
+          "cloudServiceType": "hws.service.type.cbr",
+          "resourceType": "hws.resource.type.cbr.vault"
+        },
+        {
+          "cloudServiceType": "hws.service.type.cbr",
+          "resourceType": "hws.resource.type.cbr.traffic"
+        }
+      ]
     },
     {
       "category": "Storage",
       "service": "Cloud Server Backup Service",
       "urlPath": "csbs",
-      "cloudServiceType": "hws.service.type.csbs",
-      "resourceType": "hws.resource.type.csbs"
-    },
-    {
-      "category": "Storage",
-      "service": "Cloud Server Backup Service",
-      "urlPath": "csbs",
-      "cloudServiceType": "hws.service.type.csbs",
-      "resourceType": "hws.resource.type.csbs.crr"
+      "hasCalculator": false,
+      "resourceTypes": [
+        {
+          "cloudServiceType": "hws.service.type.csbs",
+          "resourceType": "hws.resource.type.csbs"
+        },
+        {
+          "cloudServiceType": "hws.service.type.csbs",
+          "resourceType": "hws.resource.type.csbs.crr"
+        }
+      ]
     },
     {
       "category": "Storage",
       "service": "Data Express Service",
       "urlPath": "des",
-      "cloudServiceType": "hws.service.type.des",
-      "resourceType": "hws.resource.type.des"
+      "hasCalculator": true,
+      "resourceTypes": [
+        {
+          "cloudServiceType": "hws.service.type.des",
+          "resourceType": "hws.resource.type.des"
+        }
+      ]
     },
     {
       "category": "Storage",
       "service": "Dedicated Distributed Storage Service",
       "urlPath": "dss",
-      "cloudServiceType": "hws.service.type.dss",
-      "resourceType": "hws.resource.type.dss.pool"
+      "hasCalculator": true,
+      "resourceTypes": [
+        {
+          "cloudServiceType": "hws.service.type.dss",
+          "resourceType": "hws.resource.type.dss.pool"
+        }
+      ]
     },
     {
       "category": "Storage",
       "service": "Elastic Volume Service",
       "urlPath": "evs",
-      "cloudServiceType": "hws.service.type.ebs",
-      "resourceType": "hws.resource.type.snapshot"
-    },
-    {
-      "category": "Storage",
-      "service": "Elastic Volume Service",
-      "urlPath": "evs",
-      "cloudServiceType": "hws.service.type.ebs",
-      "resourceType": "hws.resource.type.volume"
+      "hasCalculator": true,
+      "resourceTypes": [
+        {
+          "cloudServiceType": "hws.service.type.ebs",
+          "resourceType": "hws.resource.type.volume"
+        },
+        {
+          "cloudServiceType": "hws.service.type.ebs",
+          "resourceType": "hws.resource.type.snapshot"
+        }
+      ]
     },
     {
       "category": "Storage",
       "service": "Object Storage Service",
       "urlPath": "obs",
-      "cloudServiceType": "hws.service.type.obs",
-      "resourceType": "hws.resource.type.obs"
+      "hasCalculator": true,
+      "resourceTypes": [
+        {
+          "cloudServiceType": "hws.service.type.obs",
+          "resourceType": "hws.resource.type.obs"
+        }
+      ]
     },
     {
       "category": "Storage",
       "service": "Scalable File Service",
       "urlPath": "sfs",
-      "cloudServiceType": "hws.service.type.sfs",
-      "resourceType": "hws.resource.type.sfs"
-    },
-    {
-      "category": "Storage",
-      "service": "Scalable File Service",
-      "urlPath": "sfs",
-      "cloudServiceType": "hws.service.type.sfs",
-      "resourceType": "hws.resource.type.sfs.turbo"
+      "hasCalculator": true,
+      "resourceTypes": [
+        {
+          "cloudServiceType": "hws.service.type.sfs",
+          "resourceType": "hws.resource.type.sfs"
+        },
+        {
+          "cloudServiceType": "hws.service.type.sfs",
+          "resourceType": "hws.resource.type.sfs.turbo"
+        }
+      ]
     },
     {
       "category": "Storage",
       "service": "Scalable File Service Turbo",
       "urlPath": "sfsturbo",
-      "cloudServiceType": "hws.service.type.sfsturbo",
-      "resourceType": "hws.resource.type.sfsturbo"
+      "hasCalculator": true,
+      "resourceTypes": [
+        {
+          "cloudServiceType": "hws.service.type.sfsturbo",
+          "resourceType": "hws.resource.type.sfsturbo"
+        }
+      ]
     },
     {
       "category": "Storage",
       "service": "Volume Backup Service",
       "urlPath": "vbs",
-      "cloudServiceType": "hws.service.type.vbs",
-      "resourceType": "hws.resource.type.vbs"
+      "hasCalculator": false,
+      "resourceTypes": [
+        {
+          "cloudServiceType": "hws.service.type.vbs",
+          "resourceType": "hws.resource.type.vbs"
+        }
+      ]
     },
     {
       "category": "Support",
       "service": "Support Plans",
       "urlPath": "supportplans",
-      "cloudServiceType": "hws.service.type.supportplan",
-      "resourceType": "hws.resource.type.supportplan"
+      "hasCalculator": true,
+      "resourceTypes": [
+        {
+          "cloudServiceType": "hws.service.type.supportplan",
+          "resourceType": "hws.resource.type.supportplan"
+        }
+      ]
     }
   ]
 }

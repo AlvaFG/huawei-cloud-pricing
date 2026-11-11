@@ -1,0 +1,8 @@
+{
+  "urlPath": "dlm",
+  "specs": [
+    {"cloudServiceType": "hws.service.type.dlg", "resourceType": "hws.resource.type.dayu.dlm", "spec": "dlm.professional", "description": "DLM cluster:DLM_PROFESSIONAL", "billing": ["monthly", "yearly"]},
+    {"cloudServiceType": "hws.service.type.dlg", "resourceType": "hws.resource.type.dayu.dlm", "spec": "dlm.advance", "description": "DLM cluster:DLM_ADVANCE", "billing": ["monthly", "yearly"]},
+    {"cloudServiceType": "hws.service.type.dlg", "resourceType": "hws.resource.type.dayu.dlm", "spec": "dlm.basic", "description": "DLM cluster:DLM_BASIC", "billing": ["monthly", "yearly"]}
+  ]
+}

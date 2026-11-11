@@ -1,0 +1,9 @@
+{
+  "urlPath": "dcc",
+  "specs": [
+    {"cloudServiceType": "hws.service.type.dec", "resourceType": "hws.resource.type.dec", "spec": "dec.c9_pro", "description": "type:Dedicated General computing-plus;Remark:normal;memory_mb:1540096MB;cpu_speed:3.1;cpu_cores:376CORE", "billing": ["yearly", "monthly"], "list": {"yearly": 125636.5, "monthly": 12563.65}},
+    {"cloudServiceType": "hws.service.type.dec", "resourceType": "hws.resource.type.dec", "spec": "dec.s6_pro", "description": "type:Dedicated General Computing;Remark:normal;memory_mb:718848MB;cpu_speed:2.6;cpu_cores:264CORE", "billing": ["monthly", "yearly"], "list": {"monthly": 4987, "yearly": 49870}},
+    {"cloudServiceType": "hws.service.type.dec", "resourceType": "hws.resource.type.dec", "spec": "dec.c6_pro", "description": "type:Dedicated General computing-plus;Remark:normal;memory_mb:303104MB;cpu_speed:3;cpu_cores:74CORE", "billing": ["monthly", "yearly"], "list": {"monthly": 2391, "yearly": 23910}},
+    {"cloudServiceType": "hws.service.type.dec", "resourceType": "hws.resource.type.dec", "spec": "dec.c6", "description": "type:Dedicated General computing-plus;Remark:normal;memory_mb:151552MB;cpu_speed:3;cpu_cores:74CORE", "billing": ["yearly", "monthly"], "list": {"yearly": 20775, "monthly": 2077.5}}
+  ]
+}

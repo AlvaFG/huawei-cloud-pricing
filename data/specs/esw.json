@@ -1,0 +1,8 @@
+{
+  "urlPath": "esw",
+  "specs": [
+    {"cloudServiceType": "hws.service.type.esw", "resourceType": "hws.resource.type.esw.instance", "spec": "l2cg.small.ha", "description": "bandwidth:3Gbps;pps:500000amount;connections:1amount", "billing": ["monthly", "yearly", "ondemand"], "list": {"monthly": 1200, "yearly": 12000}, "usage": [{"factor": "duration", "unit": 4, "measure": 6}]},
+    {"cloudServiceType": "hws.service.type.esw", "resourceType": "hws.resource.type.esw.instance", "spec": "l2cg.medium.ha", "description": "bandwidth:5Gbps;pps:1000000amount;connections:3amount", "billing": ["monthly", "yearly", "ondemand"], "list": {"monthly": 3600, "yearly": 36000}, "usage": [{"factor": "duration", "unit": 4, "measure": 6}]},
+    {"cloudServiceType": "hws.service.type.esw", "resourceType": "hws.resource.type.esw.instance", "spec": "l2cg.large.ha", "description": "bandwidth:10Gbps;pps:2000000amount;connections:6amount", "billing": ["monthly", "yearly", "ondemand"], "list": {"monthly": 7200, "yearly": 72000}, "usage": [{"factor": "duration", "unit": 4, "measure": 6}]}
+  ]
+}

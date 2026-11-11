@@ -1,0 +1,8 @@
+{
+  "urlPath": "codeartsagent",
+  "specs": [
+    {"cloudServiceType": "hws.service.type.devcloud", "resourceType": "hws.resource.type.codearts.snap", "spec": "codearts.agent.trial", "description": "Version:Trial Edition", "billing": ["monthly"], "list": {"monthly": 0}},
+    {"cloudServiceType": "hws.service.type.devcloud", "resourceType": "hws.resource.type.codearts.snap", "spec": "codearts.agent.professional", "description": "Version:Professional Edition", "billing": ["monthly"], "list": {"monthly": 60}},
+    {"cloudServiceType": "hws.service.type.devcloud", "resourceType": "hws.resource.type.codearts.snap", "spec": "codearts.agent.basic", "description": "Version:Basic Edition", "billing": ["monthly"], "list": {"monthly": 20}}
+  ]
+}

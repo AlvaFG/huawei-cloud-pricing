@@ -1,0 +1,7 @@
+{
+  "urlPath": "dis",
+  "specs": [
+    {"cloudServiceType": "hws.service.type.dis", "resourceType": "hws.resource.type.dis", "spec": "dis.general.partition", "description": "type:general", "billing": ["ondemand"], "usage": [{"factor": "inputunitnum", "unit": 32, "measure": 32}, {"factor": "duration", "unit": 4, "measure": 4}, {"factor": "datastoresize", "unit": 13, "measure": 13}]},
+    {"cloudServiceType": "hws.service.type.dis", "resourceType": "hws.resource.type.dis", "spec": "dis.advanced.partition", "description": "type:advanced", "billing": ["ondemand"], "usage": [{"factor": "inputunitnum", "unit": 32, "measure": 32}, {"factor": "duration", "unit": 4, "measure": 4}, {"factor": "datastoresize", "unit": 13, "measure": 13}]}
+  ]
+}

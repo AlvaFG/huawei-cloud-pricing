@@ -1,0 +1,7 @@
+{
+  "urlPath": "csbs",
+  "specs": [
+    {"cloudServiceType": "hws.service.type.csbs", "resourceType": "hws.resource.type.csbs", "spec": "csbs.appconsistency", "description": "type:Cloud server Application Consistency Backup", "billing": ["ondemand"], "usage": [{"factor": "size_vm", "unit": 10, "measure": 13}]},
+    {"cloudServiceType": "hws.service.type.csbs", "resourceType": "hws.resource.type.csbs", "spec": "csbs", "description": "", "billing": ["ondemand"], "usage": [{"factor": "size", "unit": 10, "measure": 13}, {"factor": "size_vm", "unit": 10, "measure": 13}]}
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "urlPath": "bms",
+  "specs": [
+    {"cloudServiceType": "hws.service.type.baremetal", "resourceType": "hws.resource.type.pm", "spec": "physical.io2.xlarge.win", "description": "disk:7200GB;cpu:44CORE;mem:393216MB;image:Windows", "billing": ["monthly", "yearly"], "list": {"monthly": 4861, "yearly": 48610}},
+    {"cloudServiceType": "hws.service.type.baremetal", "resourceType": "hws.resource.type.pm", "spec": "physical.io2.xlarge.linux", "description": "disk:7200GB;cpu:44CORE;mem:393216MB;image:Linux", "billing": ["monthly", "yearly"], "list": {"monthly": 2195, "yearly": 21950}},
+    {"cloudServiceType": "hws.service.type.baremetal", "resourceType": "hws.resource.type.pm", "spec": "physical.d2.large.win", "description": "disk:121200GB;cpu:24CORE;mem:196608MB;image:Windows", "billing": ["yearly", "monthly"], "list": {"yearly": 21760, "monthly": 2176}},
+    {"cloudServiceType": "hws.service.type.baremetal", "resourceType": "hws.resource.type.pm", "spec": "physical.d2.large.linux", "description": "disk:121200GB;cpu:24CORE;mem:196608MB;image:Linux", "billing": ["yearly", "monthly"], "list": {"yearly": 20850, "monthly": 2085}},
+    {"cloudServiceType": "hws.service.type.baremetal", "resourceType": "hws.resource.type.pm", "spec": "physical.s4.3xlarge.win", "description": "disk:0GB;cpu:44CORE;mem:393216MB;image:Windows", "billing": ["yearly", "monthly"], "list": {"yearly": 20450, "monthly": 2045}},
+    {"cloudServiceType": "hws.service.type.baremetal", "resourceType": "hws.resource.type.pm", "spec": "physical.s4.xlarge.win", "description": "disk:0GB;cpu:28CORE;mem:196608MB;image:Windows", "billing": ["yearly", "monthly"], "list": {"yearly": 12970, "monthly": 1297}},
+    {"cloudServiceType": "hws.service.type.baremetal", "resourceType": "hws.resource.type.pm", "spec": "physical.s4.medium.win", "description": "disk:0GB;cpu:20CORE;mem:131072MB;image:Windows", "billing": ["yearly", "monthly"], "list": {"yearly": 9960, "monthly": 996}},
+    {"cloudServiceType": "hws.service.type.baremetal", "resourceType": "hws.resource.type.pm", "spec": "physical.s4.3xlarge.linux", "description": "disk:0GB;cpu:44CORE;mem:393216MB;image:Linux", "billing": ["yearly", "monthly"], "list": {"yearly": 18770, "monthly": 1877}},
+    {"cloudServiceType": "hws.service.type.baremetal", "resourceType": "hws.resource.type.pm", "spec": "physical.s4.xlarge.linux", "description": "disk:0GB;cpu:28CORE;mem:196608MB;image:Linux", "billing": ["yearly", "monthly"], "list": {"yearly": 11900, "monthly": 1190}},
+    {"cloudServiceType": "hws.service.type.baremetal", "resourceType": "hws.resource.type.pm", "spec": "physical.s4.medium.linux", "description": "disk:0GB;cpu:20CORE;mem:131072MB;image:Linux", "billing": ["yearly", "monthly"], "list": {"yearly": 9200, "monthly": 920}}
+  ]
+}

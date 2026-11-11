@@ -1,0 +1,6 @@
+{
+  "urlPath": "vbs",
+  "specs": [
+    {"cloudServiceType": "hws.service.type.vbs", "resourceType": "hws.resource.type.vbs", "spec": "vbs", "description": "", "billing": ["ondemand"], "usage": [{"factor": "size", "unit": 10, "measure": 13}]}
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "urlPath": "dss",
+  "specs": [
+    {"cloudServiceType": "hws.service.type.dss", "resourceType": "hws.resource.type.dss.pool", "spec": "DSS.SAS", "description": "dssType:High IO", "billing": ["yearly"]},
+    {"cloudServiceType": "hws.service.type.dss", "resourceType": "hws.resource.type.dss.pool", "spec": "DSS.SSD", "description": "dssType:Ultra-high IO", "billing": ["yearly"]}
+  ]
+}

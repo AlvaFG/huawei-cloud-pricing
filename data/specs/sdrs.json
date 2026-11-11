@@ -1,0 +1,6 @@
+{
+  "urlPath": "sdrs",
+  "specs": [
+    {"cloudServiceType": "hws.service.type.sdrs", "resourceType": "hws.resource.type.hdrsinst", "spec": "sdrs_hdrs", "description": "Protected Instance:asynchronous replication", "billing": ["ondemand"], "usage": [{"factor": "duration", "unit": 4, "measure": 6}]}
+  ]
+}

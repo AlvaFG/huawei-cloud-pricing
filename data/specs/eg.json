@@ -1,0 +1,9 @@
+{
+  "urlPath": "eg",
+  "specs": [
+    {"cloudServiceType": "hws.service.type.eg", "resourceType": "hws.resource.type.eventgrid", "spec": "eg.outbound", "description": "Event Type:outbound event;Numbers:value", "billing": ["ondemand"], "usage": [{"factor": "eventnumbers", "unit": 32, "measure": 14}]},
+    {"cloudServiceType": "hws.service.type.eg", "resourceType": "hws.resource.type.eventgrid", "spec": "eg.etl", "description": "Event Type:ETL steam", "billing": ["ondemand"], "usage": [{"factor": "eventnumbers", "unit": 32, "measure": 14}]},
+    {"cloudServiceType": "hws.service.type.eg", "resourceType": "hws.resource.type.eventgrid", "spec": "eg.inbound", "description": "Event Type:inbound event;Numbers:value", "billing": ["ondemand"], "usage": [{"factor": "eventnumbers", "unit": 32, "measure": 14}]},
+    {"cloudServiceType": "hws.service.type.eg", "resourceType": "hws.resource.type.eventgrid", "spec": "eg.inner", "description": "Event Type:inner event", "billing": ["ondemand"], "usage": [{"factor": "eventnumbers", "unit": 32, "measure": 14}]}
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "urlPath": "ucs",
+  "specs": [
+    {"cloudServiceType": "hws.service.type.ucs", "resourceType": "hws.resource.type.ucs.huaweicloud", "spec": "ucs.huaweicloud.package", "description": "", "billing": ["yearly", "monthly"], "list": {"yearly": 500, "monthly": 50}},
+    {"cloudServiceType": "hws.service.type.ucs", "resourceType": "hws.resource.type.ucs.huaweicloud", "spec": "ucs.huaweicloud.ondemand", "description": "vCPU:1Core*Hour", "billing": ["ondemand"], "usage": [{"factor": "vcpu_hour", "unit": 68, "measure": 68}]},
+    {"cloudServiceType": "hws.service.type.ucs", "resourceType": "hws.resource.type.ucs.attachedclusters", "spec": "ucs.attachedclusters.package", "description": "", "billing": ["yearly", "monthly"], "list": {"yearly": 500, "monthly": 50}},
+    {"cloudServiceType": "hws.service.type.ucs", "resourceType": "hws.resource.type.ucs.attachedclusters", "spec": "ucs.attachedclusters.ondemand", "description": "vCPU:1Core*Hour", "billing": ["ondemand"], "usage": [{"factor": "vcpu_hour", "unit": 68, "measure": 68}]},
+    {"cloudServiceType": "hws.service.type.ucs", "resourceType": "hws.resource.type.ucs.onpremises", "spec": "ucs.onpremises.package", "description": "", "billing": ["yearly", "monthly"], "list": {"yearly": 1500, "monthly": 150}},
+    {"cloudServiceType": "hws.service.type.ucs", "resourceType": "hws.resource.type.ucs.onpremises", "spec": "ucs.onpremises.ondemand", "description": "vCPU:1Core*Hour", "billing": ["ondemand"], "usage": [{"factor": "vcpu_hour", "unit": 68, "measure": 68}]},
+    {"cloudServiceType": "hws.service.type.ucs", "resourceType": "hws.resource.type.ucs.multicloud", "spec": "ucs.aws.ondemand", "description": "vCPU:1Core*Hour", "billing": ["ondemand"], "usage": [{"factor": "vcpu_hour", "unit": 68, "measure": 68}]}
+  ]
+}

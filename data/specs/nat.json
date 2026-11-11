@@ -1,0 +1,13 @@
+{
+  "urlPath": "nat",
+  "specs": [
+    {"cloudServiceType": "hws.service.type.natgateway", "resourceType": "hws.resource.type.natgateway", "spec": "natgateway_large", "description": "type:large;Type:large", "billing": ["monthly", "yearly", "ondemand"], "list": {"monthly": 211.31, "yearly": 2113.1}, "usage": [{"factor": "duration", "unit": 0, "measure": 0}]},
+    {"cloudServiceType": "hws.service.type.natgateway", "resourceType": "hws.resource.type.natgateway", "spec": "natgateway_middle", "description": "type:middle;Type:middle", "billing": ["monthly", "yearly", "ondemand"], "list": {"monthly": 107.45, "yearly": 1074.5}, "usage": [{"factor": "duration", "unit": 0, "measure": 0}]},
+    {"cloudServiceType": "hws.service.type.natgateway", "resourceType": "hws.resource.type.natgateway", "spec": "natgateway_small", "description": "type:small;Type:small", "billing": ["monthly", "yearly", "ondemand"], "list": {"monthly": 57.3, "yearly": 573}, "usage": [{"factor": "duration", "unit": 0, "measure": 0}]},
+    {"cloudServiceType": "hws.service.type.natgateway", "resourceType": "hws.resource.type.natgateway", "spec": "natgateway_xlarge", "description": "type:xlarge;Type:xlarge", "billing": ["monthly", "yearly", "ondemand"], "list": {"monthly": 372.49, "yearly": 3724.9}, "usage": [{"factor": "duration", "unit": 0, "measure": 0}]},
+    {"cloudServiceType": "hws.service.type.natgateway", "resourceType": "hws.resource.type.privatenat", "spec": "privatenat_xlarge", "description": "Specification:xlarge", "billing": ["ondemand"], "usage": [{"factor": "duration", "unit": 4, "measure": 6}]},
+    {"cloudServiceType": "hws.service.type.natgateway", "resourceType": "hws.resource.type.privatenat", "spec": "privatenat_large", "description": "Specification:large", "billing": ["ondemand"], "usage": [{"factor": "duration", "unit": 4, "measure": 6}]},
+    {"cloudServiceType": "hws.service.type.natgateway", "resourceType": "hws.resource.type.privatenat", "spec": "privatenat_small", "description": "Specification:small", "billing": ["ondemand"], "usage": [{"factor": "duration", "unit": 4, "measure": 6}]},
+    {"cloudServiceType": "hws.service.type.natgateway", "resourceType": "hws.resource.type.privatenat", "spec": "privatenat_medium", "description": "Specification:medium", "billing": ["ondemand"], "usage": [{"factor": "duration", "unit": 4, "measure": 6}]}
+  ]
+}

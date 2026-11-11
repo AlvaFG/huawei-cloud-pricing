@@ -1,0 +1,6 @@
+{
+  "urlPath": "ugo",
+  "specs": [
+    {"cloudServiceType": "hws.service.type.ugo", "resourceType": "hws.resource.type.ugo.task", "spec": "ugo.task", "description": "Period:Public;id:0", "billing": ["ondemand"], "usage": [{"factor": "duration", "unit": 4, "measure": 6}]}
+  ]
+}

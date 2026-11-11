@@ -1,0 +1,6 @@
+{
+  "urlPath": "function",
+  "specs": [
+    {"cloudServiceType": "hws.service.type.functionstage", "resourceType": "hws.resource.type.functionstage", "spec": "functionstage", "description": "type:Function", "billing": ["ondemand"], "usage": [{"factor": "diskcompute", "unit": 70, "measure": 70}, {"factor": "sparecompute", "unit": 70, "measure": 70}, {"factor": "request", "unit": null, "measure": 14}, {"factor": "compute", "unit": null, "measure": 39}]}
+  ]
+}

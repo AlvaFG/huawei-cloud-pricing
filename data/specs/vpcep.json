@@ -1,0 +1,6 @@
+{
+  "urlPath": "vpcep",
+  "specs": [
+    {"cloudServiceType": "hws.service.type.vpc", "resourceType": "hws.resource.type.vpcep", "spec": "vpcep.basic", "description": "Type:basic", "billing": ["ondemand"], "usage": [{"factor": "traffic", "unit": 10, "measure": 10}, {"factor": "duration", "unit": 4, "measure": 6}]}
+  ]
+}

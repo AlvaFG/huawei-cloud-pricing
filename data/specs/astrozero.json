@@ -1,0 +1,14 @@
+{
+  "urlPath": "astrozero",
+  "specs": [
+    {"cloudServiceType": "hws.service.type.appcube", "resourceType": "hws.resource.type.appcube.developer", "spec": "appcube.developer.free", "description": "Object:10number;Application:5number", "billing": ["monthly"], "list": {"monthly": 0}},
+    {"cloudServiceType": "hws.service.type.appcube", "resourceType": "hws.resource.type.appcube.developer", "spec": "appcube.professional", "description": "Object:1000number;Application:50number", "billing": ["monthly", "yearly"], "list": {"monthly": 5.3, "yearly": 53}},
+    {"cloudServiceType": "hws.service.type.appcube", "resourceType": "hws.resource.type.appcube.developer", "spec": "appcube.standard", "description": "Object:100number;Application:100number", "billing": ["monthly", "yearly"], "list": {"monthly": 1.2, "yearly": 12}},
+    {"cloudServiceType": "hws.service.type.appcube", "resourceType": "hws.resource.type.appcube.dmax", "spec": "Canvas.Astro.Enterprise.AddOn", "description": "PageNo (HC):3amount", "billing": ["monthly", "yearly"], "list": {"monthly": 8.1, "yearly": 81}},
+    {"cloudServiceType": "hws.service.type.appcube", "resourceType": "hws.resource.type.appcube.dmax", "spec": "Canvas.Astro.Professional.AddOn", "description": "PageNo (HC):2amount", "billing": ["yearly", "monthly"], "list": {"yearly": 54, "monthly": 5.4}},
+    {"cloudServiceType": "hws.service.type.appcube", "resourceType": "hws.resource.type.appcube.dmax", "spec": "Canvas.Astro.Basic.AddOn", "description": "PageNo (HC):1amount", "billing": ["yearly", "monthly"], "list": {"yearly": 34, "monthly": 3.4}},
+    {"cloudServiceType": "hws.service.type.appcube", "resourceType": "hws.resource.type.appcube.dmax", "spec": "Canvas.Astro.Enterprise", "description": "PageNo (HC):500amount", "billing": ["yearly", "monthly"], "list": {"yearly": 40430, "monthly": 4043}},
+    {"cloudServiceType": "hws.service.type.appcube", "resourceType": "hws.resource.type.appcube.dmax", "spec": "Canvas.Astro.Professional", "description": "PageNo (HC):40amount", "billing": ["yearly", "monthly"], "list": {"yearly": 3370, "monthly": 337}},
+    {"cloudServiceType": "hws.service.type.appcube", "resourceType": "hws.resource.type.appcube.dmax", "spec": "Canvas.Astro.Basic", "description": "PageNo (HC):20amount", "billing": ["yearly", "monthly"], "list": {"yearly": 670, "monthly": 67}}
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "urlPath": "dew",
+  "specs": [
+    {"cloudServiceType": "hws.service.type.kms", "resourceType": "hws.resource.type.kms", "spec": "kms.ud.customer", "description": "type:User Define Key", "billing": ["ondemand"], "usage": [{"factor": "duration", "unit": 4, "measure": 6}]},
+    {"cloudServiceType": "hws.service.type.kms", "resourceType": "hws.resource.type.kms", "spec": "kms.ud.free", "description": "type:Free Key", "billing": ["ondemand"], "usage": [{"factor": "duration", "unit": 4, "measure": 6}]},
+    {"cloudServiceType": "hws.service.type.kms", "resourceType": "hws.resource.type.kms", "spec": "kms.ud.default", "description": "type:Default Key", "billing": ["ondemand"], "usage": [{"factor": "duration", "unit": 4, "measure": 6}]},
+    {"cloudServiceType": "hws.service.type.kms", "resourceType": "hws.resource.type.kms", "spec": "kms.api", "description": "type:API Request", "billing": ["ondemand"], "usage": [{"factor": "reqNumber", "unit": null, "measure": 14}]},
+    {"cloudServiceType": "hws.service.type.kms", "resourceType": "hws.resource.type.kms", "spec": "kms", "description": "", "billing": ["ondemand"], "usage": [{"factor": "duration", "unit": 4, "measure": 6}, {"factor": "reqNumber", "unit": null, "measure": 14}]},
+    {"cloudServiceType": "hws.service.type.kms", "resourceType": "hws.resource.type.csms.storage", "spec": "csms.secret.storage", "description": "SecretCount:SecretCount", "billing": ["ondemand"], "usage": [{"factor": "duration", "unit": 0, "measure": 6}]},
+    {"cloudServiceType": "hws.service.type.kms", "resourceType": "hws.resource.type.csms.api", "spec": "csms.secret.api", "description": "APIRequestCount:APIRequestCount", "billing": ["ondemand"], "usage": [{"factor": "requestcount", "unit": 14, "measure": 14}]},
+    {"cloudServiceType": "hws.service.type.kms", "resourceType": "hws.resource.type.hsm", "spec": "overseas.hsm.pro", "description": "type:DHSM Professional Edition", "billing": ["monthly", "yearly"], "list": {"monthly": 2500, "yearly": 25000}},
+    {"cloudServiceType": "hws.service.type.kms", "resourceType": "hws.resource.type.hsm", "spec": "overseas.utimaco.se52", "description": "type:overseas", "billing": ["monthly", "yearly"], "list": {"monthly": 2500, "yearly": 25000}},
+    {"cloudServiceType": "hws.service.type.kms", "resourceType": "hws.resource.type.hsm", "spec": "solution.hsminstall.utimaco.se52", "description": "type:setup fee", "billing": []}
+  ]
+}

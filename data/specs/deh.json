@@ -1,0 +1,16 @@
+{
+  "urlPath": "deh",
+  "specs": [
+    {"cloudServiceType": "hws.service.type.deh", "resourceType": "hws.resource.type.deh", "spec": "c7n_pro", "description": "cpu:98CORE;Series:C7n_pro;mem:401408MB", "billing": ["monthly", "yearly"], "list": {"monthly": 3394.08, "yearly": 33940.8}},
+    {"cloudServiceType": "hws.service.type.deh", "resourceType": "hws.resource.type.deh", "spec": "c7n", "description": "cpu:98CORE;Series:C7n;mem:200704MB", "billing": ["monthly", "yearly"], "list": {"monthly": 2765.07, "yearly": 27650.7}},
+    {"cloudServiceType": "hws.service.type.deh", "resourceType": "hws.resource.type.deh", "spec": "s7n", "description": "cpu:276CORE;Series:S7n;mem:933888MB", "billing": ["yearly", "monthly"], "list": {"yearly": 48756.5, "monthly": 4875.65}},
+    {"cloudServiceType": "hws.service.type.deh", "resourceType": "hws.resource.type.deh", "spec": "m7n", "description": "cpu:98CORE;Series:M7n;mem:802816MB", "billing": ["monthly", "yearly"], "list": {"monthly": 4283.43, "yearly": 42834.3}},
+    {"cloudServiceType": "hws.service.type.deh", "resourceType": "hws.resource.type.deh", "spec": "s6", "description": "cpu:264CORE;Series:S6;mem:528384MB", "billing": ["yearly", "monthly"], "list": {"yearly": 45778, "monthly": 4577.8}},
+    {"cloudServiceType": "hws.service.type.deh", "resourceType": "hws.resource.type.deh", "spec": "s6_pro", "description": "cpu:264CORE;Series:S6_pro;mem:718848MB", "billing": ["yearly", "monthly"], "list": {"yearly": 49870, "monthly": 4987}},
+    {"cloudServiceType": "hws.service.type.deh", "resourceType": "hws.resource.type.deh", "spec": "c6", "description": "cpu:74CORE;Series:C6;mem:151552MB", "billing": ["yearly", "monthly"], "list": {"yearly": 20775, "monthly": 2077.5}},
+    {"cloudServiceType": "hws.service.type.deh", "resourceType": "hws.resource.type.deh", "spec": "c6_pro", "description": "cpu:74CORE;Series:C6_pro;mem:303104MB", "billing": ["yearly", "monthly"], "list": {"yearly": 23910, "monthly": 2391}},
+    {"cloudServiceType": "hws.service.type.deh", "resourceType": "hws.resource.type.deh", "spec": "c3_pro", "description": "cpu:64CORE;Series:C3_pro;mem:262144MB", "billing": ["monthly", "yearly"], "list": {"monthly": 2066.5, "yearly": 20665}},
+    {"cloudServiceType": "hws.service.type.deh", "resourceType": "hws.resource.type.deh", "spec": "s3", "description": "cpu:144CORE;Series:S3;mem:294912MB", "billing": ["monthly", "yearly"], "list": {"monthly": 1970, "yearly": 19700}},
+    {"cloudServiceType": "hws.service.type.deh", "resourceType": "hws.resource.type.deh", "spec": "c3", "description": "cpu:64CORE;Series:C3;mem:131072MB", "billing": ["monthly", "yearly"], "list": {"monthly": 1792.3, "yearly": 17923}}
+  ]
+}

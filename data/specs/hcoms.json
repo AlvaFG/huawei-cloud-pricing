@@ -1,0 +1,14 @@
+{
+  "urlPath": "hcoms",
+  "specs": [
+    {"cloudServiceType": "hws.service.type.hcoms", "resourceType": "hws.resource.type.hcoms.healthcheck", "spec": "HealthCheck", "description": "Service Mode:Remote;Duration:1YEAR", "billing": []},
+    {"cloudServiceType": "hws.service.type.hcoms", "resourceType": "hws.resource.type.hcoms.auxiliaryoperationsandmaintenance", "spec": "On-siteOperationsandMaintenance.Premium", "description": "Service Duration:24/7", "billing": ["monthly", "yearly"], "list": {"monthly": 130000, "yearly": 1560000}},
+    {"cloudServiceType": "hws.service.type.hcoms", "resourceType": "hws.resource.type.hcoms.auxiliaryoperationsandmaintenance", "spec": "On-siteOperationsandMaintenance.Standard", "description": "Service Duration:8/5", "billing": ["yearly", "monthly"], "list": {"yearly": 360000, "monthly": 30000}},
+    {"cloudServiceType": "hws.service.type.hcoms", "resourceType": "hws.resource.type.hcoms.improvement", "spec": "ImprovementService.Premium", "description": "Duration:1YEAR;Service Version:Premium", "billing": []},
+    {"cloudServiceType": "hws.service.type.hcoms", "resourceType": "hws.resource.type.hcoms.improvement", "spec": "ImprovementService.Standard", "description": "Duration:1YEAR;Service Version:Standard", "billing": []},
+    {"cloudServiceType": "hws.service.type.hcoms", "resourceType": "hws.resource.type.hcoms.cloudassuranceescort", "spec": "CloudAssuranceEscortService.On-siteEmergencyResponse", "description": "Service Version:On-site", "billing": []},
+    {"cloudServiceType": "hws.service.type.hcoms", "resourceType": "hws.resource.type.hcoms.cloudassuranceescort", "spec": "CloudAssuranceEscortService.RemoteAssuranceSupport", "description": "Service Version:Remote", "billing": []},
+    {"cloudServiceType": "hws.service.type.hcoms", "resourceType": "hws.resource.type.hcoms.cloudassuranceescort", "spec": "CloudAssuranceEscortService.Standard", "description": "Service Version:Standard", "billing": []},
+    {"cloudServiceType": "hws.service.type.hcoms", "resourceType": "hws.resource.type.hcoms.cloudassuranceescort", "spec": "CloudAssuranceEscortService.Basic", "description": "Service Version:Basic", "billing": []}
+  ]
+}

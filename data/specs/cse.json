@@ -1,0 +1,13 @@
+{
+  "urlPath": "cse",
+  "specs": [
+    {"cloudServiceType": "hws.service.type.servicestage", "resourceType": "hws.resource.type.servicestage.cse", "spec": "servicestage.cse.trial", "description": "Edition:Trial", "billing": ["ondemand"], "usage": [{"factor": "instances", "unit": 41, "measure": 41}]},
+    {"cloudServiceType": "hws.service.type.servicestage", "resourceType": "hws.resource.type.servicestage.cse", "spec": "servicestage.cse.share", "description": "Edition:Professional", "billing": ["ondemand"], "usage": [{"factor": "instances", "unit": 41, "measure": 41}]},
+    {"cloudServiceType": "hws.service.type.cse", "resourceType": "hws.resource.type.cse.engine", "spec": "cse.s1.small", "description": "Instance:100PCS;Specification Type:cse.s1.small;Instance:100amount;Specification Type:cse.s1.small", "billing": ["ondemand"], "usage": [{"factor": "duration", "unit": 4, "measure": 6}]},
+    {"cloudServiceType": "hws.service.type.cse", "resourceType": "hws.resource.type.cse.engine", "spec": "cse.s1.medium", "description": "Instance:200PCS;Specification Type:cse.s1.medium;Instance:200amount;Specification Type:cse.s1.medium", "billing": ["ondemand"], "usage": [{"factor": "duration", "unit": 4, "measure": 6}]},
+    {"cloudServiceType": "hws.service.type.cse", "resourceType": "hws.resource.type.cse.engine", "spec": "cse.s1.large", "description": "Instance:500PCS;Specification Type:cse.s1.large;Instance:500amount;Specification Type:cse.s1.large", "billing": ["ondemand"], "usage": [{"factor": "duration", "unit": 4, "measure": 6}]},
+    {"cloudServiceType": "hws.service.type.cse", "resourceType": "hws.resource.type.cse.engine", "spec": "cse.s1.xlarge", "description": "Instance:2000PCS;Specification Type:cse.s1.xlarge;Instance:2000amount;Specification Type:cse.s1.xlarge", "billing": ["ondemand"], "usage": [{"factor": "duration", "unit": 4, "measure": 6}]},
+    {"cloudServiceType": "hws.service.type.cse", "resourceType": "hws.resource.type.cse.servicecenter", "spec": "cse.nacos.capacity", "description": "Engine Type:Nacos;Part Type:Capacity", "billing": ["ondemand"], "usage": [{"factor": "linearduration", "unit": 4, "measure": 6}]},
+    {"cloudServiceType": "hws.service.type.cse", "resourceType": "hws.resource.type.cse.servicecenter", "spec": "cse.nacos.instance", "description": "Engine Type:Nacos;Part Type:Instance", "billing": ["ondemand"], "usage": [{"factor": "duration", "unit": 4, "measure": 6}]}
+  ]
+}

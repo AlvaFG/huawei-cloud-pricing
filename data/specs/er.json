@@ -1,0 +1,7 @@
+{
+  "urlPath": "er",
+  "specs": [
+    {"cloudServiceType": "hws.service.type.er", "resourceType": "hws.resource.type.er.attachment", "spec": "er.vpc.attachment", "description": "attachment type:VPC", "billing": ["ondemand"], "usage": [{"factor": "duration", "unit": 4, "measure": 6}]},
+    {"cloudServiceType": "hws.service.type.er", "resourceType": "hws.resource.type.er.traffic", "spec": "er.vpc.attachment.traffic", "description": "traffic type:VPC", "billing": ["ondemand"], "usage": [{"factor": "downflow", "unit": 10, "measure": 13}]}
+  ]
+}

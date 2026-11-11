@@ -1,0 +1,12 @@
+{
+  "urlPath": "eip",
+  "specs": [
+    {"cloudServiceType": "hws.service.type.vpc", "resourceType": "hws.resource.type.ip", "spec": "5_bgp", "description": "EIPType:Dynamic BGP", "billing": ["yearly", "monthly", "ondemand"], "list": {"yearly": 0, "monthly": 0}, "usage": [{"factor": "duration", "unit": 4, "measure": 6}]},
+    {"cloudServiceType": "hws.service.type.vpc", "resourceType": "hws.resource.type.bandwidth", "spec": "12_bgp_1year", "description": "type:Dynamic BGP;PackageValidity:1 year", "billing": ["yearly"], "list": {"yearly": 15.24}},
+    {"cloudServiceType": "hws.service.type.vpc", "resourceType": "hws.resource.type.bandwidth", "spec": "19_bgp", "description": "Package Validity:unknown;type:19_bgp", "billing": ["yearly", "monthly", "ondemand"], "usage": [{"factor": "Duration", "unit": null, "measure": 6}]},
+    {"cloudServiceType": "hws.service.type.vpc", "resourceType": "hws.resource.type.bandwidth", "spec": "19_share", "description": "Package Validity:unknown;type:19_share", "billing": ["ondemand", "monthly", "yearly"], "usage": [{"factor": "95peak_plus", "unit": 36, "measure": 36}, {"factor": "Duration", "unit": 4, "measure": 6}], "list": {"monthly": 16.2, "yearly": 162}},
+    {"cloudServiceType": "hws.service.type.vpc", "resourceType": "hws.resource.type.bandwidth", "spec": "12_bgp_1month", "description": "type:Dynamic BGP;PackageValidity:1 month", "billing": ["monthly"], "list": {"monthly": 7066}},
+    {"cloudServiceType": "hws.service.type.vpc", "resourceType": "hws.resource.type.bandwidth", "spec": "12_bgp", "description": "Package Validity:unknown;type:12_bgp", "billing": ["ondemand"], "usage": [{"factor": "upflow", "unit": 10, "measure": 13}, {"factor": "downflow", "unit": 10, "measure": 13}]},
+    {"cloudServiceType": "hws.service.type.eip", "resourceType": "hws.resource.type.publicippool", "spec": "spec_bgp", "description": "type:Ordinary", "billing": ["monthly", "yearly"], "list": {"monthly": 5.14, "yearly": 61.71}}
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "urlPath": "apig",
+  "specs": [
+    {"cloudServiceType": "hws.service.type.apig", "resourceType": "hws.resource.type.apig.instance", "spec": "PLATINUM_X2", "description": "TPS:20000number;type:platinum_x2", "billing": ["ondemand"], "usage": [{"factor": "duration", "unit": 4, "measure": 4}]},
+    {"cloudServiceType": "hws.service.type.apig", "resourceType": "hws.resource.type.apig.instance", "spec": "PLATINUM_X3", "description": "TPS:30000number;type:platinum_x3", "billing": ["ondemand"], "usage": [{"factor": "duration", "unit": 4, "measure": 4}]},
+    {"cloudServiceType": "hws.service.type.apig", "resourceType": "hws.resource.type.apig.instance", "spec": "PLATINUM_X4", "description": "TPS:40000number;type:platinum_x4", "billing": ["ondemand"], "usage": [{"factor": "duration", "unit": 4, "measure": 4}]},
+    {"cloudServiceType": "hws.service.type.apig", "resourceType": "hws.resource.type.apig.instance", "spec": "PLATINUM_X5", "description": "TPS:50000number;type:platinum_x5", "billing": ["ondemand"], "usage": [{"factor": "duration", "unit": 4, "measure": 4}]},
+    {"cloudServiceType": "hws.service.type.apig", "resourceType": "hws.resource.type.apig.instance", "spec": "PLATINUM_X6", "description": "TPS:60000number;type:platinum_x6", "billing": ["ondemand"], "usage": [{"factor": "duration", "unit": 4, "measure": 4}]},
+    {"cloudServiceType": "hws.service.type.apig", "resourceType": "hws.resource.type.apig.instance", "spec": "PLATINUM_X7", "description": "TPS:70000number;type:platinum_x7", "billing": ["ondemand"], "usage": [{"factor": "duration", "unit": 4, "measure": 4}]},
+    {"cloudServiceType": "hws.service.type.apig", "resourceType": "hws.resource.type.apig.instance", "spec": "PLATINUM_X8", "description": "TPS:80000number;type:platinum_x8", "billing": ["ondemand"], "usage": [{"factor": "duration", "unit": 4, "measure": 4}]},
+    {"cloudServiceType": "hws.service.type.apig", "resourceType": "hws.resource.type.apig.instance", "spec": "PROFESSIONAL", "description": "TPS:4000number;type:professional", "billing": ["ondemand"], "usage": [{"factor": "duration", "unit": 4, "measure": 4}]},
+    {"cloudServiceType": "hws.service.type.apig", "resourceType": "hws.resource.type.apig.instance", "spec": "PLATINUM", "description": "TPS:10000number;type:platinum", "billing": ["ondemand"], "usage": [{"factor": "duration", "unit": 4, "measure": 4}]},
+    {"cloudServiceType": "hws.service.type.apig", "resourceType": "hws.resource.type.apig.instance", "spec": "ENTERPRISE", "description": "TPS:6000number;type:enterprise", "billing": ["ondemand"], "usage": [{"factor": "duration", "unit": 4, "measure": 4}]},
+    {"cloudServiceType": "hws.service.type.apig", "resourceType": "hws.resource.type.apig.instance", "spec": "BASIC", "description": "TPS:2000number;type:basic", "billing": ["ondemand"], "usage": [{"factor": "duration", "unit": 4, "measure": 4}]},
+    {"cloudServiceType": "hws.service.type.apig", "resourceType": "hws.resource.type.apig.publicip", "spec": "publicip", "description": "type:API Gateway public outbound access bandwidth", "billing": ["ondemand"], "usage": [{"factor": "duration", "unit": null, "measure": 4}]},
+    {"cloudServiceType": "hws.service.type.apig", "resourceType": "hws.resource.type.apig", "spec": "apig", "description": "", "billing": ["ondemand"], "usage": [{"factor": "count", "unit": null, "measure": 40}, {"factor": "download", "unit": 10, "measure": 10}]}
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "urlPath": "mas",
+  "specs": [
+    {"cloudServiceType": "hws.service.type.mas", "resourceType": "hws.resource.type.mas.dcg", "spec": "dcg.platinum", "description": "site:2number", "billing": ["monthly", "ondemand"], "list": {"monthly": 2000}, "usage": [{"factor": "duration", "unit": 4, "measure": 4}]},
+    {"cloudServiceType": "hws.service.type.mas", "resourceType": "hws.resource.type.mas.dcg", "spec": "dcg.site", "description": "site:3number", "billing": ["monthly", "ondemand"], "list": {"monthly": 2000}, "usage": [{"factor": "duration", "unit": 4, "measure": 4}]},
+    {"cloudServiceType": "hws.service.type.mas", "resourceType": "hws.resource.type.mas.region", "spec": "active", "description": "activation:1number", "billing": ["ondemand"], "usage": [{"factor": "function", "unit": null, "measure": 30}]},
+    {"cloudServiceType": "hws.service.type.mas", "resourceType": "hws.resource.type.mas.region", "spec": "node", "description": "activation:2number", "billing": ["ondemand"], "usage": [{"factor": "node", "unit": 30, "measure": 30}]},
+    {"cloudServiceType": "hws.service.type.mas", "resourceType": "hws.resource.type.mas.az", "spec": "active", "description": "activation:1number", "billing": ["ondemand"], "usage": [{"factor": "function", "unit": null, "measure": 30}]},
+    {"cloudServiceType": "hws.service.type.mas", "resourceType": "hws.resource.type.mas.az", "spec": "node", "description": "activation:2number", "billing": ["ondemand"], "usage": [{"factor": "node", "unit": 30, "measure": 30}]}
+  ]
+}

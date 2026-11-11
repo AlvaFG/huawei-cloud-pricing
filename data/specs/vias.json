@@ -1,0 +1,12 @@
+{
+  "urlPath": "vias",
+  "specs": [
+    {"cloudServiceType": "hws.service.type.campusgo", "resourceType": "hws.resource.type.campusgo.cloudcitymanagement", "spec": "professional.cloud", "description": "type:cloud  professional algorithm", "billing": ["monthly", "yearly"], "list": {"monthly": 94, "yearly": 940}},
+    {"cloudServiceType": "hws.service.type.campusgo", "resourceType": "hws.resource.type.campusgo.cloudcitymanagement", "spec": "cm.ap.cloud", "description": "type:video channel", "billing": ["monthly", "yearly"], "list": {"monthly": 94, "yearly": 940}},
+    {"cloudServiceType": "hws.service.type.campusgo", "resourceType": "hws.resource.type.campusgo.cloudcommon", "spec": "common.cloud", "description": "type:cloud common algorithm", "billing": ["monthly", "yearly"], "list": {"monthly": 54, "yearly": 540}},
+    {"cloudServiceType": "hws.service.type.campusgo", "resourceType": "hws.resource.type.campusgo.cloudcommon", "spec": "common.ap.cloud", "description": "type:video channel", "billing": ["monthly", "yearly"], "list": {"monthly": 54, "yearly": 540}},
+    {"cloudServiceType": "hws.service.type.campusgo", "resourceType": "hws.resource.type.campusgo.edgecitymanagement", "spec": "professional.edge", "description": "type:Edge professional algorithm", "billing": ["monthly", "yearly"], "list": {"monthly": 67, "yearly": 670}},
+    {"cloudServiceType": "hws.service.type.campusgo", "resourceType": "hws.resource.type.campusgo.edgecitymanagement", "spec": "cm.ap.edge", "description": "type:video channel", "billing": ["yearly", "monthly"], "list": {"yearly": 670, "monthly": 67}},
+    {"cloudServiceType": "hws.service.type.campusgo", "resourceType": "hws.resource.type.campusgo.edgecommon", "spec": "common.ap.edge", "description": "type:video channel", "billing": ["yearly", "monthly"], "list": {"yearly": 340, "monthly": 34}}
+  ]
+}

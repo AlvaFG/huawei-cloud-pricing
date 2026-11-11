@@ -1,0 +1,10 @@
+{
+  "urlPath": "cph",
+  "specs": [
+    {"cloudServiceType": "hws.service.type.cph", "resourceType": "hws.resource.type.phone", "spec": "physical.rx3-ve.32xlarge.4", "description": "CPU Core:128CORE;Model:rx3-ve;Storage:1.7TB;Memory:524288MB", "billing": ["monthly", "yearly"], "list": {"monthly": 2521, "yearly": 25210}},
+    {"cloudServiceType": "hws.service.type.cph", "resourceType": "hws.resource.type.phone", "spec": "physical.rx3.32xlarge.4", "description": "CPU Core:128CORE;Model:rx3;Storage:1.7TB;Memory:524288MB", "billing": ["monthly", "yearly"], "list": {"monthly": 2521, "yearly": 25210}},
+    {"cloudServiceType": "hws.service.type.cph", "resourceType": "hws.resource.type.phonevolume", "spec": "phone.volume.ssd", "description": "Volume Type:SSD", "billing": ["ondemand"], "usage": [{"factor": "duration", "unit": 4, "measure": 6}]},
+    {"cloudServiceType": "hws.service.type.cph", "resourceType": "hws.resource.type.phonevolume", "spec": "phone.volume.gpssd", "description": "Volume Type:GPSSD", "billing": ["ondemand"], "usage": [{"factor": "duration", "unit": 4, "measure": 6}]},
+    {"cloudServiceType": "hws.service.type.vpc", "resourceType": "hws.resource.type.bandwidth", "spec": "12_bgp", "description": "Package Validity:unknown;type:12_bgp", "billing": ["ondemand"], "usage": [{"factor": "downflow", "unit": 10, "measure": 13}, {"factor": "upflow", "unit": null, "measure": 13}]}
+  ]
+}

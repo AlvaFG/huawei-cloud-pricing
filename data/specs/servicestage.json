@@ -1,0 +1,8 @@
+{
+  "urlPath": "servicestage",
+  "specs": [
+    {"cloudServiceType": "hws.service.type.servicestage", "resourceType": "hws.resource.type.servicestage", "spec": "servicestage.instance.basic", "description": "Edition:Basic", "billing": ["ondemand"], "usage": [{"factor": "instances", "unit": 41, "measure": 41}]},
+    {"cloudServiceType": "hws.service.type.servicestage", "resourceType": "hws.resource.type.servicestage", "spec": "servicestage.instance.professional", "description": "Edition:Professional", "billing": ["ondemand"], "usage": [{"factor": "instances", "unit": 41, "measure": 41}]},
+    {"cloudServiceType": "hws.service.type.servicestage", "resourceType": "hws.resource.type.servicestage", "spec": "servicestage.instance.trial", "description": "Edition:Trial", "billing": ["ondemand"], "usage": [{"factor": "instances", "unit": 41, "measure": 41}]}
+  ]
+}

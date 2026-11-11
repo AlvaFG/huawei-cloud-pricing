@@ -1,0 +1,13 @@
+{
+  "urlPath": "reliability",
+  "specs": [
+    {"cloudServiceType": "hws.service.type.dms", "resourceType": "hws.resource.type.dms.platinum", "spec": "dms.platinum.c6.reliability.dec", "description": "Spec:RocketMQ C6 DEC", "billing": ["monthly", "yearly", "ondemand"], "list": {"monthly": 9.84, "yearly": 98.4}, "usage": [{"factor": "duration", "unit": 4, "measure": 6}]},
+    {"cloudServiceType": "hws.service.type.dms", "resourceType": "hws.resource.type.dms.platinum", "spec": "dms.rocketmq.pro.cluster.tps", "description": "Spec:RocketMQ 5.X Cluster TPS", "billing": ["monthly", "ondemand", "yearly"], "list": {"monthly": 23.565, "yearly": 235.65}, "usage": [{"factor": "duration", "unit": 4, "measure": 6}]},
+    {"cloudServiceType": "hws.service.type.dms", "resourceType": "hws.resource.type.dms.platinum", "spec": "dms.rocketmq.pro.single.tps", "description": "Spec:RocketMQ 5.X Single TPS", "billing": ["ondemand", "yearly", "monthly"], "usage": [{"factor": "duration", "unit": 4, "measure": 6}], "list": {"yearly": 1626, "monthly": 162.6}},
+    {"cloudServiceType": "hws.service.type.dms", "resourceType": "hws.resource.type.dms.platinum", "spec": "dms.platinum.c6.reliability", "description": "Spec:RocketMQ C6", "billing": ["yearly", "monthly", "ondemand"], "list": {"yearly": 192, "monthly": 19.2}, "usage": [{"factor": "duration", "unit": 4, "measure": 6}]},
+    {"cloudServiceType": "hws.service.type.dms", "resourceType": "hws.resource.type.dms.storage", "spec": "dms.physical.storage.extreme.reliability", "description": "type:Extreme SSD for RocketMQ", "billing": ["ondemand", "monthly", "yearly"], "usage": [{"factor": "duration", "unit": 4, "measure": 6}], "list": {"monthly": 44.8, "yearly": 448}},
+    {"cloudServiceType": "hws.service.type.dms", "resourceType": "hws.resource.type.dms.storage", "spec": "dms.physical.storage.general.reliability", "description": "type:General SSD for RocketMQ", "billing": ["yearly", "ondemand", "monthly"], "list": {"yearly": 125, "monthly": 12.5}, "usage": [{"factor": "duration", "unit": 4, "measure": 6}]},
+    {"cloudServiceType": "hws.service.type.dms", "resourceType": "hws.resource.type.dms.storage", "spec": "dms.physical.storage.high.v2.reliability", "description": "type:v2 high for reliability", "billing": ["yearly", "monthly", "ondemand"], "list": {"yearly": 56.4, "monthly": 5.64}, "usage": [{"factor": "duration", "unit": 4, "measure": 6}]},
+    {"cloudServiceType": "hws.service.type.dms", "resourceType": "hws.resource.type.dms.storage", "spec": "dms.physical.storage.ultra.v2.reliability", "description": "type:v2 ultra for reliability", "billing": ["yearly", "monthly", "ondemand"], "list": {"yearly": 214, "monthly": 21.4}, "usage": [{"factor": "duration", "unit": 4, "measure": 6}]}
+  ]
+}

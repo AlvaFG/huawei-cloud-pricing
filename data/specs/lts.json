@@ -1,0 +1,11 @@
+{
+  "urlPath": "lts",
+  "specs": [
+    {"cloudServiceType": "hws.service.type.lts", "resourceType": "hws.resource.type.lts.logstorage", "spec": "lts.log.storage.cold", "description": "log storage:log storage cold", "billing": ["ondemand"], "usage": [{"factor": "logcoldstoragesize", "unit": 17, "measure": 16}]},
+    {"cloudServiceType": "hws.service.type.lts", "resourceType": "hws.resource.type.lts.logstorage", "spec": "lts.log.storage", "description": "type:Log Storage Size", "billing": ["ondemand"], "usage": [{"factor": "aom.size", "unit": 17, "measure": 16}]},
+    {"cloudServiceType": "hws.service.type.lts", "resourceType": "hws.resource.type.lts.logindex", "spec": "lts.log.index", "description": "type:Log Index Traffic", "billing": ["ondemand"], "usage": [{"factor": "traffic", "unit": 10, "measure": 13}]},
+    {"cloudServiceType": "hws.service.type.lts", "resourceType": "hws.resource.type.lts.logflow", "spec": "lts.log.flow", "description": "type:Log Read/Write Traffic", "billing": ["ondemand"], "usage": [{"factor": "traffic", "unit": 10, "measure": 13}]},
+    {"cloudServiceType": "hws.service.type.lts", "resourceType": "hws.resource.type.lts.logtransfer", "spec": "lts.log.transfer.basic", "description": "log transfer:1Byte", "billing": ["ondemand"], "usage": [{"factor": "logbasictransfertraffic", "unit": 10, "measure": 13}]},
+    {"cloudServiceType": "hws.service.type.lts", "resourceType": "hws.resource.type.lts.logtransfer", "spec": "lts.log.transfer.senior", "description": "log transfer:2Byte", "billing": ["ondemand"], "usage": [{"factor": "logseniortransfertraffic", "unit": 10, "measure": 13}]}
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "urlPath": "evs",
+  "specs": [
+    {"cloudServiceType": "hws.service.type.ebs", "resourceType": "hws.resource.type.volume", "spec": "ESSD2.iops", "description": "Disk Specifications:Extreme SSD V2 for IOPS", "billing": ["ondemand"], "usage": [{"factor": "iops_duration", "unit": 75, "measure": 74}]},
+    {"cloudServiceType": "hws.service.type.ebs", "resourceType": "hws.resource.type.volume", "spec": "ESSD2.storage", "description": "Disk Specifications:Extreme SSD V2 for storage", "billing": ["ondemand", "monthly", "yearly"], "usage": [{"factor": "Duration", "unit": 4, "measure": 6}], "list": {"monthly": 0.144, "yearly": 1.44}},
+    {"cloudServiceType": "hws.service.type.ebs", "resourceType": "hws.resource.type.volume", "spec": "GPSSD_for_smb", "description": "Disk Specifications:GPSSD_for_smb", "billing": ["monthly", "yearly"]},
+    {"cloudServiceType": "hws.service.type.ebs", "resourceType": "hws.resource.type.volume", "spec": "GPSSD2.storage", "description": "Disk Specifications:General Purpose SSD V2 for storage", "billing": ["monthly", "yearly", "ondemand"], "list": {"monthly": 0.1, "yearly": 1}, "usage": [{"factor": "Duration", "unit": 4, "measure": 6}]},
+    {"cloudServiceType": "hws.service.type.ebs", "resourceType": "hws.resource.type.volume", "spec": "GPSSD2.iops", "description": "Disk Specifications:General Purpose SSD V2 for IOPS", "billing": ["ondemand"], "usage": [{"factor": "iops_duration", "unit": 75, "measure": 74}]},
+    {"cloudServiceType": "hws.service.type.ebs", "resourceType": "hws.resource.type.volume", "spec": "GPSSD2.throughput", "description": "Disk Specifications:General Purpose SSD V2 for throughput", "billing": ["ondemand"], "usage": [{"factor": "throughput_duration", "unit": 77, "measure": 76}]},
+    {"cloudServiceType": "hws.service.type.ebs", "resourceType": "hws.resource.type.volume", "spec": "ESSD", "description": "Disk Specifications:Extreme SSD", "billing": ["yearly", "monthly", "ondemand"], "list": {"yearly": 4.48, "monthly": 0.448}, "usage": [{"factor": "Duration", "unit": 4, "measure": 6}]},
+    {"cloudServiceType": "hws.service.type.ebs", "resourceType": "hws.resource.type.volume", "spec": "GPSSD", "description": "Disk Specifications:General Purpose SSD", "billing": ["yearly", "monthly", "ondemand"], "list": {"yearly": 1.25, "monthly": 0.125}, "usage": [{"factor": "Duration", "unit": 4, "measure": 6}]},
+    {"cloudServiceType": "hws.service.type.ebs", "resourceType": "hws.resource.type.volume", "spec": "SSD", "description": "Disk Specifications:Ultra-high I/O", "billing": ["monthly", "yearly", "ondemand"], "list": {"monthly": 0.214, "yearly": 2.14}, "usage": [{"factor": "Duration", "unit": 4, "measure": 6}]},
+    {"cloudServiceType": "hws.service.type.ebs", "resourceType": "hws.resource.type.volume", "spec": "SAS", "description": "Disk Specifications:High I/O", "billing": ["monthly", "yearly", "ondemand"], "list": {"monthly": 0.0564, "yearly": 0.564}, "usage": [{"factor": "Duration", "unit": 4, "measure": 6}]},
+    {"cloudServiceType": "hws.service.type.ebs", "resourceType": "hws.resource.type.snapshot", "spec": "standard", "description": "type:standard snapshot", "billing": ["ondemand"], "usage": [{"factor": "duration", "unit": 4, "measure": 6}]}
+  ]
+}

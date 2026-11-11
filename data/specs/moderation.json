@@ -1,0 +1,11 @@
+{
+  "urlPath": "moderation",
+  "specs": [
+    {"cloudServiceType": "hws.service.type.moderation", "resourceType": "hws.resource.type.moderation.api", "spec": "text_anti_spam", "description": "type:text_anti_spam", "billing": ["ondemand", "yearly"], "usage": [{"factor": "times", "unit": null, "measure": 14}], "list": {"yearly": 1044}},
+    {"cloudServiceType": "hws.service.type.moderation", "resourceType": "hws.resource.type.moderation.api", "spec": "api_image_anti_terrorism", "description": "type:api_image_anti_terrorism", "billing": ["ondemand", "yearly"], "usage": [{"factor": "times", "unit": null, "measure": 14}], "list": {"yearly": 972}},
+    {"cloudServiceType": "hws.service.type.moderation", "resourceType": "hws.resource.type.moderation.api", "spec": "api_image_politics", "description": "type:api_image_politics", "billing": ["ondemand", "yearly"], "usage": [{"factor": "times", "unit": null, "measure": 14}], "list": {"yearly": 972}},
+    {"cloudServiceType": "hws.service.type.moderation", "resourceType": "hws.resource.type.moderation.api", "spec": "api_image_antiporn", "description": "type:api_image_antiporn", "billing": ["ondemand", "yearly"], "usage": [{"factor": "times", "unit": null, "measure": 14}], "list": {"yearly": 972}},
+    {"cloudServiceType": "hws.service.type.moderation", "resourceType": "hws.resource.type.moderation.api", "spec": "image_clarity_detect", "description": "type:image_clarity_detect", "billing": ["ondemand", "yearly"], "usage": [{"factor": "times", "unit": null, "measure": 14}], "list": {"yearly": 10.5}},
+    {"cloudServiceType": "hws.service.type.moderation", "resourceType": "hws.resource.type.moderation.api", "spec": "distortion_correct", "description": "type:distortion_correct", "billing": ["ondemand", "yearly"], "usage": [{"factor": "times", "unit": null, "measure": 14}], "list": {"yearly": 10.5}}
+  ]
+}

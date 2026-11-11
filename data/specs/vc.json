@@ -1,0 +1,14 @@
+{
+  "urlPath": "vc",
+  "specs": [
+    {"cloudServiceType": "hws.service.type.cloudvc", "resourceType": "hws.resource.type.vc.vmr", "spec": "vc-vmr-500", "description": "vmrtype:500-Party Virtual Meeting Room", "billing": ["yearly"], "list": {"yearly": 660}},
+    {"cloudServiceType": "hws.service.type.cloudvc", "resourceType": "hws.resource.type.vc.vmr", "spec": "vc-vmr-300", "description": "vmrtype:300-Party Virtual Meeting Room", "billing": ["yearly"], "list": {"yearly": 200}},
+    {"cloudServiceType": "hws.service.type.cloudvc", "resourceType": "hws.resource.type.vc.vmr", "spec": "vc-vmr-25", "description": "vmrtype:25-Party Virtual Meeting Room", "billing": ["yearly"], "list": {"yearly": 100}},
+    {"cloudServiceType": "hws.service.type.cloudvc", "resourceType": "hws.resource.type.vc.vmr", "spec": "vc-vmr-100", "description": "vmrtype:100-Party Virtual Meeting Room", "billing": ["yearly"], "list": {"yearly": 140}},
+    {"cloudServiceType": "hws.service.type.cloudvc", "resourceType": "hws.resource.type.vc.vmr", "spec": "vc-vmr-200", "description": "vmrtype:200-Party Virtual Meeting Room", "billing": ["yearly"], "list": {"yearly": 180}},
+    {"cloudServiceType": "hws.service.type.cloudvc", "resourceType": "hws.resource.type.vc.record", "spec": "vc-record-100g", "description": "type:100G Record Capacity", "billing": ["yearly"], "list": {"yearly": 400}},
+    {"cloudServiceType": "hws.service.type.cloudvc", "resourceType": "hws.resource.type.vc.ideahubaccount", "spec": "vc.ideahubaccount", "description": "Type:account", "billing": ["yearly"], "list": {"yearly": 290}},
+    {"cloudServiceType": "hws.service.type.cloudvc", "resourceType": "hws.resource.type.vc.1080hardaccount30", "spec": "vc.1080hardaccount30", "description": "type:1080P hard terminal account", "billing": ["yearly"], "list": {"yearly": 290}},
+    {"cloudServiceType": "hws.service.type.cloudvc", "resourceType": "hws.resource.type.vc.thirdhardaccount", "spec": "thirdhardaccount", "description": "type:Third-party hardware access account", "billing": ["yearly"], "list": {"yearly": 290}}
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "urlPath": "sis",
+  "specs": [
+    {"cloudServiceType": "hws.service.type.sis", "resourceType": "hws.resource.type.sis.asrcount_v2", "spec": "sis.asr.general", "description": "Type:General Sentence Transaction Count", "billing": ["ondemand"], "usage": [{"factor": "count", "unit": null, "measure": 40}]},
+    {"cloudServiceType": "hws.service.type.sis", "resourceType": "hws.resource.type.sis.rasrhour", "spec": "sis.rasr.general", "description": "Type:Rasr General Hour", "billing": ["ondemand"], "usage": [{"factor": "duration", "unit": null, "measure": 6}]}
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "urlPath": "lakeformation",
+  "specs": [
+    {"cloudServiceType": "hws.service.type.lakeformation", "resourceType": "hws.resource.type.lakeformation.metadata", "spec": "lakeformation.unit.basic.metadata", "description": "Medadata:Metadata number", "billing": ["ondemand"], "usage": [{"factor": "size", "unit": null, "measure": 56}]},
+    {"cloudServiceType": "hws.service.type.lakeformation", "resourceType": "hws.resource.type.lakeformation.invoketime", "spec": "lakeformation.unit.basic.apiinvoke", "description": "Api invoke times:100amount", "billing": ["ondemand"], "usage": [{"factor": "invoketimes", "unit": null, "measure": 40}]}
+  ]
+}

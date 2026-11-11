@@ -1,0 +1,15 @@
+{
+  "urlPath": "romaconnect",
+  "specs": [
+    {"cloudServiceType": "hws.service.type.roma", "resourceType": "hws.resource.type.roma.platform", "spec": "roma.publicip.bandwidth", "description": "Type:public bandwidth", "billing": ["ondemand"], "usage": [{"factor": "publicipbandwidthduration", "unit": null, "measure": 4}]},
+    {"cloudServiceType": "hws.service.type.roma", "resourceType": "hws.resource.type.roma.platform", "spec": "roma.rcuhour.package.50000", "description": "", "billing": ["yearly", "monthly"], "list": {"yearly": 809600, "monthly": 73600}},
+    {"cloudServiceType": "hws.service.type.roma", "resourceType": "hws.resource.type.roma.platform", "spec": "roma.rcuhour.package.10000", "description": "", "billing": ["yearly", "monthly"], "list": {"yearly": 165440, "monthly": 15040}},
+    {"cloudServiceType": "hws.service.type.roma", "resourceType": "hws.resource.type.roma.platform", "spec": "roma.rcuhour.package.1000", "description": "", "billing": ["yearly", "monthly"], "list": {"yearly": 16896, "monthly": 1536}},
+    {"cloudServiceType": "hws.service.type.roma", "resourceType": "hws.resource.type.roma.platform", "spec": "roma.rcuhour.package.100", "description": "", "billing": ["monthly", "yearly"], "list": {"monthly": 157, "yearly": 1725}},
+    {"cloudServiceType": "hws.service.type.roma", "resourceType": "hws.resource.type.roma.platform", "spec": "roma.rcu", "description": "Connections:5PCS;RCU*Hour:1.0amount;ROMA Compute Unit:1.0Hour", "billing": ["ondemand"], "usage": [{"factor": "rcuhour", "unit": 41, "measure": 41}]},
+    {"cloudServiceType": "hws.service.type.roma", "resourceType": "hws.resource.type.roma.platform", "spec": "roma.pro.001", "description": "Connections:80PCS;Throughput:10Mbps", "billing": ["yearly", "monthly"], "list": {"yearly": 270000, "monthly": 27000}},
+    {"cloudServiceType": "hws.service.type.roma", "resourceType": "hws.resource.type.roma.platform", "spec": "roma.platinum.001", "description": "Connections:800PCS;Throughput:150Mbps", "billing": ["yearly", "monthly"], "list": {"yearly": 1620000, "monthly": 162000}},
+    {"cloudServiceType": "hws.service.type.roma", "resourceType": "hws.resource.type.roma.platform", "spec": "roma.enterprise.001", "description": "Connections:200PCS;Throughput:30Mbps", "billing": ["yearly", "monthly"], "list": {"yearly": 540000, "monthly": 54000}},
+    {"cloudServiceType": "hws.service.type.roma", "resourceType": "hws.resource.type.roma.platform", "spec": "roma.basic.001", "description": "Connections:25PCS;Throughput:2Mbps", "billing": ["yearly", "monthly", "ondemand"], "list": {"yearly": 108000, "monthly": 10800}, "usage": [{"factor": "duration", "unit": 4, "measure": 4}]}
+  ]
+}

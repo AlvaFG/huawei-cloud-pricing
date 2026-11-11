@@ -1,0 +1,13 @@
+{
+  "urlPath": "dgcCdm",
+  "specs": [
+    {"cloudServiceType": "hws.service.type.dlg", "resourceType": "hws.resource.type.dayu.cdm", "spec": "dayu.cdm.xlarge.pkg.dec", "description": "type:CDM_XLARGE_DEC", "billing": ["yearly", "monthly"], "list": {"yearly": 2860, "monthly": 286}},
+    {"cloudServiceType": "hws.service.type.dlg", "resourceType": "hws.resource.type.dayu.cdm", "spec": "dayu.cdm.4xlarge.pkg", "description": "type:CDM_4XLARGE", "billing": ["yearly", "monthly"], "list": {"yearly": 23720, "monthly": 2372}},
+    {"cloudServiceType": "hws.service.type.dlg", "resourceType": "hws.resource.type.dayu.cdm", "spec": "dayu.cdm.xlarge.pkg", "description": "type:CDM_XLARGE", "billing": ["yearly", "monthly"], "list": {"yearly": 5730, "monthly": 573}},
+    {"cloudServiceType": "hws.service.type.dlg", "resourceType": "hws.resource.type.dayu.cdm", "spec": "dayu.cdm.large.pkg", "description": "type:CDM_LARGE", "billing": ["yearly", "monthly"], "list": {"yearly": 3050, "monthly": 305}},
+    {"cloudServiceType": "hws.service.type.dlg", "resourceType": "hws.resource.type.dayu.cdm", "spec": "dayu.cdm.large", "description": "CDM Instance:CDM_LARGE", "billing": ["ondemand"], "usage": [{"factor": "duration", "unit": 4, "measure": 6}]},
+    {"cloudServiceType": "hws.service.type.dlg", "resourceType": "hws.resource.type.dayu.cdm", "spec": "dayu.cdm.xlarge", "description": "CDM Instance:CDM_XLARGE", "billing": ["ondemand"], "usage": [{"factor": "duration", "unit": 4, "measure": 6}]},
+    {"cloudServiceType": "hws.service.type.dlg", "resourceType": "hws.resource.type.dayu.cdm", "spec": "dayu.cdm.4xlarge", "description": "CDM Instance:CDM Instance", "billing": ["ondemand"], "usage": [{"factor": "duration", "unit": 4, "measure": 6}]},
+    {"cloudServiceType": "hws.service.type.dlg", "resourceType": "hws.resource.type.dayu.cdm", "spec": "dayu.cdm.offline", "description": "CDM Instance:CDM_OFFLINE", "billing": ["ondemand"], "usage": [{"factor": "duration", "unit": 4, "measure": 6}]}
+  ]
+}

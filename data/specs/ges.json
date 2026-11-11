@@ -1,0 +1,11 @@
+{
+  "urlPath": "ges",
+  "specs": [
+    {"cloudServiceType": "hws.service.type.ges", "resourceType": "hws.resource.type.ges", "spec": "ges.10thousand.graph", "description": "Graph Size:10 thousand edges", "billing": ["ondemand"], "usage": [{"factor": "duration", "unit": 4, "measure": 6}, {"factor": "count", "unit": 41, "measure": 41}]},
+    {"cloudServiceType": "hws.service.type.ges", "resourceType": "hws.resource.type.ges", "spec": "ges.million.graph", "description": "Graph Size:million edges", "billing": ["ondemand", "yearly", "monthly"], "usage": [{"factor": "duration", "unit": 4, "measure": 6}, {"factor": "count", "unit": 41, "measure": 41}], "list": {"yearly": 6000, "monthly": 600}},
+    {"cloudServiceType": "hws.service.type.ges", "resourceType": "hws.resource.type.ges", "spec": "ges.100million.graph", "description": "Graph Size:100 million edges", "billing": ["ondemand", "yearly", "monthly"], "usage": [{"factor": "duration", "unit": 4, "measure": 6}, {"factor": "count", "unit": 41, "measure": 41}], "list": {"yearly": 28000, "monthly": 2800}},
+    {"cloudServiceType": "hws.service.type.ges", "resourceType": "hws.resource.type.ges", "spec": "ges.10billion.graph", "description": "Graph Size:10billion edges", "billing": ["ondemand", "yearly", "monthly"], "usage": [{"factor": "duration", "unit": 4, "measure": 6}, {"factor": "count", "unit": 41, "measure": 41}], "list": {"yearly": 320000, "monthly": 32000}},
+    {"cloudServiceType": "hws.service.type.ges", "resourceType": "hws.resource.type.ges", "spec": "ges.billion.graph", "description": "Graph Size:billion edges", "billing": ["ondemand", "yearly", "monthly"], "usage": [{"factor": "duration", "unit": 4, "measure": 6}, {"factor": "count", "unit": 41, "measure": 41}], "list": {"yearly": 56000, "monthly": 5600}},
+    {"cloudServiceType": "hws.service.type.ges", "resourceType": "hws.resource.type.ges", "spec": "ges.10million.graph", "description": "Graph Size:10 million edges", "billing": ["ondemand", "yearly", "monthly"], "usage": [{"factor": "duration", "unit": 4, "measure": 6}, {"factor": "count", "unit": 41, "measure": 41}], "list": {"yearly": 14000, "monthly": 1400}}
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "urlPath": "swr",
+  "specs": [
+    {"cloudServiceType": "hws.service.type.swr", "resourceType": "hws.resource.type.swr.containerops", "spec": "containerops.basic.package.tiny", "description": "containerOps Package Size:100times", "billing": ["monthly"], "list": {"monthly": 125}},
+    {"cloudServiceType": "hws.service.type.swr", "resourceType": "hws.resource.type.swr.containerops", "spec": "containerops.trial", "description": "version:trial", "billing": ["ondemand"], "usage": [{"factor": "api.calls", "unit": 40, "measure": 40}, {"factor": "pipeline.calls", "unit": 40, "measure": 40}]},
+    {"cloudServiceType": "hws.service.type.swr", "resourceType": "hws.resource.type.swr.containerops", "spec": "containerops.basic", "description": "version:basic", "billing": ["ondemand"], "usage": [{"factor": "api.calls", "unit": 40, "measure": 40}, {"factor": "pipeline.calls", "unit": 40, "measure": 40}]},
+    {"cloudServiceType": "hws.service.type.swr", "resourceType": "hws.resource.type.swr.containerops", "spec": "containerops.professional", "description": "version:professional", "billing": ["ondemand"], "usage": [{"factor": "api.calls", "unit": 40, "measure": 40}, {"factor": "pipeline.calls", "unit": 40, "measure": 40}]},
+    {"cloudServiceType": "hws.service.type.swr", "resourceType": "hws.resource.type.swr.containerops", "spec": "containerops.platinum", "description": "version:platinum", "billing": ["ondemand"], "usage": [{"factor": "api.calls", "unit": 40, "measure": 40}, {"factor": "pipeline.calls", "unit": 40, "measure": 40}]},
+    {"cloudServiceType": "hws.service.type.swr", "resourceType": "hws.resource.type.swr.containerops", "spec": "containerops.basic.package.samll", "description": "containerOps Package Size:500times", "billing": ["monthly"], "list": {"monthly": 625}},
+    {"cloudServiceType": "hws.service.type.swr", "resourceType": "hws.resource.type.swr.containerops", "spec": "containerops.basic.package.medium", "description": "containerOps Package Size:1000times", "billing": ["monthly"], "list": {"monthly": 1000}},
+    {"cloudServiceType": "hws.service.type.swr", "resourceType": "hws.resource.type.swr.containerops", "spec": "containerops.basic.package.large", "description": "containerOps Package Size:3000times", "billing": ["monthly"], "list": {"monthly": 2000}},
+    {"cloudServiceType": "hws.service.type.swr", "resourceType": "hws.resource.type.swr.containerops", "spec": "containerops.professional.package.samll", "description": "containerOps Package Size:500times", "billing": ["monthly"], "list": {"monthly": 1875}},
+    {"cloudServiceType": "hws.service.type.swr", "resourceType": "hws.resource.type.swr.containerops", "spec": "containerops.professional.package.medium", "description": "containerOps Package Size:1000times", "billing": ["monthly"], "list": {"monthly": 3000}},
+    {"cloudServiceType": "hws.service.type.swr", "resourceType": "hws.resource.type.swr.containerops", "spec": "containerops.professional.package.large", "description": "containerOps Package Size:3000times", "billing": ["monthly"], "list": {"monthly": 6000}},
+    {"cloudServiceType": "hws.service.type.swr", "resourceType": "hws.resource.type.swr.containerops", "spec": "containerops.platinum.package.samll", "description": "containerOps Package Size:500times", "billing": ["monthly"], "list": {"monthly": 4500}},
+    {"cloudServiceType": "hws.service.type.swr", "resourceType": "hws.resource.type.swr.containerops", "spec": "containerops.platinum.package.medium", "description": "containerOps Package Size:1000times", "billing": ["monthly"], "list": {"monthly": 7000}},
+    {"cloudServiceType": "hws.service.type.swr", "resourceType": "hws.resource.type.swr.containerops", "spec": "containerops.platinum.package.large", "description": "containerOps Package Size:3000times", "billing": ["monthly"], "list": {"monthly": 14000}}
+  ]
+}

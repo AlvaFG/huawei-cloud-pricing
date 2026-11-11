@@ -1,0 +1,11 @@
+{
+  "urlPath": "cdm",
+  "specs": [
+    {"cloudServiceType": "hws.service.type.cdm", "resourceType": "hws.resource.type.cdm.vm", "spec": "cdm.4xlarge", "description": "CDM Instance Type:CDM Instance", "billing": ["ondemand"], "usage": [{"factor": "duration", "unit": 4, "measure": 6}]},
+    {"cloudServiceType": "hws.service.type.cdm", "resourceType": "hws.resource.type.cdm.vm", "spec": "cdm.small", "description": "CDM Instance Type:CDM_SMALL", "billing": ["ondemand"], "usage": [{"factor": "duration", "unit": 4, "measure": 6}]},
+    {"cloudServiceType": "hws.service.type.cdm", "resourceType": "hws.resource.type.cdm.vm", "spec": "cdm.medium", "description": "CDM Instance Type:CDM_MEDIUM", "billing": ["ondemand"], "usage": [{"factor": "duration", "unit": 4, "measure": 6}]},
+    {"cloudServiceType": "hws.service.type.cdm", "resourceType": "hws.resource.type.cdm.vm", "spec": "cdm.large", "description": "CDM Instance Type:CDM_LARGE", "billing": ["ondemand"], "usage": [{"factor": "duration", "unit": 4, "measure": 6}]},
+    {"cloudServiceType": "hws.service.type.cdm", "resourceType": "hws.resource.type.cdm.vm", "spec": "cdm.offline", "description": "CDM Instance Type:CDM_OFFLINE", "billing": ["ondemand"], "usage": [{"factor": "duration", "unit": 4, "measure": 6}]},
+    {"cloudServiceType": "hws.service.type.cdm", "resourceType": "hws.resource.type.cdm.vm", "spec": "cdm.xlarge", "description": "CDM Instance Type:CDM_XLARGE", "billing": ["ondemand"], "usage": [{"factor": "duration", "unit": 4, "measure": 6}]}
+  ]
+}

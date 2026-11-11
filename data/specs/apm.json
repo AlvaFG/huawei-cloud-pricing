@@ -1,0 +1,13 @@
+{
+  "urlPath": "apm",
+  "specs": [
+    {"cloudServiceType": "hws.service.type.apm", "resourceType": "hws.resource.type.apm2.instance", "spec": "apm.pkg.enterprise.v2.150", "description": "purchase number:99amount", "billing": ["yearly"], "list": {"yearly": 140}},
+    {"cloudServiceType": "hws.service.type.apm", "resourceType": "hws.resource.type.apm2.instance", "spec": "apm.pkg.enterprise.v2.1200", "description": "", "billing": ["yearly"], "list": {"yearly": 840}},
+    {"cloudServiceType": "hws.service.type.apm", "resourceType": "hws.resource.type.apm2.instance", "spec": "apm.pkg.enterprise.v2.9600", "description": "", "billing": ["yearly"], "list": {"yearly": 5040}},
+    {"cloudServiceType": "hws.service.type.apm", "resourceType": "hws.resource.type.apm2.instance", "spec": "apm.pkg.enterprise.v2.36500", "description": "", "billing": ["yearly"], "list": {"yearly": 13368}},
+    {"cloudServiceType": "hws.service.type.apm", "resourceType": "hws.resource.type.apm2.instance", "spec": "apm.pkg.enterprise.v2.109500", "description": "", "billing": ["yearly"], "list": {"yearly": 34800}},
+    {"cloudServiceType": "hws.service.type.apm", "resourceType": "hws.resource.type.apm2.instance", "spec": "apm.pkg.enterprise.v2.182500", "description": "purchase number:99amount", "billing": ["yearly"], "list": {"yearly": 47742}},
+    {"cloudServiceType": "hws.service.type.apm", "resourceType": "hws.resource.type.apm2.instance", "spec": "apm2.instance.normal", "description": "APM2 Instance Type:the pricing unit of APM2", "billing": ["ondemand"], "usage": [{"factor": "apm2.instance", "unit": 30, "measure": 30}]},
+    {"cloudServiceType": "hws.service.type.apm", "resourceType": "hws.resource.type.apm2.instance", "spec": "apm2.instance.trial", "description": "APM2 Instance Type:the trial instance of APM2", "billing": ["ondemand"], "usage": [{"factor": "apm2.instance", "unit": 30, "measure": 30}]}
+  ]
+}

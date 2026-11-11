@@ -1,0 +1,16 @@
+{
+  "urlPath": "cfw",
+  "specs": [
+    {"cloudServiceType": "hws.service.type.cfw", "resourceType": "hws.resource.type.cfw", "spec": "cfw.professional", "description": "version:professional", "billing": ["ondemand", "yearly", "monthly"], "usage": [{"factor": "usage_duration", "unit": 4, "measure": 6}], "list": {"yearly": 14500, "monthly": 1450}},
+    {"cloudServiceType": "hws.service.type.cfw", "resourceType": "hws.resource.type.cfw", "spec": "cfw.standard", "description": "version:standard", "billing": ["yearly", "monthly"], "list": {"yearly": 4200, "monthly": 420}},
+    {"cloudServiceType": "hws.service.type.cfw", "resourceType": "hws.resource.type.cfw.exp.eip", "spec": "cfw.expack.eip.platinum", "description": "eip_type:eip_platinum", "billing": ["yearly", "monthly"], "list": {"yearly": 70, "monthly": 7}},
+    {"cloudServiceType": "hws.service.type.cfw", "resourceType": "hws.resource.type.cfw.exp.eip", "spec": "cfw.expack.eip.professional", "description": "eip_type:eip_professional", "billing": ["yearly", "monthly"], "list": {"yearly": 70, "monthly": 7}},
+    {"cloudServiceType": "hws.service.type.cfw", "resourceType": "hws.resource.type.cfw.exp.eip", "spec": "cfw.expack.eip.standard", "description": "eip_type:eip_standard", "billing": ["yearly", "monthly"], "list": {"yearly": 70, "monthly": 7}},
+    {"cloudServiceType": "hws.service.type.cfw", "resourceType": "hws.resource.type.cfw.exp.bandwidth", "spec": "cfw.expack.bandwidth.standard", "description": "bandwidth_type:bandwidth_standard", "billing": ["yearly", "monthly"], "list": {"yearly": 70, "monthly": 7}},
+    {"cloudServiceType": "hws.service.type.cfw", "resourceType": "hws.resource.type.cfw.exp.bandwidth", "spec": "cfw.expack.bandwidth.professional", "description": "bandwidth_type:bandwidth_professional", "billing": ["yearly", "monthly"], "list": {"yearly": 70, "monthly": 7}},
+    {"cloudServiceType": "hws.service.type.cfw", "resourceType": "hws.resource.type.cfw.exp.vpc", "spec": "cfw.expack.vpc.standard", "description": "vpc_type:vpc_standard", "billing": ["yearly", "monthly"], "list": {"yearly": 3000, "monthly": 3000}},
+    {"cloudServiceType": "hws.service.type.cfw", "resourceType": "hws.resource.type.cfw.exp.vpc", "spec": "cfw.expack.vpc.platinum", "description": "vpc_type:vpc_platinum", "billing": ["yearly", "monthly"], "list": {"yearly": 3000, "monthly": 300}},
+    {"cloudServiceType": "hws.service.type.cfw", "resourceType": "hws.resource.type.cfw.exp.vpc", "spec": "cfw.expack.vpc.professional", "description": "vpc_type:vpc_professional", "billing": ["yearly", "monthly"], "list": {"yearly": 3000, "monthly": 300}},
+    {"cloudServiceType": "hws.service.type.cfw", "resourceType": "hws.resource.type.cfw.exp.trafficflow", "spec": "cfw.expack.trafficflow.professional", "description": "version:general", "billing": ["ondemand"], "usage": [{"factor": "megabyte", "unit": 10, "measure": 11}]}
+  ]
+}

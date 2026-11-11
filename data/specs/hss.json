@@ -1,0 +1,10 @@
+{
+  "urlPath": "hss",
+  "specs": [
+    {"cloudServiceType": "hws.service.type.hss", "resourceType": "hws.resource.type.hss", "spec": "hss.version.wtp", "description": "hss.version.type:Web Tamper Protection", "billing": ["ondemand", "yearly", "monthly"], "usage": [{"factor": "duration", "unit": 4, "measure": 4}], "list": {"yearly": 1500, "monthly": 150}},
+    {"cloudServiceType": "hws.service.type.hss", "resourceType": "hws.resource.type.hss", "spec": "hss.version.premium", "description": "hss.version.type:Premium", "billing": ["ondemand", "yearly", "monthly"], "usage": [{"factor": "duration", "unit": 4, "measure": 4}], "list": {"yearly": 138, "monthly": 13.8}},
+    {"cloudServiceType": "hws.service.type.hss", "resourceType": "hws.resource.type.hss", "spec": "hss.version.advanced", "description": "hss.version.type:Advanced", "billing": ["ondemand", "monthly", "yearly"], "usage": [{"factor": "duration", "unit": 4, "measure": 4}], "list": {"monthly": 4.5, "yearly": 45}},
+    {"cloudServiceType": "hws.service.type.hss", "resourceType": "hws.resource.type.hss", "spec": "hss.version.container.enterprise", "description": "hss.version.type:Container Guard Enterprise", "billing": ["ondemand", "monthly", "yearly"], "usage": [{"factor": "duration", "unit": 4, "measure": 4}], "list": {"monthly": 42.2, "yearly": 422}},
+    {"cloudServiceType": "hws.service.type.hss", "resourceType": "hws.resource.type.hss", "spec": "hss.version.basic", "description": "hss.version.type:Basic", "billing": ["yearly", "monthly"], "list": {"yearly": 15, "monthly": 1.5}}
+  ]
+}

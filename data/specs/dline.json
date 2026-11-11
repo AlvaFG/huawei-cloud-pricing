@@ -1,0 +1,9 @@
+{
+  "urlPath": "dline",
+  "specs": [
+    {"cloudServiceType": "hws.service.type.dcaas", "resourceType": "hws.resource.type.dcaas.port", "spec": "40ge", "description": "PortType:40PCS", "billing": ["yearly", "monthly"], "list": {"yearly": 66000, "monthly": 5500}},
+    {"cloudServiceType": "hws.service.type.dcaas", "resourceType": "hws.resource.type.dcaas.port", "spec": "100ge", "description": "PortType:100PCS", "billing": ["yearly", "monthly"], "list": {"yearly": 140400, "monthly": 11700}},
+    {"cloudServiceType": "hws.service.type.dcaas", "resourceType": "hws.resource.type.dcaas.port", "spec": "1ge", "description": "PortType:1PCS", "billing": ["monthly", "yearly"], "list": {"monthly": 116, "yearly": 1392}},
+    {"cloudServiceType": "hws.service.type.dcaas", "resourceType": "hws.resource.type.dcaas.port", "spec": "10ge", "description": "PortType:10PCS", "billing": ["monthly", "yearly"], "list": {"monthly": 985, "yearly": 11820}}
+  ]
+}

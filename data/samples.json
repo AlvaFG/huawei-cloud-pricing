@@ -1,0 +1,159 @@
+{
+  "note": "Reference products quoted in every region by `hwprice refresh`. Each one exists in data/specs and was verified in every billing mode listed; a test enforces it.",
+  "samples": [
+    {
+      "id": "ecs:s6.large.2.linux",
+      "service": "ecs",
+      "spec": "s6.large.2.linux",
+      "resourceType": "hws.resource.type.vm",
+      "billing": [
+        "monthly",
+        "yearly",
+        "ondemand"
+      ]
+    },
+    {
+      "id": "ecs:s6.large.4.linux",
+      "service": "ecs",
+      "spec": "s6.large.4.linux",
+      "resourceType": "hws.resource.type.vm",
+      "billing": [
+        "monthly",
+        "yearly",
+        "ondemand"
+      ]
+    },
+    {
+      "id": "ecs:s6.xlarge.4.linux",
+      "service": "ecs",
+      "spec": "s6.xlarge.4.linux",
+      "resourceType": "hws.resource.type.vm",
+      "billing": [
+        "monthly"
+      ]
+    },
+    {
+      "id": "evs:SAS:100gb",
+      "service": "evs",
+      "spec": "SAS",
+      "resourceType": "hws.resource.type.volume",
+      "billing": [
+        "monthly"
+      ],
+      "size": 100
+    },
+    {
+      "id": "evs:SSD:100gb",
+      "service": "evs",
+      "spec": "SSD",
+      "resourceType": "hws.resource.type.volume",
+      "billing": [
+        "monthly"
+      ],
+      "size": 100
+    },
+    {
+      "id": "evs:GPSSD:100gb",
+      "service": "evs",
+      "spec": "GPSSD",
+      "resourceType": "hws.resource.type.volume",
+      "billing": [
+        "monthly"
+      ],
+      "size": 100
+    },
+    {
+      "id": "rds:rds.pg.n1.large.2",
+      "service": "rds",
+      "spec": "rds.pg.n1.large.2",
+      "resourceType": "hws.resource.type.rds.vm",
+      "billing": [
+        "monthly",
+        "ondemand"
+      ]
+    },
+    {
+      "id": "rds:rds.pg.n1.large.2.ha",
+      "service": "rds",
+      "spec": "rds.pg.n1.large.2.ha",
+      "resourceType": "hws.resource.type.rds.vm",
+      "billing": [
+        "monthly",
+        "ondemand"
+      ]
+    },
+    {
+      "id": "rds:rds.pg.volume.gpssd2:40gb",
+      "service": "rds",
+      "spec": "rds.pg.volume.gpssd2",
+      "resourceType": "hws.resource.type.rds.volume",
+      "billing": [
+        "monthly"
+      ],
+      "size": 40
+    },
+    {
+      "id": "cce:cce.s1.small",
+      "service": "cce",
+      "spec": "cce.s1.small",
+      "resourceType": "hws.resource.type.cce.cluster",
+      "billing": [
+        "monthly"
+      ]
+    },
+    {
+      "id": "cce:cce.s2.small",
+      "service": "cce",
+      "spec": "cce.s2.small",
+      "resourceType": "hws.resource.type.cce.cluster",
+      "billing": [
+        "monthly"
+      ]
+    },
+    {
+      "id": "nat:natgateway_small",
+      "service": "nat",
+      "spec": "natgateway_small",
+      "resourceType": "hws.resource.type.natgateway",
+      "billing": [
+        "monthly"
+      ]
+    },
+    {
+      "id": "nat:natgateway_middle",
+      "service": "nat",
+      "spec": "natgateway_middle",
+      "resourceType": "hws.resource.type.natgateway",
+      "billing": [
+        "monthly"
+      ]
+    },
+    {
+      "id": "eip:5_bgp",
+      "service": "eip",
+      "spec": "5_bgp",
+      "resourceType": "hws.resource.type.ip",
+      "billing": [
+        "monthly"
+      ]
+    },
+    {
+      "id": "obs:obs.storage.10tb",
+      "service": "obs",
+      "spec": "obs.storage.10tb",
+      "resourceType": "hws.resource.type.obs",
+      "billing": [
+        "monthly"
+      ]
+    },
+    {
+      "id": "redis:redis.ha.xu1.large.enthp.16",
+      "service": "redis",
+      "spec": "redis.ha.xu1.large.enthp.16",
+      "resourceType": "hws.resource.type.dcs3",
+      "billing": [
+        "monthly"
+      ]
+    }
+  ]
+}

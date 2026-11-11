@@ -1,0 +1,7 @@
+{
+  "urlPath": "cbs",
+  "specs": [
+    {"cloudServiceType": "hws.service.type.cbs", "resourceType": "hws.resource.type.cbs.bot", "spec": "cbs.bot.basic", "description": "type:basic", "billing": ["ondemand"], "usage": [{"factor": "duration", "unit": 4, "measure": 4}]},
+    {"cloudServiceType": "hws.service.type.cbs", "resourceType": "hws.resource.type.cbs.qac", "spec": "cbs.qac", "description": "", "billing": ["ondemand"], "usage": [{"factor": "count", "unit": 40, "measure": 40}]}
+  ]
+}

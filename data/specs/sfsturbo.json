@@ -1,0 +1,15 @@
+{
+  "urlPath": "sfsturbo",
+  "specs": [
+    {"cloudServiceType": "hws.service.type.sfsturbo", "resourceType": "hws.resource.type.sfsturbo", "spec": "sfs.turbo.standard.dedicated", "description": "type:standard dec", "billing": ["ondemand"], "usage": [{"factor": "period", "unit": 4, "measure": 6}]},
+    {"cloudServiceType": "hws.service.type.sfsturbo", "resourceType": "hws.resource.type.sfsturbo", "spec": "sfs.turbo.performance.dedicated", "description": "type:performance dec", "billing": ["ondemand"], "usage": [{"factor": "period", "unit": 4, "measure": 6}]},
+    {"cloudServiceType": "hws.service.type.sfsturbo", "resourceType": "hws.resource.type.sfsturbo", "spec": "sfs.turbo.performance", "description": "type:performance", "billing": ["ondemand", "monthly", "yearly"], "usage": [{"factor": "period", "unit": 4, "measure": 6}], "list": {"monthly": 0.346, "yearly": 3.11}},
+    {"cloudServiceType": "hws.service.type.sfsturbo", "resourceType": "hws.resource.type.sfsturbo", "spec": "sfs.turbo.standard", "description": "type:standard", "billing": ["ondemand", "monthly", "yearly"], "usage": [{"factor": "period", "unit": 4, "measure": 6}], "list": {"monthly": 0.08, "yearly": 0.72}},
+    {"cloudServiceType": "hws.service.type.sfsturbo", "resourceType": "hws.resource.type.sfsturbo", "spec": "sfs.turbo.1000MBps", "description": "type:1000MBps", "billing": ["monthly", "yearly", "ondemand"], "list": {"monthly": 0.719, "yearly": 7.9107}, "usage": [{"factor": "period", "unit": 4, "measure": 6}]},
+    {"cloudServiceType": "hws.service.type.sfsturbo", "resourceType": "hws.resource.type.sfsturbo", "spec": "sfs.turbo.500MBps", "description": "type:500MBps", "billing": ["monthly", "yearly", "ondemand"], "list": {"monthly": 0.41, "yearly": 4.5144}, "usage": [{"factor": "period", "unit": 4, "measure": 6}]},
+    {"cloudServiceType": "hws.service.type.sfsturbo", "resourceType": "hws.resource.type.sfsturbo", "spec": "sfs.turbo.250MBps", "description": "type:250MBps", "billing": ["monthly", "yearly", "ondemand"], "list": {"monthly": 0.256, "yearly": 2.8111}, "usage": [{"factor": "period", "unit": 4, "measure": 6}]},
+    {"cloudServiceType": "hws.service.type.sfsturbo", "resourceType": "hws.resource.type.sfsturbo", "spec": "sfs.turbo.125MBps", "description": "type:125MBps", "billing": ["monthly", "yearly", "ondemand"], "list": {"monthly": 0.179, "yearly": 1.9646}, "usage": [{"factor": "period", "unit": 4, "measure": 6}]},
+    {"cloudServiceType": "hws.service.type.sfsturbo", "resourceType": "hws.resource.type.sfsturbo", "spec": "sfs.turbo.40MBps", "description": "type:40MBps", "billing": ["yearly", "monthly", "ondemand"], "list": {"yearly": 0.9405, "monthly": 0.0855}, "usage": [{"factor": "period", "unit": 4, "measure": 6}]},
+    {"cloudServiceType": "hws.service.type.sfsturbo", "resourceType": "hws.resource.type.sfsturbo", "spec": "sfs.turbo.20MBps", "description": "type:20MBps", "billing": ["yearly", "monthly", "ondemand"], "list": {"yearly": 0.473, "monthly": 0.043}, "usage": [{"factor": "period", "unit": 4, "measure": 6}]}
+  ]
+}
